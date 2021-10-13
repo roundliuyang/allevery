@@ -10,12 +10,23 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Java</module>
-        <module>java-reflect</module>
     </modules>
+
+    <dependencies>
+        <!-- test -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+
+        <junit.version>4.12</junit.version>
     </properties>
 
 </project>

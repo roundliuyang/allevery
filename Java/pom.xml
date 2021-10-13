@@ -12,9 +12,9 @@
     <artifactId>Java</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>java-stream</module>
         <module>java-date</module>
         <module>java-reflect</module>
+        <module>java-stream</module>
     </modules>
 
     <properties>
