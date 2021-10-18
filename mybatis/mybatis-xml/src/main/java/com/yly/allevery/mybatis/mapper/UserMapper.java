@@ -1,6 +1,7 @@
 package com.yly.allevery.mybatis.mapper;
 
-import cn.iocoder.springboot.lab12.mybatis.dataobject.UserDO;
+
+import com.yly.allevery.mybatis.dataobject.UserDO;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 

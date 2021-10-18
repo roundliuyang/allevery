@@ -14,7 +14,13 @@
 
 
     <dependencies>
+
         <!-- 本示例，我们使用 MySQL -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.48</version>
+        </dependency>
 
         <!-- 实现对 MyBatis 的自动化配置 -->
         <dependency>
@@ -27,15 +33,19 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jdbc</artifactId>
+            <version>2.2.13.RELEASE</version>
         </dependency>
-
 
         <!-- 方便等会写单元测试 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
+            <version>2.1.3.RELEASE</version>
             <scope>test</scope>
         </dependency>
+
+
+
     </dependencies>
 
     <properties>
