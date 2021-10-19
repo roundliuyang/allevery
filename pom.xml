@@ -12,6 +12,7 @@
         <module>Java</module>
         <module>mybatis</module>
         <module>java-string</module>
+        <module>libraries-apache-commons</module>
     </modules>
 
     <dependencies>
