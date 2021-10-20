@@ -14,6 +14,7 @@
         <module>java-string</module>
         <module>libraries-apache-commons</module>
         <module>json-with-jackson</module>
+        <module>logging-modules</module>
     </modules>
 
     <dependencies>
