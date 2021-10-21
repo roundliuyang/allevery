@@ -12,6 +12,12 @@
     <artifactId>log</artifactId>
 
     <dependencies>
+        <!--Logback 这个依赖会传递另外两个依赖，logback-core和slf4j-api -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>${logback.version}</version>
+        </dependency>
         <!--log4j dependencies -->
         <dependency>
             <groupId>log4j</groupId>

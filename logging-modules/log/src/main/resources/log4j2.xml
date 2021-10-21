@@ -109,3 +109,50 @@
         </AsyncRoot>
     </Loggers>
 </Configuration>
+
+
+<!--
+要将 SLF4J 与 Log4j2 一起使用，您应该将以下库添加到pom.xml
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-api</artifactId>
+    <version>2.7</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.7</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-slf4j-impl</artifactId>
+    <version>2.7</version>
+</dependency>
+
+要将 SLF4J 与 Logback 一起使用，您无需将 SLF4J 添加到类路径中。Logback 已经在使用 SLF4J。它被视为参考实现。我们只需要包含 Logback 库：
+<dependency>
+    <groupId>ch.qos.logback</groupId>
+    <artifactId>logback-classic</artifactId>
+    <version>1.1.7</version>
+</dependency>
+该配置是特定于 Logback 的，但可以与 SLF4J 无缝协作。有了适当的依赖项和配置，就可以使用前面部分中的相同代码来处理日志记录。
+
+
+ Log4j 设置
+在前面的部分中，我们介绍了一个用例，其中 SLF4J “位于”特定日志记录实现之上。像这样使用，它完全抽象了底层框架。
+存在无法替换现有日志记录解决方案的情况，例如由于第三方要求。然而，这并不意味着该项目只对已经使用的框架进行“判刑”。
+SLF4J 可以被配置为一个桥，在那里对现有框架的调用被重定向到它。让我们添加必要的依赖项来为 Log4j 创建桥接：
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>log4j-over-slf4j</artifactId>
+    <version>1.7.30</version>
+</dependency>
+了依赖关系（在log4j-over-slf4j 上检查最新的），所有对 Log4j 的调用都将被重定向到 SLF4J
+
+JCL  略
+
+
+
+
+
+-->
