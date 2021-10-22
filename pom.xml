@@ -16,10 +16,22 @@
         <module>json-with-jackson</module>
         <module>logging-modules</module>
         <module>springissue</module>
+        <module>springboot-rest</module>
     </modules>
 
-    <dependencies>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
+    <dependencies>
         <!-- logging -->
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -54,6 +66,8 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+
+        <spring-boot.version>2.4.3</spring-boot.version>
 
         <!-- logging -->
         <org.slf4j.version>1.7.30</org.slf4j.version>
