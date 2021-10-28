@@ -17,6 +17,8 @@
         <module>logging-modules</module>
         <module>springissue</module>
         <module>springboot-rest</module>
+        <module>code-design</module>
+        <module>code-design/untitled</module>
     </modules>
 
     <dependencyManagement>
