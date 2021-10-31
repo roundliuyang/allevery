@@ -18,7 +18,7 @@
         <module>springissue</module>
         <module>springboot-rest</module>
         <module>code-design</module>
-        <module>code-design/untitled</module>
+        <module>spring-session</module>
     </modules>
 
     <dependencyManagement>
