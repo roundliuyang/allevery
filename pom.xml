@@ -20,6 +20,7 @@
         <module>code-design</module>
         <module>spring-session</module>
         <module>spring-boot</module>
+        <module>spring-programming</module>
     </modules>
 
     <dependencyManagement>
