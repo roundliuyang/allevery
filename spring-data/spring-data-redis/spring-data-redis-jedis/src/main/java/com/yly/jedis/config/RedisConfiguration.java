@@ -46,10 +46,10 @@ public class RedisConfiguration {
         return template;
     }
 
-    //        Jackson2JsonRedisSerializer jackson2JsonRedisSerializer = new Jackson2JsonRedisSerializer(Object.class);
+//        Jackson2JsonRedisSerializer jackson2JsonRedisSerializer = new Jackson2JsonRedisSerializer(Object.class);
 //        ObjectMapper objectMapper = new ObjectMapper();// <1>
-////        objectMapper.setVisibility(PropertyAccessor.ALL, JsonAutoDetect.Visibility.ANY);
-////        objectMapper.enableDefaultTyping(ObjectMapper.DefaultTyping.NON_FINAL);
+//        objectMapper.setVisibility(PropertyAccessor.ALL, JsonAutoDetect.Visibility.ANY);
+//        objectMapper.enableDefaultTyping(ObjectMapper.DefaultTyping.NON_FINAL);
 //
 //        jackson2JsonRedisSerializer.setObjectMapper(objectMapper);
 //        template.setValueSerializer(jackson2JsonRedisSerializer);
