@@ -21,7 +21,7 @@
         <module>spring-session</module>
         <module>spring-boot</module>
         <module>spring-programming</module>
-        <module>messagequeue</module>
+        <module>message-queue</module>
     </modules>
 
     <dependencyManagement>
