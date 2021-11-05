@@ -28,7 +28,7 @@ import java.util.Map;
  * {@link BeanFactory} 作为 IoC 容器示例
  *
  * @author <a href="mailto:mercyblitz@gmail.com">Mercy</a>
- * @since
+ * @ XML 配置
  */
 public class BeanFactoryAsIoCContainerDemo {
 
