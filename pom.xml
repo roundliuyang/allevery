@@ -22,6 +22,7 @@
         <module>spring-boot</module>
         <module>spring-programming</module>
         <module>message-queue</module>
+        <module>spring-web-modules</module>
     </modules>
 
     <dependencyManagement>
