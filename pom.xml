@@ -23,6 +23,7 @@
         <module>spring-programming</module>
         <module>message-queue</module>
         <module>spring-web-modules</module>
+        <module>rocketmq</module>
     </modules>
 
     <dependencyManagement>
