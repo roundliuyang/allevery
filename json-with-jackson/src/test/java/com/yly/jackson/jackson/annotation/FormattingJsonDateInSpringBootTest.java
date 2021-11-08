@@ -78,5 +78,21 @@ public class FormattingJsonDateInSpringBootTest {
 
      5. 结论
     在本文中，我们探讨了在 Spring Boot 应用程序中格式化 JSON 日期的多种不同方法。
+
+    6.注意
+    @JsonFormat不仅可以完成后台到前台参数传递的类型转换，还可以实现前台到后台类型转换。
+    当content-type为application/json时，优先使用@JsonFormat的pattern进行类型转换。而不会使用@DateTimeFormat进行类型转换。
+    @JsonFormat注解的作用就是完成json字符串到java对象的转换工作，与参数传递的方向无关。
+
+    如：
+    @DatetimeFormat是将String转换成Date，一般前台给后台传值时用
+    前台传后台时, 字符串自动封装成日期
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+    private Date birth;
+
+    @JsonFormat(pattern=”yyyy-MM-dd”) 将Date转换成String 一般后台传值给前台时
+    后台返给前台时, 日期自动格式化
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+    private Date birth;
     */
 }
