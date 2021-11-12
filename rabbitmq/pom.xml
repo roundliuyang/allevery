@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>rabbitmq-demo</module>
+        <module>rabbitmq-demo-batch</module>
     </modules>
 
     <properties>
