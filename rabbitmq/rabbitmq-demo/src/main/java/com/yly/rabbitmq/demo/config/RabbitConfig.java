@@ -83,6 +83,8 @@ public class RabbitConfig {
     }
 
     /**
+     * 在 FanoutExchangeDemoConfiguration 内部静态类中，我们也是创建了 Exchange、Queue、Binding 三个 Bean 。有差异点的是，这次我们创建的是 FanoutExchange 。
+     * 同时，因为我们要投递到两个 Queue 中，所以我们创建了两个 Binding 。
      * Fanout Exchange 示例的配置类
      */
     public static class FanoutExchangeDemoConfiguration {
@@ -133,6 +135,8 @@ public class RabbitConfig {
 
     /**
      * Headers Exchange 示例的配置类
+     * 在 TopicExchangeDemoConfiguration 内部静态类中，我们也是创建了 Exchange、Queue、Binding 三个 Bean 。有差异点的是，这次我们创建的是 HeadersExchange 。
+     * 同时，我们创建的 Binding 是基于 Headers 匹配。
      */
     public static class HeadersExchangeDemoConfiguration {
 

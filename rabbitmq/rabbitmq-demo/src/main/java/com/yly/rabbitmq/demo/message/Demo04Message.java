@@ -2,6 +2,10 @@ package com.yly.rabbitmq.demo.message;
 
 import java.io.Serializable;
 
+/**
+ * 我们未定意思 RoutingKey 的名字。因为，Headers Exchange 是通过 Exchange + Headers 的组合。
+ * 我们定义一个 Headers 键值对，color = red 。
+ */
 public class Demo04Message implements Serializable {
 
     public static final String QUEUE = "QUEUE_DEMO_04_A";
