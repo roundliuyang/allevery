@@ -24,6 +24,7 @@
         <module>message-queue</module>
         <module>spring-web-modules</module>
         <module>rocketmq</module>
+        <module>rabbitmq</module>
     </modules>
 
     <dependencyManagement>
