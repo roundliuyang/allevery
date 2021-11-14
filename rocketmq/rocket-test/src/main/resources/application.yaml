@@ -1,3 +1,13 @@
+#   在 rocketmq 配置项，设置 RocketMQ 的配置，对应 RocketMQProperties 配置类。
+#    RocketMQ-Spring RocketMQAutoConfiguration 自动化配置类，实现 RocketMQ 的自动配置，创建相应的 Producer 和 Consumer 。
+#    rocketmq.name-server 配置项，设置 RocketMQ Namesrv 地址。如果多个，使用逗号分隔。
+#    rocketmq.producer 配置项，一看就知道是 RocketMQ Producer 所独有。
+#    group 配置，生产者分组。
+#    retry-next-server 配置，发送消息给 Broker 时，如果发送失败，是否重试另外一台 Broker 。默认为 false 。如果胖友使用多主 Broker 的情况下，需要设置 true ，这样才会在发送消息失败时，重试另外一台 Broker 。
+#    其它配置，一般默认即可。
+#    rocketmq.consumer 配置项，一看就知道是 RocketMQ Consumer 所独有。
+#    listener 配置，配置某个消费分组，是否监听指定 Topic 。结构为 Map<消费者分组, <Topic, Boolean>> 。默认情况下，不配置表示监听。一般情况下，只有我们在想不监听消费某个消费分组的某个 Topic 时，才需要配 listener 配置。
+
 # rocketmq 配置项，对应 RocketMQProperties 配置类
 rocketmq:
   name-server: 121.196.184.98:9876 # RocketMQ Namesrv
@@ -19,3 +29,4 @@ rocketmq:
     listeners: # 配置某个消费分组，是否监听指定 Topic 。结构为 Map<消费者分组, <Topic, Boolean>> 。默认情况下，不配置表示监听。
       test-consumer-group:
         topic1: false # 关闭 test-consumer-group 对 topic1 的监听消费
+#
