@@ -25,6 +25,8 @@
         <module>spring-web-modules</module>
         <module>rocketmq</module>
         <module>rabbitmq</module>
+        <module>dubbo</module>
+        <module>task</module>
     </modules>
 
     <dependencyManagement>
