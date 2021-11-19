@@ -38,8 +38,11 @@ public class UseDateTest {
         System.out.println(date.toGMTString());
         // 转换为本地时区:
         System.out.println(date.toLocaleString());
-        Date date1 = new Date(1636480800000L);
+        Date date1 = new Date(1636848000000L);
+        Date date2 = new Date(1630972800000L);
         System.out.println(date1.toLocaleString());
+        System.out.println(date2.toLocaleString());
+
     }
 
     //打印本地时区表示的日期和时间时，不同的计算机可能会有不同的结果。如果我们想要针对用户的偏好精确地控制日期和时间的格式，就可以使用SimpleDateFormat对一个Date进行转换。它用预定义的字符串表示格式化：
