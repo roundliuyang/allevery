@@ -42,12 +42,15 @@ public class resttemplateTest {
 
     // 获取纯 JSON
     @Test
-    public  void test(){
+    public  void test() throws InterruptedException {
         RestTemplate restTemplate = new RestTemplate();
         String fooResourceUrl
                 = "http://localhost:8080/spring-rest/foos";
         ResponseEntity<String> response
                 = restTemplate.getForEntity(fooResourceUrl + "/1", String.class);
+        System.out.println(response);
+        Thread.sleep(80L);
+
     }
 
     /*

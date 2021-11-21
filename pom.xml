@@ -27,6 +27,7 @@
         <module>rabbitmq</module>
         <module>dubbo</module>
         <module>task</module>
+        <module>spring-cloud-netflix-ribbon</module>
     </modules>
 
     <dependencyManagement>
