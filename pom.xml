@@ -28,6 +28,7 @@
         <module>dubbo</module>
         <module>task</module>
         <module>spring-cloud-netflix-ribbon</module>
+        <module>concurrent-programing</module>
     </modules>
 
     <dependencyManagement>
