@@ -7,7 +7,7 @@
     </sql>
 
     <insert id="insert" parameterType="UserDO" useGeneratedKeys="true" keyProperty="id">
-        INSERT INTO users (
+        INSERT INTO users1 (
           username, password, create_time
         ) VALUES (
           #{username}, #{password}, #{createTime}

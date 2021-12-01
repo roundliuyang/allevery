@@ -23,9 +23,11 @@ public class UserMapperTest {
 
     @Test
     public void testInsert() {
-        UserDO user = new UserDO().setUsername(UUID.randomUUID().toString())
-                .setPassword("nicai").setCreateTime(new Date());
-        userMapper.insert(user);
+       for(int i=0;i<100000;i++){
+           UserDO user = new UserDO().setUsername(UUID.randomUUID().toString())
+                   .setPassword("yuan").setCreateTime(new Date());
+           userMapper.insert(user);
+       }
     }
 
     @Test
