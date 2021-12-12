@@ -14,7 +14,7 @@
     <modules>
         <module>ribbon-demo-provider</module>
         <module>ribbon-demo01-consumer</module>
-        <module>ribbon-demo02Asonsumer</module>
+        <module>ribbon-demo02A-sonsumer</module>
         <module>ribbon-demo02B-consumer</module>
     </modules>
 
