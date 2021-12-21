@@ -12,7 +12,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @ComponentScan
 @Import({JdbcConfig.class})
 @PropertySource("classpath:jdbc.properties")
-@MapperScan("com.yly.spring.transaction")
+@MapperScan("com.yly.spring.transaction.example1")
 @EnableTransactionManagement
 @EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
 @EnableAspectJAutoProxy(proxyTargetClass = true, exposeProxy = true)
