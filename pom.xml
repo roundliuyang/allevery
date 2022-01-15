@@ -29,6 +29,7 @@
         <module>task</module>
         <module>spring-cloud-netflix-ribbon</module>
         <module>concurrent-programing</module>
+        <module>spring-cloud-alibaba</module>
     </modules>
 
     <dependencyManagement>

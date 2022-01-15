@@ -9,11 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-boot</artifactId>
+    <artifactId>spring-cloud-alibaba</artifactId>
     <packaging>pom</packaging>
-    <modules>
-        <module>spring-boot-demo</module>
-    </modules>
+
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
