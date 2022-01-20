@@ -22,6 +22,9 @@ public class SimpleSourceDestinationMapperIntegrationTest {
     @Autowired
     SimpleSourceDestinationMapper simpleSourceDestinationMapper;
 
+    /**
+     * 基本映射
+     */
     @Test
     public void givenSourceToDestination_whenMaps_thenCorrect() {
         SimpleSource simpleSource = new SimpleSource();
