@@ -31,6 +31,7 @@
         <module>concurrent-programing</module>
         <module>spring-cloud-alibaba</module>
         <module>bean-convert</module>
+        <module>feign</module>
     </modules>
 
     <dependencyManagement>
