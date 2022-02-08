@@ -16,6 +16,10 @@
         <module>ribbon-demo01-consumer</module>
         <module>ribbon-demo02A-sonsumer</module>
         <module>ribbon-demo02B-consumer</module>
+        <module>ribbon-demo03-consumer</module>
+        <module>ribbon-demo04-consumer</module>
+        <module>ribbon-demo05-consumer</module>
+        <module>ribbon-demo06-consumer</module>
     </modules>
 
     <properties>
