@@ -3,23 +3,27 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>allevery</artifactId>
+        <artifactId>springcloud-feign</artifactId>
         <groupId>com.yly</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>feign</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>user-service</module>
-        <module>feign-demo</module>
-        <module>springcloud-feign</module>
-    </modules>
+    <artifactId>feign-demo03-provider-api</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
+    <dependencies>
+        <!-- 引入 SpringMVC 依赖 -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>5.2.3.RELEASE</version>
+            <scope>provided</scope> <!-- scope 为 provided 提供级别即可，真正版本的依赖，交给服务提供者和消费者 -->
+        </dependency>
+    </dependencies>
+
 
 </project>
