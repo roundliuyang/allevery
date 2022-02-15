@@ -33,6 +33,7 @@
         <module>bean-convert</module>
         <module>feign</module>
         <module>websocket</module>
+        <module>seata</module>
     </modules>
 
     <dependencyManagement>
