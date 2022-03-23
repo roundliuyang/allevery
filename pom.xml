@@ -10,22 +10,87 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Java</module>
+        <module>mybatis</module>
+        <module>java-string</module>
+        <module>libraries-apache-commons</module>
+        <module>json-with-jackson</module>
+        <module>logging-modules</module>
+        <module>springissue</module>
+        <module>spring-data</module>
+        <module>rest-spring</module>
+        <module>code-design</module>
+        <module>spring-session</module>
+        <module>spring-boot</module>
+        <module>spring-programming</module>
+        <module>message-queue</module>
+        <module>rocketmq</module>
+        <module>rabbitmq</module>
+        <module>dubbo</module>
+        <module>task</module>
+        <module>spring-cloud-netflix-ribbon</module>
+        <module>concurrent-programing</module>
+        <module>spring-cloud-alibaba</module>
+        <module>bean-convert</module>
+        <module>feign</module>
+        <module>websocket</module>
+        <module>seata</module>
     </modules>
 
+    <dependencyManagement>
+<!--        <dependencies>-->
+<!--            <dependency>-->
+<!--                <groupId>org.springframework.boot</groupId>-->
+<!--                <artifactId>spring-boot-dependencies</artifactId>-->
+<!--                <version>${spring-boot.version}</version>-->
+<!--                <type>pom</type>-->
+<!--                <scope>import</scope>-->
+<!--            </dependency>-->
+<!--        </dependencies>-->
+    </dependencyManagement>
+
     <dependencies>
-        <!-- test -->
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>${junit.version}</version>
-            <scope>test</scope>
-        </dependency>
+<!--        &lt;!&ndash; logging &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.slf4j</groupId>-->
+<!--            <artifactId>slf4j-api</artifactId>-->
+<!--            <version>${org.slf4j.version}</version>-->
+<!--        </dependency>-->
+<!--        &lt;!&ndash;Logback &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>ch.qos.logback</groupId>-->
+<!--            <artifactId>logback-classic</artifactId>-->
+<!--            <version>${logback.version}</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>ch.qos.logback</groupId>-->
+<!--            <artifactId>logback-core</artifactId>-->
+<!--            <version>${logback.version}</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.slf4j</groupId>-->
+<!--            <artifactId>jcl-over-slf4j</artifactId>-->
+<!--            <version>${org.slf4j.version}</version>-->
+<!--        </dependency>-->
+<!--        &lt;!&ndash; test &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>junit</groupId>-->
+<!--            <artifactId>junit</artifactId>-->
+<!--            <version>${junit.version}</version>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
     </dependencies>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
 
+        <spring-boot.version>2.4.3</spring-boot.version>
+
+        <!-- logging -->
+        <org.slf4j.version>1.7.30</org.slf4j.version>
+        <logback.version>1.2.3</logback.version>
+
+        <!-- test -->
         <junit.version>4.12</junit.version>
     </properties>
 

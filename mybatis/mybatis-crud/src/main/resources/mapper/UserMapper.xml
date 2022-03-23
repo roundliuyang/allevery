@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yly.crud.mapper.UserMapper">
+
+    <!--方法一-->
+    <insert id="insertAndGetId" useGeneratedKeys="true" keyProperty="userId" parameterType="com.chenzhou.mybatis.User">
+        insert into user(userName,password,comment)
+        values(#{userName},#{password},#{comment})
+    </insert>
+<!--    上面配置中，“keyProperty”表示返回的id要保存到对象的那个属性中，“useGeneratedKeys”表示主键id为自增长模式。-->
+
+
+    <!-- 方法二-->
+<!--    有时候新增一条数据，知道新增成功即可，但是有时候，需要这条新增数据的主键，以便逻辑使用，再将其查询出来明显不符合要求，效率也变低了。-->
+<!--    这时候，通过一些设置，mybatis可以将insert的数据的主键返回，直接拿到新增数据的主键，以便后续使用。-->
+<!--    这里主要说的是selectKey标签-->
+<!--    设计表的时候有两种主键，一种自增主键，一般为int类型，一种为非自增的主键，例如用uuid等。-->
+<!--    首先说自增类型的主键。-->
+
+
+    <!--新增信息，并拿到新增信息的表主键信息。新增数据，得到主键的外层写法没什么特别，跟普通的insert一样。只不过里面加了selectKey-->
+    <insert id="insertAndgetkey" parameterType="com.yly.crud.mapper.UserMapper">
+        <!--selectKey  会将 SELECT LAST_INSERT_ID()的结果放入到传入的model的主键里面，
+            keyProperty 对应的model中的主键的属性名，这里是 user 中的id，因为它跟数据库的主键对应
+            order AFTER 表示 SELECT LAST_INSERT_ID() 在insert执行之后执行,多用与自增主键，
+                  BEFORE 表示 SELECT LAST_INSERT_ID() 在insert执行之前执行，这样的话就拿不到主键了，
+                        这种适合那种主键不是自增的类型
+            resultType 主键类型 -->
+        <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Integer">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+        insert into t_user (username,password,create_date) values(#{username},#{password},#{createDate})
+    </insert>
+</mapper>

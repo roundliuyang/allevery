@@ -15,6 +15,14 @@
         <module>java-date</module>
         <module>java-reflect</module>
         <module>java-stream</module>
+        <module>java-optional</module>
+        <module>functional-programming</module>
+        <module>lambda</module>
+        <module>collection</module>
+        <module>CallableFuture</module>
+        <module>FutureTask</module>
+        <module>ThreadPool</module>
+        <module>Lock</module>
     </modules>
 
     <properties>

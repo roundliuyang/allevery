@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+
+    <!--您可以为每个 appender 设置一个名称，例如使用名称控制台而不是 stdout-->
+
+    <!--注意PatternLayout元素它决定了消息应该是什么样子的。在我们的例子中，模式是根据pattern参数设置的，
+    其中%d决定了日期模式，%p-输出日志级别，%m-输出日志信息，%n-添加新行符号。关于模式的更多信息，你可以在Log4j2的官方
+    网页上找到。最后，要启用一个（或多个）appender，你需要把它添加到<Root>部分。-->
+
+    <Appenders>
+        # Console appender
+        <Console name="stdout" target="SYSTEM_OUT">
+            # Pattern of log message for console appender
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %p %m%n"/>
+        </Console>
+
+
+        <!--File appender 有几个可以配置的参数：-->
+
+        <!--
+            file – 确定日志文件的文件名
+            append – 此参数的默认值为 true，这意味着默认情况下 File appender 将附加到现有文件而不是截断它。
+            PatternLayout - 在前面的示例中描述的
+         -->
+
+        <!--为了启用文件appender，你需要把它添加到<Root>部分。-->
+        # File appender
+        <File name="fout" fileName="log4j/target/baeldung-log4j2.log"
+            immediateFlush="false" append="false">
+            # Pattern of log message for file appender
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %p %m%n"/>
+        </File>
+
+        # Rolling appender
+        <RollingFile name="roll-by-size"
+            fileName="target/log4j2/roll-by-size/app.log" filePattern="target/log4j2/roll-by-size/app.%i.log.gz"
+            ignoreExceptions="false">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} %p %m%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <OnStartupTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy
+                    size="5 KB"/>
+            </Policies>
+        </RollingFile>
+
+        <RollingFile name="roll-by-time"
+            fileName="target/log4j2/roll-by-time/app.log"
+            filePattern="target/log4j2/roll-by-time/app.%d{MM-dd-yyyy-HH-mm}.log.gz"
+            ignoreExceptions="false">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} %p %m%n</Pattern>
+            </PatternLayout>
+            <TimeBasedTriggeringPolicy/>
+        </RollingFile>
+
+        <RollingFile name="roll-by-time-and-size"
+            fileName="target/log4j2/roll-by-time-and-size/app.log"
+            filePattern="target/log4j2/roll-by-time-and-size/app.%d{MM-dd-yyyy-HH-mm}.%i.log.gz"
+            ignoreExceptions="false">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} %p %m%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <OnStartupTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy
+                    size="5 KB"/>
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+            <DefaultRolloverStrategy>
+                <Delete basePath="${baseDir}" maxDepth="2">
+                    <IfFileName
+                        glob="target/log4j2/roll-by-time-and-size/app.*.log.gz"/>
+                    <IfLastModified age="20s"/>
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        # Override log level for specified package
+        <!--
+            要仅为其中一个包启用日志记录，您需要在<Root>之前将以下部分添加到log4j2.xml：
+
+            <Logger name="com.baeldung.log4j2" level="debug">
+                <AppenderRef ref="stdout"/>
+            </Logger>
+        -->
+        <Logger name="com.baeldung.log4j2" level="TRACE"/>
+
+        <Logger name="com.baeldung.log4j2.Log4j2RollingExample"
+            level="TRACE">
+            <AppenderRef ref="roll-by-size"/>
+            <AppenderRef ref="roll-by-time"/>
+            <AppenderRef ref="roll-by-time-and-size"/>
+        </Logger>
+
+        <!--
+            如果你想让你的Log4j 2成为异步的，你需要在你的pom.xml中加入LMAX disruptor库。
+            LMAX disruptor是一个无锁线程间通信库。
+            如果你想使用 LMAX 干扰器，你需要在你的配置中使用 <asyncRoot> 而不是 <Root> 。
+            或者你可以通过设置系统属性Log4jContextSelector为org.apache.logging.log4j.core.async.AsyncLoggerContextSelector来启用异步日志。
+        -->
+
+        <AsyncRoot level="DEBUG">
+            <AppenderRef ref="stdout"/>
+            <AppenderRef ref="fout"/>
+        </AsyncRoot>
+    </Loggers>
+</Configuration>
+
+
+<!--
+要将 SLF4J 与 Log4j2 一起使用，您应该将以下库添加到pom.xml
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-api</artifactId>
+    <version>2.7</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.7</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-slf4j-impl</artifactId>
+    <version>2.7</version>
+</dependency>
+
+要将 SLF4J 与 Logback 一起使用，您无需将 SLF4J 添加到类路径中。Logback 已经在使用 SLF4J。它被视为参考实现。我们只需要包含 Logback 库：
+<dependency>
+    <groupId>ch.qos.logback</groupId>
+    <artifactId>logback-classic</artifactId>
+    <version>1.1.7</version>
+</dependency>
+该配置是特定于 Logback 的，但可以与 SLF4J 无缝协作。有了适当的依赖项和配置，就可以使用前面部分中的相同代码来处理日志记录。
+
+
+ Log4j 设置
+在前面的部分中，我们介绍了一个用例，其中 SLF4J “位于”特定日志记录实现之上。像这样使用，它完全抽象了底层框架。
+存在无法替换现有日志记录解决方案的情况，例如由于第三方要求。然而，这并不意味着该项目只对已经使用的框架进行“判刑”。
+SLF4J 可以被配置为一个桥，在那里对现有框架的调用被重定向到它。让我们添加必要的依赖项来为 Log4j 创建桥接：
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>log4j-over-slf4j</artifactId>
+    <version>1.7.30</version>
+</dependency>
+了依赖关系（在log4j-over-slf4j 上检查最新的），所有对 Log4j 的调用都将被重定向到 SLF4J
+
+JCL  略
+
+
+
+
+
+-->
