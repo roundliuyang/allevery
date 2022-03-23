@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java/Java.iml" filepath="$PROJECT_DIR$/Java/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/allevery.iml" filepath="$PROJECT_DIR$/allevery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/java-date/java-date.iml" filepath="$PROJECT_DIR$/Java/java-date/java-date.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/java-reflect/java-reflect.iml" filepath="$PROJECT_DIR$/Java/java-reflect/java-reflect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/java-stream/java-stream.iml" filepath="$PROJECT_DIR$/Java/java-stream/java-stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/java-date/time-date-api/time-date-api.iml" filepath="$PROJECT_DIR$/Java/java-date/time-date-api/time-date-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/java-date/util-data-api/util-data-api.iml" filepath="$PROJECT_DIR$/Java/java-date/util-data-api/util-data-api.iml" />
+    </modules>
+  </component>
+</project>
