@@ -16,7 +16,7 @@
         <module>json-with-jackson</module>
         <module>logging-modules</module>
         <module>springissue</module>
-        <module>springboot-rest</module>
+        <module>rest-spring</module>
         <module>code-design</module>
         <module>spring-session</module>
         <module>spring-boot</module>

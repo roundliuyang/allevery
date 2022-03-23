@@ -1,7 +1,7 @@
 package com.yly.commons.lang3.StringUtils;
 
 import org.apache.commons.lang3.StringUtils;
-import org.junit.Test;
+import org.testng.annotations.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

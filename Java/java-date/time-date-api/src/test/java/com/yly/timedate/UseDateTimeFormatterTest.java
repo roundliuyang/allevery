@@ -1,7 +1,7 @@
 package com.yly.timedate;
 
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 import java.time.LocalDateTime;
 import java.time.ZonedDateTime;
