@@ -16,29 +16,34 @@ public class TestStreamAPI4 {
         list1.add("1111");
         list1.add("2222");
         list1.add("3333");
+        list1.add(null);
 
         List<String> list2 = new ArrayList();
         list2.add("3333");
         list2.add("4444");
         list2.add("5555");
+        List<String> collect = list1.stream().map(t -> "u:" + t).collect(Collectors.toList());
+        System.out.println(collect);
 
-        // 交集
-        List<String> intersection = list1.stream().filter(item -> list2.contains(item)).collect(Collectors.toList());
-        //  上面写法等同于  List<String> intersection = list1.stream().filter(list2::contains).collect(Collectors.toList());             注意
+        List<Employee> objects = new ArrayList<>();
 
-        // 差集 (list1 - list2)
-        List<String> reduce1 = list1.stream().filter(item -> !list2.contains(item)).collect(Collectors.toList());
-
-        // 差集 (list2 - list1)
-        List<String> reduce2 = list2.stream().filter(item -> !list1.contains(item)).collect(Collectors.toList());
-
-        // 并集
-        List<String> listAll = list1.parallelStream().collect(Collectors.toList());
-        List<String> listAll2 = list2.parallelStream().collect(Collectors.toList());
-        listAll.addAll(listAll2);
+//        // 交集
+//        List<String> intersection = list1.stream().filter(item -> list2.contains(item)).collect(Collectors.toList());
+//        //  上面写法等同于  List<String> intersection = list1.stream().filter(list2::contains).collect(Collectors.toList());             注意
+//
+//        // 差集 (list1 - list2)
+//        List<String> reduce1 = list1.stream().filter(item -> !list2.contains(item)).collect(Collectors.toList());
+//
+//        // 差集 (list2 - list1)
+//        List<String> reduce2 = list2.stream().filter(item -> !list1.contains(item)).collect(Collectors.toList());
+//
+//        // 并集
+//        List<String> listAll = list1.parallelStream().collect(Collectors.toList());
+//        List<String> listAll2 = list2.parallelStream().collect(Collectors.toList());
+//        listAll.addAll(listAll2);
 
         // 去重并集
-        List<String> listAllDistinct = listAll.stream().distinct().collect(Collectors.toList());
+//        List<String> listAllDistinct = listAll.stream().distinct().collect(Collectors.toList());
     }
 
 

@@ -8,6 +8,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.module.SimpleModule;
 import com.yly.jackson.objectmapper.dto.Car;
+import com.yly.jackson.objectmapper.dto.CmsMediaVendorDto;
 import com.yly.jackson.objectmapper.dto.Request;
 import org.junit.Test;
 
@@ -39,12 +40,13 @@ public class SerializationDeserializationFeatureUnitTest {
     @Test
     public void objectMapperTest() throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
-        Car car = new Car("yellow", "renault");
+        CmsMediaVendorDto cmsMediaVendorDto = new CmsMediaVendorDto();
+//        Car car = new Car("yellow", "renault");
         File file = new File("target/car.json");
-        objectMapper.writeValue(file, car);
+        objectMapper.writeValue(file, cmsMediaVendorDto);
 
         // 方法writeValueAsString和writeValueAsBytes的ObjectMapper类生成从Java对象的JSON，并返回所生成的JSON作为一个字符串或字节数组：
-        String carAsString = objectMapper.writeValueAsString(car);
+        String carAsString = objectMapper.writeValueAsString(cmsMediaVendorDto);
         System.out.println(carAsString);
     }
 

@@ -229,4 +229,41 @@ public class resttemplateTest {
         return new HttpComponentsClientHttpRequestFactory(client);
     }
  */
+
+
+    // 10。  ParameterizedType
+    /**
+         假设接收请求的类如下。
+         public class ResultClass {
+         private long idx;
+         private String name;
+         }
+         如何以列表形式获得回报 - 存在问题。不建议
+         List<Resultclass> list = restTemplate.getForObject("url", List.class);
+         这种方法是有问题的。
+         编译没有问题，但是调用后查看list 值，可以看到它有一个LinkedHashMap对象，而不是ResultClass对象。
+         所以，如果你像下面这样调用它，你调用它的那一刻就会发生错误。
+         List<Resultclass> list = restTemplate.getForObject("url", List.class);
+         ResultClass resultClass = list.get(0);
+         resultClass.getIdx();
+         如果返回为List<map<Object, Object>>并被使用，可以这样调用，但不建议再次转换，不方便。
+
+         在交换中使用 ParameterizedTypeReference
+         springframework 3.2之后，支持ParameterizedTypeReference，可以如下使用。
+         ResponseEntity<List<ResultClass>> response = restTemplate.exchange("url",HttpMethod.GET, null, new ParameterizedTypeReference<List<ResultClass>>() {});
+         List<ResultClass> list = response.getBody();
+         同样的，非数组情况同样适用
+     */
+
+
+     // 11. 以数组形式返回
+     /*
+         如果使用 xxxForObject 方法，如下所示。
+         ResultClass[] resultClasses = restTemplate.getForObject("url", ResultClass[].class); List<Resultclass> list = Arrays.asList(resultClasses);
+
+         如果使用 xxxForEntity，则如下。
+         ResponseEntity<ResultClass[]> responseEntity = restTemplate.getForEntity("url", ResultClass[].class);
+         List<Resultclass> list = Arrays.asList(responseEntity.getBody());
+     */
+
 }
