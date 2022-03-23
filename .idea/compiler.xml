@@ -6,20 +6,190 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="seata-at-dubbo-demo-order-service" />
+        <module name="feign-demo04-consumer" />
+        <module name="feign-demo01-consumer" />
+        <module name="feign-demo04-provider" />
+        <module name="feign-demo03-provider-api" />
+        <module name="mybatis-annotation" />
+        <module name="rabbitmq-demo-batch-consumer" />
+        <module name="ribbon-demo01-consumer" />
+        <module name="rest-spring" />
+        <module name="log-best-practice" />
+        <module name="user-service" />
+        <module name="java-optional" />
+        <module name="spring-session" />
+        <module name="springissue" />
+        <module name="spring-data-redis-jedis" />
+        <module name="spring-boot-demo" />
+        <module name="lambda" />
+        <module name="rabbitmq-demo-batch" />
+        <module name="seata-at-dubbo-demo-product-service-api" />
+        <module name="mybatis-xml" />
+        <module name="task-xxl-job" />
+        <module name="ribbon-demo-provider" />
+        <module name="feign-demo02B-consumer" />
+        <module name="bean-lifecycle" />
+        <module name="ioc-container-overview" />
         <module name="util-data-api" />
-        <module name="java-reflect" />
+        <module name="feign-demo" />
+        <module name="rocketmq-ons" />
+        <module name="ribbon-demo05-consumer" />
+        <module name="code-design" />
+        <module name="multiple-datasource" />
+        <module name="seata-at-httpclient-demo-account-service" />
+        <module name="feign-demo06-consumer" />
+        <module name="CallableFuture" />
+        <module name="thread-pool" />
+        <module name="task-demo" />
+        <module name="collection" />
+        <module name="seata-at-httpclient-demo-product-service" />
+        <module name="mapstruct" />
+        <module name="ribbon-demo04-consumer" />
         <module name="java-stream" />
-        <module name="time-date-api" />
+        <module name="libraries-apache-commons" />
+        <module name="feign-demo01-provider" />
+        <module name="log" />
+        <module name="ThreadPool" />
+        <module name="dubbo" />
+        <module name="feign-demo07-cosumer" />
+        <module name="ribbon-demo06-consumer" />
+        <module name="logback" />
+        <module name="json-with-jackson" />
+        <module name="feign-demo05-consumer" />
+        <module name="string-basics" />
+        <module name="FutureTask" />
+        <module name="ribbon-demo03-consumer" />
+        <module name="rabbitmq-demo-batch-consumer2" />
+        <module name="rocket-test" />
+        <module name="method-reference" />
+        <module name="seata-at-httpclient-demo-order-service" />
+        <module name="feign-demo03-consumer" />
+        <module name="mybatis-crud" />
+        <module name="ribbon-demo02B-consumer" />
+        <module name="rabbitmq-demo" />
+        <module name="ribbon-demo02A-sonsumer" />
+        <module name="feign-demo03-provider" />
+        <module name="seata-at-dubbo-demo-product-service" />
+        <module name="rocketmq-learn" />
+        <module name="Lock" />
+        <module name="seata-at-dubbo-demo-order-service-api" />
+        <module name="websocket02" />
+        <module name="websocket01" />
+        <module name="feign-demo06B-consumer" />
+        <module name="feign-demo02A-consumer" />
+        <module name="mybatis-plus" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="allevery" target="8" />
+      <module name="bean-convert" target="8" />
+      <module name="bean-lifecycle" target="8" />
+      <module name="CallableFuture" target="8" />
+      <module name="code-design" target="8" />
+      <module name="collection" target="8" />
+      <module name="concurrent-programing" target="8" />
+      <module name="dubbo" target="8" />
+      <module name="feign" target="8" />
+      <module name="feign-demo" target="1.8" />
+      <module name="feign-demo01-consumer" target="8" />
+      <module name="feign-demo01-provider" target="8" />
+      <module name="feign-demo02A-consumer" target="8" />
+      <module name="feign-demo02B-consumer" target="8" />
+      <module name="feign-demo03-consumer" target="8" />
+      <module name="feign-demo03-provider" target="8" />
+      <module name="feign-demo03-provider-api" target="8" />
+      <module name="feign-demo04-consumer" target="8" />
+      <module name="feign-demo04-provider" target="8" />
+      <module name="feign-demo05-consumer" target="8" />
+      <module name="feign-demo06-consumer" target="8" />
+      <module name="feign-demo06B-consumer" target="8" />
+      <module name="feign-demo07-cosumer" target="8" />
+      <module name="functional-programming" target="8" />
+      <module name="FutureTask" target="8" />
+      <module name="ioc-container-overview" target="8" />
       <module name="Java" target="8" />
       <module name="java-date" target="8" />
+      <module name="java-optional" target="8" />
       <module name="java-reflect" target="8" />
       <module name="java-stream" target="8" />
+      <module name="java-string" target="8" />
+      <module name="json-with-jackson" target="8" />
+      <module name="lambda" target="8" />
+      <module name="libraries-apache-commons" target="8" />
+      <module name="Lock" target="8" />
+      <module name="log" target="8" />
+      <module name="log-best-practice" target="8" />
+      <module name="logback" target="8" />
+      <module name="logging-modules" target="8" />
+      <module name="mapstruct" target="1.8" />
+      <module name="message-queue" target="8" />
+      <module name="method-reference" target="8" />
+      <module name="multiple-datasource" target="1.8" />
+      <module name="mybatis" target="8" />
+      <module name="mybatis-annotation" target="8" />
+      <module name="mybatis-crud" target="8" />
+      <module name="mybatis-plus" target="8" />
+      <module name="mybatis-xml" target="8" />
+      <module name="rabbitmq" target="8" />
+      <module name="rabbitmq-demo" target="8" />
+      <module name="rabbitmq-demo-batch" target="8" />
+      <module name="rabbitmq-demo-batch-consumer" target="8" />
+      <module name="rabbitmq-demo-batch-consumer2" target="8" />
+      <module name="rest-spring" target="8" />
+      <module name="ribbon-demo-provider" target="8" />
+      <module name="ribbon-demo01-consumer" target="8" />
+      <module name="ribbon-demo02A-sonsumer" target="8" />
+      <module name="ribbon-demo02B-consumer" target="8" />
+      <module name="ribbon-demo03-consumer" target="8" />
+      <module name="ribbon-demo04-consumer" target="8" />
+      <module name="ribbon-demo05-consumer" target="8" />
+      <module name="ribbon-demo06-consumer" target="8" />
+      <module name="rocket-test" target="8" />
+      <module name="rocketmq" target="8" />
+      <module name="rocketmq-learn" target="8" />
+      <module name="rocketmq-ons" target="8" />
+      <module name="seata" target="8" />
+      <module name="seata-at-dubbo-demo" target="8" />
+      <module name="seata-at-dubbo-demo-order-service" target="8" />
+      <module name="seata-at-dubbo-demo-order-service-api" target="8" />
+      <module name="seata-at-dubbo-demo-product-service" target="8" />
+      <module name="seata-at-dubbo-demo-product-service-api" target="8" />
+      <module name="seata-at-httpclient-demo" target="8" />
+      <module name="seata-at-httpclient-demo-account-service" target="1.8" />
+      <module name="seata-at-httpclient-demo-order-service" target="1.8" />
+      <module name="seata-at-httpclient-demo-product-service" target="1.8" />
+      <module name="spring-boot" target="8" />
+      <module name="spring-boot-demo" target="8" />
+      <module name="spring-cloud-alibaba" target="8" />
+      <module name="spring-cloud-netflix-ribbon" target="8" />
+      <module name="spring-data" target="8" />
+      <module name="spring-data-redis" target="8" />
+      <module name="spring-data-redis-jedis" target="8" />
+      <module name="spring-programming" target="8" />
+      <module name="spring-session" target="8" />
+      <module name="springcloud-feign" target="8" />
+      <module name="springissue" target="8" />
+      <module name="string-basics" target="8" />
+      <module name="string-tools" target="8" />
+      <module name="task" target="8" />
+      <module name="task-demo" target="8" />
+      <module name="task-xxl-job" target="8" />
+      <module name="thinking-in-spring" target="8" />
+      <module name="thread-pool" target="8" />
+      <module name="ThreadPool" target="8" />
       <module name="time-date-api" target="8" />
+      <module name="user-service" target="1.8" />
       <module name="util-data-api" target="8" />
+      <module name="websocket" target="8" />
+      <module name="websocket01" target="8" />
+      <module name="websocket02" target="8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="rabbitmq-demo-batch-consumer2" options="-parameters" />
+      <module name="seata-at-dubbo-demo-order-service" options="-parameters" />
+    </option>
   </component>
 </project>
