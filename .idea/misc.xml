@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/Java/java-date/pom.xml" />
         <option value="$PROJECT_DIR$/Java/java-date/time-date-api/pom.xml" />
         <option value="$PROJECT_DIR$/Java/java-reflect/pom.xml" />
+        <option value="$PROJECT_DIR$/rest-spring/pom.xml" />
       </set>
     </option>
   </component>
