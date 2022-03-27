@@ -20,20 +20,20 @@
         <module name="java-optional" />
         <module name="spring-session" />
         <module name="springissue" />
-        <module name="spring-data-redis-jedis" />
         <module name="spring-boot-demo" />
+        <module name="spring-data-redis-jedis" />
         <module name="lambda" />
         <module name="rabbitmq-demo-batch" />
         <module name="seata-at-dubbo-demo-product-service-api" />
         <module name="mybatis-xml" />
         <module name="task-xxl-job" />
         <module name="ribbon-demo-provider" />
-        <module name="feign-demo02B-consumer" />
         <module name="bean-lifecycle" />
+        <module name="feign-demo02B-consumer" />
         <module name="ioc-container-overview" />
         <module name="util-data-api" />
-        <module name="feign-demo" />
         <module name="rocketmq-ons" />
+        <module name="feign-demo" />
         <module name="ribbon-demo05-consumer" />
         <module name="code-design" />
         <module name="multiple-datasource" />
@@ -54,13 +54,13 @@
         <module name="dubbo" />
         <module name="feign-demo07-cosumer" />
         <module name="ribbon-demo06-consumer" />
-        <module name="logback" />
         <module name="json-with-jackson" />
+        <module name="logback" />
         <module name="feign-demo05-consumer" />
         <module name="string-basics" />
         <module name="FutureTask" />
-        <module name="ribbon-demo03-consumer" />
         <module name="rabbitmq-demo-batch-consumer2" />
+        <module name="ribbon-demo03-consumer" />
         <module name="rocket-test" />
         <module name="method-reference" />
         <module name="seata-at-httpclient-demo-order-service" />
@@ -72,8 +72,8 @@
         <module name="feign-demo03-provider" />
         <module name="seata-at-dubbo-demo-product-service" />
         <module name="rocketmq-learn" />
-        <module name="Lock" />
         <module name="seata-at-dubbo-demo-order-service-api" />
+        <module name="Lock" />
         <module name="websocket02" />
         <module name="websocket01" />
         <module name="feign-demo06B-consumer" />
@@ -190,6 +190,9 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="rabbitmq-demo-batch-consumer2" options="-parameters" />
       <module name="seata-at-dubbo-demo-order-service" options="-parameters" />
+      <module name="seata-at-dubbo-demo-product-service" options="-parameters" />
+      <module name="spring-data-redis-jedis" options="-parameters" />
+      <module name="websocket01" options="-parameters" />
     </option>
   </component>
 </project>

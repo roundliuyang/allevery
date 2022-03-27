@@ -2,13 +2,10 @@
 .DS_Store
 target/*
 build/*
-.idea/*
-.rebel.xml.bak
-*rebel.xml
-local.properties
-.settings/
+.idea/
 .classpath
-.factorypath
 .project
+.settings/
 .vscode/
-.idea
+.factorypath
+local.properties
