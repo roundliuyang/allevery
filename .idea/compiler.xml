@@ -187,11 +187,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="multiple-datasource" options="-parameters" />
       <module name="rabbitmq-demo-batch-consumer2" options="-parameters" />
       <module name="seata-at-dubbo-demo-order-service" options="-parameters" />
       <module name="seata-at-dubbo-demo-product-service" options="-parameters" />
-      <module name="seata-at-httpclient-demo-product-service" options="-parameters" />
       <module name="spring-data-redis-jedis" options="-parameters" />
       <module name="websocket01" options="-parameters" />
     </option>
