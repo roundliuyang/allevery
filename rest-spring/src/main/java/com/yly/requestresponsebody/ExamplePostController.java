@@ -57,7 +57,7 @@ public class ExamplePostController {
         log.debug("POST received - serializing LoginForm: " + loginForm.getPassword() + " " + loginForm.getUsername());
         return new ResponseTransfer("JSON Content!");
     }
-    
+
     // 接下来，让我们实现一个新的方法，映射到相同的/content路径，但返回XML内容
     @PostMapping(value = "/content", produces = MediaType.APPLICATION_XML_VALUE)
     @ResponseBody
