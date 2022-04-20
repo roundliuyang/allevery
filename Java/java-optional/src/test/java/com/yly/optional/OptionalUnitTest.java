@@ -1,6 +1,6 @@
 package com.yly.optional;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 
 import java.util.Arrays;
@@ -37,11 +37,11 @@ public class OptionalUnitTest {
     }
 
     //但是，传递给of()方法的参数不能为空。否则，我们会得到一个NullPointerException：
-    @Test(expected = NullPointerException.class)
-    public void givenNull_whenThrowsErrorOnCreate_thenCorrect() {
-        String name = null;
-        Optional.of(name);
-    }
+//    @Test(expected = NullPointerException.class)
+//    public void givenNull_whenThrowsErrorOnCreate_thenCorrect() {
+//        String name = null;
+//        Optional.of(name);
+//    }
 
     //但是如果我们期望一些空值，我们可以使用ofNullable()方法
     @Test
@@ -164,12 +164,12 @@ public class OptionalUnitTest {
 
     //所述orElseThrow（）方法 follow from OrElse运算（）和orElseGet（） ，并增加了一个新的方法，用于处理一个缺席值。
     //当包装的值不存在时，它不会返回默认值，而是抛出异常：
-    @Test(expected = IllegalArgumentException.class)
-    public void whenOrElseThrowWorks_thenCorrect() {
-        String nullName = null;
-        String name = Optional.ofNullable(nullName).orElseThrow(
-                IllegalArgumentException::new);  //Java 8 中的方法引用在这里派上用场，用于传入异常构造函数。
-    }
+//    @Test(expected = IllegalArgumentException.class)
+//    public void whenOrElseThrowWorks_thenCorrect() {
+//        String nullName = null;
+//        String name = Optional.ofNullable(nullName).orElseThrow(
+//                IllegalArgumentException::new);  //Java 8 中的方法引用在这里派上用场，用于传入异常构造函数。
+//    }
 
 
     /**
@@ -184,11 +184,11 @@ public class OptionalUnitTest {
         assertEquals("baeldung", name);
     }
     //但是，与前三种方法不同，get()只能在包装对象不为null 时返回一个值；否则，它会抛出一个 no such element 异常：
-    @Test(expected = NoSuchElementException.class)
-    public void givenOptionalWithNull_whenGetThrowsException_thenCorrect() {
-        Optional<String> opt = Optional.ofNullable(null);
-        String name = opt.get();
-    }
+//    @Test(expected = NoSuchElementException.class)
+//    public void givenOptionalWithNull_whenGetThrowsException_thenCorrect() {
+//        Optional<String> opt = Optional.ofNullable(null);
+//        String name = opt.get();
+//    }
     //这是get()方法的主要缺陷。理想情况下，Optional应该可以帮助我们避免此类不可预见的异常。因此，这种方法违背了Optional的目标，并且可能会在未来的版本中被弃用。
     //因此，建议使用其他变体，使我们能够准备并显式处理null情况。
 
