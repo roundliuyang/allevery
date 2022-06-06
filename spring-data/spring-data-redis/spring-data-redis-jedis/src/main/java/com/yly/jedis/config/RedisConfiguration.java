@@ -19,9 +19,6 @@ import org.springframework.data.redis.serializer.RedisSerializer;
     spring.redis.host=127.0.0.1
     spring.redis.password=password
     spring.redis.port=6379
-    1
-    2
-    3
     我们也可以配置连接池相关属性。
 */
 @Configuration

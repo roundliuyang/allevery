@@ -8,7 +8,6 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.module.SimpleModule;
 import com.yly.jackson.objectmapper.dto.Car;
-import com.yly.jackson.objectmapper.dto.CmsMediaVendorDto;
 import com.yly.jackson.objectmapper.dto.Request;
 import org.junit.Test;
 
@@ -40,13 +39,12 @@ public class SerializationDeserializationFeatureUnitTest {
     @Test
     public void objectMapperTest() throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
-        CmsMediaVendorDto cmsMediaVendorDto = new CmsMediaVendorDto();
-//        Car car = new Car("yellow", "renault");
+        Car car = new Car("yellow", "renault");
         File file = new File("target/car.json");
-        objectMapper.writeValue(file, cmsMediaVendorDto);
+        objectMapper.writeValue(file, car);
 
         // 方法writeValueAsString和writeValueAsBytes的ObjectMapper类生成从Java对象的JSON，并返回所生成的JSON作为一个字符串或字节数组：
-        String carAsString = objectMapper.writeValueAsString(cmsMediaVendorDto);
+        String carAsString = objectMapper.writeValueAsString(car);
         System.out.println(carAsString);
     }
 
@@ -64,7 +62,7 @@ public class SerializationDeserializationFeatureUnitTest {
         Car car3 = objectMapper.readValue(new URL("file:src/test/resources/json_car.json"), Car.class);
     }
 
-
+    @Test
     // JSON到jackson JsonNode
     // 或者，可以将 JSON 解析为JsonNode对象并用于从特定节点检索数据：
     public void objectMapperTest3() throws JsonProcessingException {
@@ -73,6 +71,7 @@ public class SerializationDeserializationFeatureUnitTest {
         JsonNode jsonNode = objectMapper.readTree(json);
         String color = jsonNode.get("color").asText();
         // Output: color -> Black
+        System.out.println(color);
     }
 
 
