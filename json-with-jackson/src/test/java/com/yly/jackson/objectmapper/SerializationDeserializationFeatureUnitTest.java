@@ -7,6 +7,8 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.module.SimpleModule;
+import com.fasterxml.jackson.databind.node.ArrayNode;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.yly.jackson.objectmapper.dto.Car;
 import com.yly.jackson.objectmapper.dto.Request;
 import org.junit.Test;
@@ -16,6 +18,10 @@ import java.io.IOException;
 import java.net.URL;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.ZoneOffset;
+import java.time.format.DateTimeFormatter;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
@@ -66,12 +72,35 @@ public class SerializationDeserializationFeatureUnitTest {
         String json = "{ \"color\" : \"Black\", \"type\" : \"FIAT\" }";
         ObjectMapper objectMapper = new ObjectMapper();
         JsonNode jsonNode = objectMapper.readTree(json);
-        String color = jsonNode.get("color").asText();    // 返回"black"
+        String color = jsonNode.get("color").asText();
         // Output: color -> Black
-        System.out.println(color);
-        String color1 = jsonNode.get("color").toString();   //返回 “”black“”
-        System.out.println(color1);
+        System.out.println(color);                      // 相当于返回 “black”
+        String color1 = jsonNode.get("color").toString();
+        System.out.println(color1);                    // 相当于返回 ””black““
     }
+
+    @Test
+    // JSON 讲解
+    public void json() throws JsonProcessingException {
+        String json = "{\"code\":\"0\",\"msg\":\"成功\",\"page\":null,\"data\":{\"title\":[\"上午\",\"下午\",\"全天\"],\"order\":[{\"week\":\"周六\",\"下午\":[],\"上午\":[],\"scheduleDate\":\"06/11\",\"全天\":[{\"markDesc\":\"付研\",\"sessionType\":\"0\"}]},{\"week\":\"周日\",\"下午\":[],\"上午\":[],\"scheduleDate\":\"06/12\",\"全天\":[{\"markDesc\":\"付研\",\"sessionType\":\"0\"}]},{\"week\":\"周一\",\"下午\":[{\"markDesc\":\"付研\",\"sessionType\":\"0\"}],\"上午\":[{\"markDesc\":\"燕园管理员\",\"sessionType\":\"0\"},{\"markDesc\":\"付研\",\"sessionType\":\"0\"}],\"scheduleDate\":\"06/13\",\"全天\":[{\"markDesc\":\"付研\",\"sessionType\":\"0\"},{\"markDesc\":\"内科普通号\",\"sessionType\":\"0\"}]},{\"week\":\"周二\",\"下午\":[],\"上午\":[],\"scheduleDate\":\"06/14\",\"全天\":[]},{\"week\":\"周三\",\"下午\":[],\"上午\":[],\"scheduleDate\":\"06/15\",\"全天\":[]},{\"week\":\"周四\",\"下午\":[],\"上午\":[],\"scheduleDate\":\"06/16\",\"全天\":[]},{\"week\":\"周五\",\"下午\":[],\"上午\":[{\"markDesc\":\"闫亚玲\",\"sessionType\":\"1\"}],\"scheduleDate\":\"06/17\",\"全天\":[]}]},\"throwable\":null,\"desensitized\":null,\"convertCode\":null}";
+        ObjectMapper mapper = new ObjectMapper();
+        JsonNode root = mapper.readTree(json);
+
+        JsonNode data = root.path("data");
+        System.out.println(data.toString());    // 注意，此时toString()方法的结果为：{"title":["上午","下午","全天"],"order":[{"week":"周六","下午":[],"上午":[],"scheduleDate":"06/11","全天":[{"markDesc":"付研","sessionType":"0"}]},{"week":"周日","下午":[],"上午":[],"scheduleDate":"06/12","全天":[{"markDesc":"付研","sessionType":"0"}]},{"week":"周一","下午":[{"markDesc":"付研","sessionType":"0"}],"上午":[{"markDesc":"燕园管理员","sessionType":"0"},{"markDesc":"付研","sessionType":"0"}],"scheduleDate":"06/13","全天":[{"markDesc":"付研","sessionType":"0"},{"markDesc":"内科普通号","sessionType":"0"}]},{"week":"周二","下午":[],"上午":[],"scheduleDate":"06/14","全天":[]},{"week":"周三","下午":[],"上午":[],"scheduleDate":"06/15","全天":[]},{"week":"周四","下午":[],"上午":[],"scheduleDate":"06/16","全天":[]},{"week":"周五","下午":[],"上午":[{"markDesc":"闫亚玲","sessionType":"1"}],"scheduleDate":"06/17","全天":[]}]}
+        // 强转成ArrayNode
+        ArrayNode order = (ArrayNode) data.path("order");
+        // 遍历ArrayNode并操作
+        order.forEach(item -> {
+            DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd");
+            Calendar c = Calendar.getInstance();
+            int y = c.get(Calendar.YEAR);
+            String str = y + "/" + item.get("scheduleDate").asText();    // 注意：item.get("scheduleDate").asText() 相当于返回  “06/12”  ，item.get("scheduleDate").toString() 相当于返回 ““06/12””
+            ((ObjectNode) item).put("timestamp", LocalDate.parse(str,dtf).atStartOfDay(ZoneOffset.ofHours(8)).toInstant().toEpochMilli());
+//            ((ObjectNode) json).put("timestamp", LocalDate.parse(json.get("scheduleDate").asText()).atStartOfDay(ZoneOffset.ofHours(8)).toInstant().toEpochMilli());
+        });
+    }
+
 
 
     // 从 JSON 数组字符串创建 Java 列表

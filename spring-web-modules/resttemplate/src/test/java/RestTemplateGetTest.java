@@ -1,4 +1,5 @@
 import com.yly.resttemplate.Foo;
+import com.yly.resttemplate.Post;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.*;
@@ -8,11 +9,28 @@ import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
 
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.CoreMatchers.notNullValue;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+
 
 import java.net.URI;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.Set;
 
-public class RestTemplateTest {
+import static org.hamcrest.MatcherAssert.assertThat;
+
+
+/**
+ * Spring Framework 中的 RestTemplate 类是一个同步 HTTP 客户端，用于发出 HTTP 请求以使用 RESTful Web 服务。它公开了一个简单易用的模板方法 API，
+ * 用于发送 HTTP 请求并处理 HTTP 响应。RestTemplate 类还为所有受支持的 HTTP 请求方法提供别名，例如 GET、POST、PUT、DELETE 和 OPTIONS。
+ * 在本教程中，我们将学习如何使用 Spring REST 客户端 - RestTemplate - 在 Spring Boot 应用程序中发送 HTTP 请求。对于我们所有的示例，我们将使用JSONPlaceholder假 REST API 来模拟真实的应用场景。
+ */
+public class RestTemplateGetTest {
     private RestTemplate restTemplate;
 
 
@@ -23,7 +41,10 @@ public class RestTemplateTest {
 
     //使用Get检索资源
 
-    // 获取纯 JSON
+    /**
+     * 获取纯 JSON
+     * 注意该getForObject()方法返回的响应。它是一个纯JSON字符串。我们可以使用 Jackson轻松地将这个 JSON 字符串解析为一个对象。
+     */
     @Test
     public  void test() throws InterruptedException {
         RestTemplate restTemplate = new RestTemplate();
@@ -36,6 +57,64 @@ public class RestTemplateTest {
 
     }
 
+
+    /**
+     * 获取响应作为对象
+     * 我们还可以将响应直接映射到模型类。让我们首先创建一个模型类：
+     * 现在我们可以简单地将Post类用作getForObject()方法中的响应类型：
+     */
+    @Test
+    public  Post[] test1() throws InterruptedException {
+        String url = "https://jsonplaceholder.typicode.com/posts";
+        return this.restTemplate.getForObject(url, Post[].class);
+    }
+
+
+
+    /**
+     * 响应处理
+     * 如果要操作响应（例如检查 HTTP 状态代码），请改用getForEntity()如下方法：
+     */
+    @Test
+    public Post getPostWithResponseHandling() {
+        String url = "https://jsonplaceholder.typicode.com/posts/{id}";
+        ResponseEntity<Post> response = this.restTemplate.getForEntity(url, Post.class, 1);
+        if(response.getStatusCode() == HttpStatus.OK) {
+            return response.getBody();
+        } else {
+            return null;
+        }
+    }
+
+
+    /**
+     * 自定义请求标头
+     * 如果要设置请求标头，如content-type,accept或任何自定义标头，请使用通用exchange()方法：
+     */
+    @Test
+    public Post getPostWithCustomHeaders() {
+        String url = "https://jsonplaceholder.typicode.com/posts/{id}";
+
+        // create headers
+        HttpHeaders headers = new HttpHeaders();
+        // set `accept` header
+        headers.setAccept(Collections.singletonList(MediaType.APPLICATION_JSON));
+        // set custom header
+        headers.set("x-request-source", "desktop");
+
+        // build the request
+        HttpEntity request = new HttpEntity(headers);
+
+        // use `exchange` method for HTTP call
+        ResponseEntity<Post> response = this.restTemplate.exchange(url, HttpMethod.GET, request, Post.class, 1);
+        if(response.getStatusCode() == HttpStatus.OK) {
+            return response.getBody();
+        } else {
+            return null;
+        }
+    }
+
+
     /*
         请注意，我们拥有对 HTTP 响应的完全访问权限，因此我们可以执行诸如检查状态代码以确保操作成功或使用响应的实际正文之类的操作：
         ObjectMapper mapper = new ObjectMapper();
@@ -43,51 +122,18 @@ public class RestTemplateTest {
         JsonNode name = root.path("name");
         assertThat(name.asText(), notNullValue());
         我们在这里将响应正文作为标准字符串使用，并使用 Jackson（以及 Jackson 提供的 JSON 节点结构）来验证一些细节。
-     */
 
-    // Retrieving POJO Instead of JSON
-    // 我们还可以将响应直接映射到资源 DTO：
+        Retrieving POJO Instead of JSON
+        我们还可以将响应直接映射到资源 DTO：
+     */
     @Test
     public void givenTestRestTemplate_whenSendGetForEntity_thenStatusOk() {
         TestRestTemplate testRestTemplate = new TestRestTemplate();
         ResponseEntity<Foo> response = testRestTemplate.getForEntity(FOO_RESOURCE_URL + "/1", Foo.class);
-//        assertThat(response.getStatusCode(), equalTo(HttpStatus.OK));
-    }
-
-    // HEAD
-    @Test
-    public void givenFooService_whenCallHeadForHeaders_thenReceiveAllHeaders() {
-        TestRestTemplate testRestTemplate = new TestRestTemplate();
-        final HttpHeaders httpHeaders = testRestTemplate.headForHeaders(FOO_RESOURCE_URL);
-//        assertTrue(httpHeaders.getContentType().includes(MediaType.APPLICATION_JSON));
+        assertThat(response.getStatusCode(), equalTo(HttpStatus.OK));
     }
 
 
-
-   /*
-        使用POST创建资源
-        为了在 API 中创建新的 Resource，我们可以充分利用postForLocation()、postForObject()或postForEntity() API。
-        第一个返回新创建的资源的 URI，而第二个返回资源本身。
-    */
-
-    // The postForObject() API
-    @Test
-    public void givenFooService_whenPostForObject_thenCreatedObjectIsReturned() {
-        final HttpEntity<Foo> request = new HttpEntity<>(new Foo("bar"));
-        final Foo foo = restTemplate.postForObject(fooResourceUrl, request, Foo.class);
-//        assertThat(foo, notNullValue());
-//        assertThat(foo.getName(), is("bar"));
-    }
-
-
-    // The postForLocation() API
-    // 它没有返回完整的资源，而只是返回新创建的资源的位置。
-    @Test
-    public void givenFooService_whenPostForLocation_thenCreatedLocationIsReturned() {
-        final HttpEntity<Foo> request = new HttpEntity<>(new Foo("bar"));
-        final URI location = restTemplate.postForLocation(fooResourceUrl, request, Foo.class);
-//        assertThat(location, notNullValue());
-    }
 
 
     // The exchange() API
@@ -100,87 +146,13 @@ public class RestTemplateTest {
         ResponseEntity<Foo> response = restTemplate
                 .exchange(fooResourceUrl, HttpMethod.POST, request, Foo.class);
 
-//        assertThat(response.getStatusCode(), is(HttpStatus.CREATED));
+        assertThat(response.getStatusCode(), is(HttpStatus.CREATED));
 
         Foo foo = response.getBody();
 
-//        assertThat(foo, notNullValue());
-//        assertThat(foo.getName(), is("bar"));
+        assertThat(foo, notNullValue());
+        assertThat(foo.getName(), is("bar"));
     }
-
-
-    //  Submit Form Data
-    // 接下来，让我们看看如何使用 POST 方法提交表单。
-
-    @Test
-    public void givenFooService_whenFormSubmit_thenResourceIsCreated() {
-
-        //首先，我们需要将Content-Type标头设置为application/x-www-form-urlencoded
-        //这确保可以将大查询字符串发送到服务器，其中包含由&分隔的 名称/值对：
-        HttpHeaders headers = new HttpHeaders();
-        headers.setContentType(MediaType.APPLICATION_FORM_URLENCODED);
-
-        // 我们可以将表单变量包装到LinkedMultiValueMap 中：
-        MultiValueMap<String, String> map= new LinkedMultiValueMap<>();
-        map.add("id", "10");
-
-        // 接下来，我们使用HttpEntity实例构建请求 ：
-        HttpEntity<MultiValueMap<String, String>> request = new HttpEntity<>(map, headers);
-
-        // Finally, we can connect to the REST service by calling restTemplate.postForEntity() on the Endpoint: /foos/form
-        ResponseEntity<String> response = restTemplate.postForEntity( fooResourceUrl+"/form", request , String.class);
-
-//        assertThat(response.getStatusCode(), is(HttpStatus.CREATED));
-        final String fooResponse = response.getBody();
-//        assertThat(fooResponse, notNullValue());
-//        assertThat(fooResponse, is("10"));
-    }
-
-
-    //  使用 OPTIONS 获取允许的操作
-    // Next, we're going to have a quick look at using an OPTIONS request and exploring the allowed operations on a specific URI using this kind of request;
-    // the API is optionsForAllow:
-
-    @Test
-    public void givenFooService_whenCallOptionsForAllow_thenReceiveValueOfAllowHeader() {
-        final Set<HttpMethod> optionsForAllow = restTemplate.optionsForAllow(fooResourceUrl);
-        final HttpMethod[] supportedMethods = { HttpMethod.GET, HttpMethod.POST, HttpMethod.HEAD };
-
-//        assertTrue(optionsForAllow.containsAll(Arrays.asList(supportedMethods)));
-    }
-
-    //  7.使用 PUT 更新资源
-    // 接下来，我们将开始研究PUT，更具体地说，是这个操作的exchange()API，因为template.put API是非常简单明了的
-
-    @Test
-    public void givenFooService_whenPutExistingEntity_thenItIsUpdated() {
-        final HttpHeaders headers=null;             //= prepareBasicAuthHeaders();
-        final HttpEntity<Foo> request = new HttpEntity<>(new Foo("bar"), headers);
-
-        // Create Resource
-        final ResponseEntity<Foo> createResponse = restTemplate.exchange(fooResourceUrl, HttpMethod.POST, request, Foo.class);
-
-        // Update Resource
-        final Foo updatedInstance = new Foo("newName");
-        updatedInstance.setId(createResponse.getBody()
-                .getId());
-        final String resourceUrl = fooResourceUrl + '/' + createResponse.getBody()
-                .getId();
-        final HttpEntity<Foo> requestUpdate = new HttpEntity<>(updatedInstance, headers);
-        restTemplate.exchange(resourceUrl, HttpMethod.PUT, requestUpdate, Void.class);
-
-        // Check that Resource was updated
-        final ResponseEntity<Foo> updateResponse = restTemplate.exchange(resourceUrl, HttpMethod.GET, new HttpEntity<>(headers), Foo.class);
-        final Foo foo = updateResponse.getBody();
-//        assertThat(foo.getName(), is(updatedInstance.getName()));
-    }
-
-
-    // 8. 使用 DELETE 删除资源
-    // 要删除现有资源，我们将快速使用delete() API：
-//    String entityUrl = fooResourceUrl + "/" + existingResource.getId();
-//    restTemplate.delete(entityUrl);
-
 
 
 
