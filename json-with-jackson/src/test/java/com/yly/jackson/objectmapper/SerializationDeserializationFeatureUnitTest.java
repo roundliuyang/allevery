@@ -20,9 +20,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertThat;
-
 /**
  * Author: yly
  * Date: 2021/10/20 16:08
@@ -69,9 +66,11 @@ public class SerializationDeserializationFeatureUnitTest {
         String json = "{ \"color\" : \"Black\", \"type\" : \"FIAT\" }";
         ObjectMapper objectMapper = new ObjectMapper();
         JsonNode jsonNode = objectMapper.readTree(json);
-        String color = jsonNode.get("color").asText();
+        String color = jsonNode.get("color").asText();    // 返回"black"
         // Output: color -> Black
         System.out.println(color);
+        String color1 = jsonNode.get("color").toString();   //返回 “”black“”
+        System.out.println(color1);
     }
 
 
