@@ -146,6 +146,9 @@ public class RestTemplateGetTest {
         ResponseEntity<Foo> response = restTemplate
                 .exchange(fooResourceUrl, HttpMethod.POST, request, Foo.class);
 
+//        ResponseEntity<String> response = restTemplate
+//                .exchange(fooResourceUrl, HttpMethod.POST, request, String.class);
+
         assertThat(response.getStatusCode(), is(HttpStatus.CREATED));
 
         Foo foo = response.getBody();

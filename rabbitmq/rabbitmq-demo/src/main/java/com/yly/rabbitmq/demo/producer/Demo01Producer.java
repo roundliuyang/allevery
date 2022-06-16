@@ -21,6 +21,7 @@ public class Demo01Producer {
         Demo01Message message = new Demo01Message();
         message.setId(id);
         // 同步发送消息
+        // convertAndSend(String exchange, String routingKey, Object message)，指定 Exchange + RoutingKey ，从而路由到一个 Queue 中。
         rabbitTemplate.convertAndSend(Demo01Message.EXCHANGE, Demo01Message.ROUTING_KEY, message);
     }
 
