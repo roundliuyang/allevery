@@ -18,6 +18,8 @@
         <module>rabbitmq-demo-batch-consumer2</module>
         <module>rabbitmq-consumer-retry</module>
         <module>rabbitmq-demo-delay</module>
+        <module>rabbitmq-demo-message-model</module>
+        <module>rabbitmq-demo-concurrency</module>
     </modules>
 
     <properties>
