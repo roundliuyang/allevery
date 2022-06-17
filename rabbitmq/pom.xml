@@ -20,6 +20,7 @@
         <module>rabbitmq-demo-delay</module>
         <module>rabbitmq-demo-message-model</module>
         <module>rabbitmq-demo-concurrency</module>
+        <module>rabbitmq-demo-ordely</module>
     </modules>
 
     <properties>
