@@ -36,6 +36,7 @@
         <module>seata</module>
         <module>spring-web-modules</module>
         <module>labx-10-spring-cloud-stream-rabbitmq</module>
+        <module>lab-01-spring-security</module>
     </modules>
 
     <dependencyManagement>
