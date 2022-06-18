@@ -35,6 +35,7 @@
         <module>websocket</module>
         <module>seata</module>
         <module>spring-web-modules</module>
+        <module>labx-10-spring-cloud-stream-rabbitmq</module>
     </modules>
 
     <dependencyManagement>
