@@ -21,6 +21,12 @@
         <module>rabbitmq-demo-message-model</module>
         <module>rabbitmq-demo-concurrency</module>
         <module>rabbitmq-demo-ordely</module>
+        <module>rabbitmq-demo-transaction</module>
+        <module>rabbitmq-demo-ack</module>
+        <module>rabbitmq-demo-confirm</module>
+        <module>rabbitmq-demo-rpc</module>
+        <module>rabbitmq-demo-json</module>
+        <module>rabbitmq-demo-error-handler</module>
     </modules>
 
     <properties>
