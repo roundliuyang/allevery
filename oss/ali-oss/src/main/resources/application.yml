@@ -1,0 +1,5 @@
+aliyun:
+  oss:
+    access-key-id: LTAI4GKTkNmshPHuFku28PXi
+    access-key-secret: Um6lYxAU1wKHr8gGSj005ZSJdjf0J3
+    endpoint: oss-cn-beijing.aliyuncs.com
