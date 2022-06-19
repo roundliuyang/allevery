@@ -39,6 +39,7 @@
         <module>lab-01-spring-security</module>
         <module>spring-data-jpa</module>
         <module>oss</module>
+        <module>starter</module>
     </modules>
 
     <dependencyManagement>
