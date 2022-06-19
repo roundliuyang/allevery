@@ -29,7 +29,7 @@
             <version>5.1.48</version>
         </dependency>
 
-        <!-- 实现对 Spring Data JPA 的自动化配置 -->
+        <!-- 实现对 Spring Data JPA 的自动化配置 ，在 spring-boot-starter-data-jpa 中，已经默认引入了 Hibernate 的依赖。-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
