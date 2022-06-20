@@ -11,6 +11,8 @@ public final class BusinessUtil {
 
     private BusinessUtil(){}
 
+
+
     public static void setBusinessId(Long businessId){
         businessIdThreadLocal.set(businessId);
     }
