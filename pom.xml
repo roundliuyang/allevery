@@ -41,6 +41,7 @@
         <module>oss</module>
         <module>starter</module>
         <module>aop</module>
+        <module>filter-Interceptor</module>
     </modules>
 
     <dependencyManagement>
