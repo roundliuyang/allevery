@@ -42,6 +42,7 @@
         <module>starter</module>
         <module>aop</module>
         <module>filter-Interceptor</module>
+        <module>utils</module>
     </modules>
 
     <dependencyManagement>
