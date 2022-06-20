@@ -15,7 +15,6 @@ public final class BusinessUtil {
         businessIdThreadLocal.set(businessId);
     }
 
-
     public static Long getBusinessId(){
         return businessIdThreadLocal.get();
     }
