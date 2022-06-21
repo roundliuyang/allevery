@@ -11,6 +11,9 @@
 
     <artifactId>spring-cloud-alibaba</artifactId>
     <packaging>pom</packaging>
+    <modules>
+        <module>nacos-config-demo</module>
+    </modules>
 
 
     <properties>
