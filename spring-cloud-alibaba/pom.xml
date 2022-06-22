@@ -14,6 +14,8 @@
     <modules>
         <module>nacos-config-demo</module>
         <module>dubbo-demo</module>
+        <module>nacos-discovery-provider-sample</module>
+        <module>nacos-discovery-consumer-sample</module>
     </modules>
 
 
