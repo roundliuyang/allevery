@@ -71,4 +71,14 @@ public class UserDO {
         return this;
     }
 
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("UserDO{");
+        sb.append("id=").append(id);
+        sb.append(", username='").append(username).append('\'');
+        sb.append(", password='").append(password).append('\'');
+        sb.append(", createTime=").append(createTime);
+        sb.append('}');
+        return sb.toString();
+    }
 }
