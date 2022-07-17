@@ -43,6 +43,7 @@
         <module>aop</module>
         <module>filter-Interceptor</module>
         <module>utils</module>
+        <module>spring-cloud-bus-rabbitmq</module>
     </modules>
 
     <dependencyManagement>
