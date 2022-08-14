@@ -44,6 +44,7 @@
         <module>filter-Interceptor</module>
         <module>utils</module>
         <module>spring-cloud-bus-rabbitmq</module>
+        <module>ddd-contexts</module>
     </modules>
 
     <dependencyManagement>
