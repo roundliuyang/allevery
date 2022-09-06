@@ -16,6 +16,9 @@
         <module>sc-gateway-demo02-registry</module>
         <module>sc-user-service</module>
         <module>sc-gateway-demo03-config-apollo</module>
+        <module>sc-gateway-demo03-config-nacos</module>
+        <module>sc-gateway-demo04</module>
+        <module>sc-gateway-demo05-custom-gateway-filter</module>
     </modules>
 
     <properties>
