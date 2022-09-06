@@ -45,6 +45,8 @@
         <module>utils</module>
         <module>spring-cloud-bus-rabbitmq</module>
         <module>ddd-contexts</module>
+        <module>spring-cloud-gateway</module>
+        <module>spring-cloud-apollo</module>
     </modules>
 
     <dependencyManagement>
