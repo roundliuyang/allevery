@@ -1,0 +1,5 @@
+spring:
+  data:
+    # Jest 配置项
+    jest:
+      uri: http://121.196.184.98:9200
