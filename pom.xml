@@ -48,6 +48,7 @@
         <module>spring-cloud-gateway</module>
         <module>spring-cloud-apollo</module>
         <module>spring-data-es</module>
+        <module>kafka</module>
     </modules>
 
     <dependencyManagement>
