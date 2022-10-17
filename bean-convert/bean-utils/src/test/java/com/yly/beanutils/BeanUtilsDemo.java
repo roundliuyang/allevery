@@ -1,5 +1,8 @@
 package com.yly.beanutils;
 
+
+import org.springframework.beans.BeanUtils;
+
 public class BeanUtilsDemo {
 
     /*
@@ -13,7 +16,6 @@ public class BeanUtilsDemo {
 
         注意：
         BeanUtils.copyProperties(a, b);
-            b中的存在的属性，a中一定要有，但是a中可以有多余的属性；
             a中与b中相同的属性都会被替换，不管是否有值；
             a、 b中的属性要名字相同，才能被赋值，不然的话需要手动赋值；
             Spring的BeanUtils的CopyProperties方法需要对应的属性有getter和setter方法；
@@ -21,4 +23,71 @@ public class BeanUtilsDemo {
             spring和apache的copy属性的方法源和目的参数的位置正好相反，所以导包和调用的时候都要注意一下。
 
      */
+    public static void main(String[] args) {
+        B b = new B();
+        b.setAge("12");
+        b.setName("b");
+
+
+        A a = new A();
+        a.setName("a");
+
+        BeanUtils.copyProperties(a,b);
+        System.out.println(b.toString());
+//
+//        BeanUtils.copyProperties(b,a);
+//        System.out.println(a.toString());
+
+
+    }
+    static class A{
+        private String name;
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        @Override
+        public String toString() {
+            final StringBuilder sb = new StringBuilder("A{");
+            sb.append("name='").append(name).append('\'');
+            sb.append('}');
+            return sb.toString();
+        }
+    }
+
+    static class B{
+        private String name;
+        private String age;
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public String getAge() {
+            return age;
+        }
+
+        public void setAge(String age) {
+            this.age = age;
+        }
+
+        @Override
+        public String toString() {
+            final StringBuilder sb = new StringBuilder("B{");
+            sb.append("name='").append(name).append('\'');
+            sb.append(", age='").append(age).append('\'');
+            sb.append('}');
+            return sb.toString();
+        }
+    }
+
 }

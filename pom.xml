@@ -49,6 +49,7 @@
         <module>spring-cloud-apollo</module>
         <module>spring-data-es</module>
         <module>kafka</module>
+        <module>grpc</module>
     </modules>
 
     <dependencyManagement>
