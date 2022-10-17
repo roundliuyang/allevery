@@ -13,7 +13,6 @@ public class BeanUtilsDemo {
         BeanUtils.copyProperties(Object source, Object target);
         => BeanUtils.copyProperties("转换前的类", "转换后的类");
 
-
         注意：
         BeanUtils.copyProperties(a, b);
             a中与b中相同的属性都会被替换，不管是否有值；
