@@ -31,7 +31,7 @@ public class BeanUtilsDemo {
         A a = new A();
         a.setName("a");
 
-        BeanUtils.copyProperties(a,b);
+        BeanUtils.copyProperties(null,a);
         System.out.println(b.toString());
 //
 //        BeanUtils.copyProperties(b,a);

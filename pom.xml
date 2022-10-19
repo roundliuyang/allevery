@@ -50,6 +50,7 @@
         <module>spring-data-es</module>
         <module>kafka</module>
         <module>grpc</module>
+        <module>spring-cloud-grpc</module>
     </modules>
 
     <dependencyManagement>
