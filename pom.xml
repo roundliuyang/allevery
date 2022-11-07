@@ -51,6 +51,7 @@
         <module>kafka</module>
         <module>grpc</module>
         <module>spring-cloud-grpc</module>
+        <module>spring-data-jpa-annotations</module>
     </modules>
 
     <dependencyManagement>
