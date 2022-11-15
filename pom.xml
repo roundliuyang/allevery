@@ -52,6 +52,7 @@
         <module>grpc</module>
         <module>spring-cloud-grpc</module>
         <module>spring-data-jpa-annotations</module>
+        <module>ddd</module>
     </modules>
 
     <dependencyManagement>
