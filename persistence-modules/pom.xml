@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>spring-data-jpa-annotations</module>
+        <module>hibernate-annotations</module>
     </modules>
 
     <properties>
@@ -22,7 +23,6 @@
         <hsqldb.version>2.3.4</hsqldb.version>
         <testcontainers.version>1.16.3</testcontainers.version>
         <guava.version>31.0.1-jre</guava.version>
-        <junit-jupiter.version>5.8.1</junit-jupiter.version>
     </properties>
 
 </project>
