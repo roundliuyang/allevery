@@ -14,6 +14,7 @@
     <modules>
         <module>spring-data-jpa-annotations</module>
         <module>hibernate-annotations</module>
+        <module>jpa-hibernate-cascade-type</module>
     </modules>
 
     <properties>
