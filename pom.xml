@@ -54,6 +54,7 @@
         <module>ddd</module>
         <module>persistence-modules</module>
         <module>parent-boot-2</module>
+        <module>spring-core-2</module>
     </modules>
 
     <dependencyManagement>
