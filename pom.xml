@@ -55,6 +55,8 @@
         <module>persistence-modules</module>
         <module>parent-boot-2</module>
         <module>spring-core-2</module>
+        <module>spring-core</module>
+        <module>parent-spring-5</module>
     </modules>
 
     <dependencyManagement>
