@@ -60,6 +60,7 @@
         <module>spring-core-4</module>
         <module>spring-boot-modules</module>
         <module>patterns</module>
+        <module>spring-di-2</module>
     </modules>
 
     <dependencyManagement>

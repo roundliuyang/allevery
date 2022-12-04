@@ -13,6 +13,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>cqrs-es</module>
+        <module>dip</module>
+        <module>solid</module>
     </modules>
 
     <dependencyManagement>
