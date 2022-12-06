@@ -62,15 +62,16 @@
 
     <!--我们还将annotationProcessorPaths部分添加到maven-compiler-plugin插件的配置部分。mapstruct -processor用于在构建期间生成映射器实现：-->
     <build>
-        <finalName>mapstruct</finalName>
+        <defaultGoal>compile</defaultGoal>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <source>${maven.compiler.source}</source>
-                    <target>${maven.compiler.target}</target>
+                    <showWarnings>true</showWarnings>
+<!--                    <source>${maven.compiler.source}</source>-->
+<!--                    <target>${maven.compiler.target}</target>-->
                     <annotationProcessorPaths>
                         <path>
                             <groupId>org.mapstruct</groupId>
