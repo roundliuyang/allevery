@@ -11,6 +11,11 @@ public class Email {
 
     private String address;
 
+    /**
+     *  FetchType fetch() default EAGER;
+     *  If the relationship is bidirectional, the non-owning OneToMany entity side must used the mappedBy element
+     *  to specify the relationship field or property of the entity that is the owner of the relationship.
+     */
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "employee_id")
     private OfficialEmployee employee;
