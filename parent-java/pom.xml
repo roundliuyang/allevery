@@ -10,6 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>parent-java</artifactId>
+    <packaging>pom</packaging>
 
     <dependencies>
         <!-- utils -->

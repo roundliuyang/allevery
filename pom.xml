@@ -63,6 +63,7 @@
         <module>spring-di-2</module>
         <module>parent-java</module>
         <module>jackson-modules</module>
+        <module>testing-modules</module>
     </modules>
 
     <dependencyManagement>
