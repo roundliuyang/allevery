@@ -61,6 +61,8 @@
         <module>spring-boot-modules</module>
         <module>patterns</module>
         <module>spring-di-2</module>
+        <module>parent-java</module>
+        <module>jackson-modules</module>
     </modules>
 
     <dependencyManagement>
