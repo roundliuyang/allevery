@@ -15,6 +15,7 @@
         <module>cqrs-es</module>
         <module>dip</module>
         <module>solid</module>
+        <module>clean-architecture</module>
     </modules>
 
     <dependencyManagement>
