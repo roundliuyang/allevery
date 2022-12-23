@@ -64,6 +64,7 @@
         <module>parent-java</module>
         <module>jackson-modules</module>
         <module>testing-modules</module>
+        <module>spring-cloud-modules</module>
     </modules>
 
     <dependencyManagement>
