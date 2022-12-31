@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "spring.rabbitmq.v-host",
+      "type": "java.lang.String",
+      "description": "Description for spring.rabbitmq.v-host."
+  }
+] }
