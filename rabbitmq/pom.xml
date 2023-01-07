@@ -27,6 +27,7 @@
         <module>rabbitmq-demo-rpc</module>
         <module>rabbitmq-demo-json</module>
         <module>rabbitmq-demo-error-handler</module>
+        <module>rabbitmq-demo-confirm-async</module>
     </modules>
 
     <properties>
