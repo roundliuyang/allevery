@@ -16,6 +16,7 @@
         <module>hibernate-annotations</module>
         <module>jpa-hibernate-cascade-type</module>
         <module>spring-data-jpa-fetchmode</module>
+        <module>redis</module>
     </modules>
 
     <properties>
