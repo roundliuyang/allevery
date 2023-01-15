@@ -77,7 +77,7 @@ public class MockitoAnnotationUnitTest {
         assertEquals(2, spiedList.size());
 
         Mockito.doReturn(100).when(spiedList).size();
-        assertEquals(100, spiedList.size());
+        assertEquals(100, spiedList.size(),1);
     }
     
     @Test

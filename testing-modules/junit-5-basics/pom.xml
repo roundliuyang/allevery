@@ -12,25 +12,45 @@
     <artifactId>junit-5-basics</artifactId>
 
     <dependencies>
-        <!-- test -->
+        <!-- test
+         设置 JUnit 5.x.0非常简单；我们只需要将以下依赖项添加到我们的pom.xml中：
+         <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.8.1</version>
+            <scope>test</scope>
+        </dependency>
+         -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
             <version>${junit-jupiter.version}</version>
             <scope>test</scope>
         </dependency>
+        <!--
+          为了使用 JUnit 5 参数化测试，我们需要从 JUnit Platform 导入 junit-jupiter-params工件。这意味着，在使用 Maven 时，我们会将以下内容添加到我们的pom.xml中：
+        -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-params</artifactId>
             <version>${junit-jupiter.version}</version>
             <scope>test</scope>
         </dependency>
+        <!--
+            junit-jupiter-api 是 JUnit 5 的核心依赖，它包含了 JUnit 5 中的核心注解和类，如 @Test、@BeforeAll、@AfterAll 等。
+            使用 JUnit 5 开发单元测试时，需要在项目中引入这个依赖。
+            junit-jupiter-engine 是 JUnit 5 中的测试引擎。它提供了执行 JUnit 5 中定义的测试用例的能力，
+            是运行 JUnit 5 测试的基础。在项目中引入了 junit-jupiter-api 之后，需要再引入这个依赖才能正常运行JUnit 5 的测试用例。
+        -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>${junit-jupiter.version}</version>
             <scope>test</scope>
         </dependency>
+        <!--
+            JUnit Vintage 支持在 JUnit 5 平台上运行基于 JUnit 3 和 JUnit 4 的测试。
+        -->
         <dependency>
             <groupId>org.junit.vintage</groupId>
             <artifactId>junit-vintage-engine</artifactId>
