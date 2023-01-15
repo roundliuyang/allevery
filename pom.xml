@@ -66,6 +66,7 @@
         <module>testing-modules</module>
         <module>spring-cloud-modules</module>
         <module>sharding-datasource</module>
+        <module>jenkins</module>
     </modules>
 
     <dependencyManagement>
