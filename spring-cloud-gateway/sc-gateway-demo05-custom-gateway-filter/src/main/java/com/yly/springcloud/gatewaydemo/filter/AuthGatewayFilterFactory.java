@@ -67,7 +67,7 @@ public class AuthGatewayFilterFactory extends AbstractGatewayFilterFactory<AuthG
         };
     }
 
-    public static class Config {
+     static class Config {
 
         private static final String DEFAULT_TOKEN_HEADER_NAME = "token";
         private static final String DEFAULT_HEADER_NAME = "user-id";

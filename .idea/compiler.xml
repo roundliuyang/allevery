@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -183,7 +184,7 @@
       <module name="clean-architecture" target="8" />
       <module name="code-design" target="8" />
       <module name="collection" target="8" />
-      <module name="concurrent-programing" target="8" />
+      <module name="concurrent-programing" target="1.7" />
       <module name="cqrs-es" target="8" />
       <module name="ddd" target="8" />
       <module name="ddd-contexts" target="8" />
@@ -341,7 +342,7 @@
       <module name="sharding-datasource" target="8" />
       <module name="sharding-datasource-sphere-01" target="1.8" />
       <module name="sharding-datasource-sphere-02" target="8" />
-      <module name="sharedkernel" target="8" />
+      <module name="sharedkernel" target="9" />
       <module name="solid" target="8" />
       <module name="spring-boot" target="8" />
       <module name="spring-boot-demo" target="8" />
@@ -399,10 +400,12 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="aop-log" options="-parameters" />
+      <module name="filter-Interceptor" options="-parameters" />
       <module name="jenkins-demo01" options="-parameters" />
       <module name="kafka-native" options="-parameters" />
       <module name="lab-01-springsecurity-demo" options="-parameters" />
       <module name="multiple-datasource" options="-parameters" />
+      <module name="rabbitmq-consumer-retry" options="-parameters" />
       <module name="rabbitmq-demo-ack" options="-parameters" />
       <module name="rabbitmq-demo-batch-consumer2" options="-parameters" />
       <module name="rabbitmq-demo-concurrency" options="-parameters" />
@@ -411,6 +414,7 @@
       <module name="rabbitmq-demo-json" options="-parameters" />
       <module name="rabbitmq-demo-message-model" options="-parameters" />
       <module name="rabbitmq-demo-ordely" options="-parameters" />
+      <module name="rabbitmq-demo-rpc" options="-parameters" />
       <module name="rabbitmq-demo-transaction" options="-parameters" />
       <module name="rest-spring" options="-parameters" />
       <module name="seata-at-dubbo-demo-order-service" options="-parameters" />
@@ -422,6 +426,7 @@
       <module name="spring-data-redis-jedis" options="-parameters" />
       <module name="task-demo" options="-parameters" />
       <module name="task-xxl-job" options="-parameters" />
+      <module name="utils" options="-parameters" />
       <module name="websocket01" options="-parameters" />
       <module name="websocket02" options="-parameters" />
     </option>
