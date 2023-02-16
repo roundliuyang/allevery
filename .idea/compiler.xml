@@ -173,7 +173,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="alioss" target="1.8" />
+      <module name="alioss" target="1.6" />
       <module name="allevery" target="8" />
       <module name="aop" target="8" />
       <module name="aop-log" target="8" />
@@ -184,7 +184,7 @@
       <module name="clean-architecture" target="8" />
       <module name="code-design" target="8" />
       <module name="collection" target="8" />
-      <module name="concurrent-programing" target="1.7" />
+      <module name="concurrent-programing" target="8" />
       <module name="cqrs-es" target="8" />
       <module name="ddd" target="8" />
       <module name="ddd-contexts" target="8" />
@@ -407,6 +407,7 @@
       <module name="multiple-datasource" options="-parameters" />
       <module name="rabbitmq-consumer-retry" options="-parameters" />
       <module name="rabbitmq-demo-ack" options="-parameters" />
+      <module name="rabbitmq-demo-batch-consumer" options="-parameters" />
       <module name="rabbitmq-demo-batch-consumer2" options="-parameters" />
       <module name="rabbitmq-demo-concurrency" options="-parameters" />
       <module name="rabbitmq-demo-confirm" options="-parameters" />
@@ -417,6 +418,7 @@
       <module name="rabbitmq-demo-rpc" options="-parameters" />
       <module name="rabbitmq-demo-transaction" options="-parameters" />
       <module name="rest-spring" options="-parameters" />
+      <module name="rocket-test" options="-parameters" />
       <module name="seata-at-dubbo-demo-order-service" options="-parameters" />
       <module name="seata-at-dubbo-demo-product-service" options="-parameters" />
       <module name="seata-at-httpclient-demo-account-service" options="-parameters" />
