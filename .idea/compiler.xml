@@ -402,6 +402,7 @@
       <module name="aop-log" options="-parameters" />
       <module name="filter-Interceptor" options="-parameters" />
       <module name="jenkins-demo01" options="-parameters" />
+      <module name="jpa" options="-parameters" />
       <module name="kafka-native" options="-parameters" />
       <module name="lab-01-springsecurity-demo" options="-parameters" />
       <module name="multiple-datasource" options="-parameters" />
