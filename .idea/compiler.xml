@@ -42,7 +42,6 @@
         <module name="task-demo" />
         <module name="grpc-cloud-user-service" />
         <module name="seata-at-httpclient-demo-product-service" />
-        <module name="mapstruct" />
         <module name="sc-gateway-demo02-registry" />
         <module name="spring-data-jpa-annotations" />
         <module name="nacos-discovery-consumer-sample" />
@@ -171,9 +170,21 @@
         <module name="feign-demo02A-consumer" />
         <module name="mockito-simple" />
       </profile>
+      <profile name="Annotation profile for allevery" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../maven/maven/repository/org/mapstruct/mapstruct-processor/1.4.2.Final/mapstruct-processor-1.4.2.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../maven/maven/repository/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../maven/maven/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar" />
+          <entry name="$PROJECT_DIR$/../../maven/maven/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="mapstruct" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="alioss" target="1.6" />
+      <module name="alioss" target="1.8" />
       <module name="allevery" target="8" />
       <module name="aop" target="8" />
       <module name="aop-log" target="8" />
@@ -184,7 +195,7 @@
       <module name="clean-architecture" target="8" />
       <module name="code-design" target="8" />
       <module name="collection" target="8" />
-      <module name="concurrent-programing" target="8" />
+      <module name="concurrent-programing" target="1.7" />
       <module name="cqrs-es" target="8" />
       <module name="ddd" target="8" />
       <module name="ddd-contexts" target="8" />
@@ -197,7 +208,7 @@
       <module name="dubbo" target="8" />
       <module name="dubbo-consumer-sample" target="8" />
       <module name="dubbo-demo" target="8" />
-      <module name="dubbo-provider-sample" target="8" />
+      <module name="dubbo-provider-sample" target="1.8" />
       <module name="dubbo-sample-api" target="8" />
       <module name="event-demo" target="8" />
       <module name="feign" target="8" />
@@ -252,7 +263,7 @@
       <module name="kafka-native" target="1.8" />
       <module name="lab-01-springsecurity-demo" target="8" />
       <module name="lab01-springsecurity-demo-role" target="8" />
-      <module name="labx-10-sc-stream-rabbitmq-producer-demo" target="1.8" />
+      <module name="labx-10-sc-stream-rabbitmq-producer-demo" target="8" />
       <module name="lambda" target="8" />
       <module name="libraries-apache-commons" target="8" />
       <module name="Lock" target="8" />
@@ -270,9 +281,9 @@
       <module name="mybatis-crud" target="8" />
       <module name="mybatis-plus" target="8" />
       <module name="mybatis-xml" target="8" />
-      <module name="nacos-config-demo" target="8" />
+      <module name="nacos-config-demo" target="1.8" />
       <module name="nacos-discovery-consumer-sample" target="1.8" />
-      <module name="nacos-discovery-provider-sample" target="8" />
+      <module name="nacos-discovery-provider-sample" target="1.8" />
       <module name="oss" target="8" />
       <module name="parent-boot-2" target="8" />
       <module name="parent-java" target="8" />
@@ -400,14 +411,19 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="aop-log" options="-parameters" />
+      <module name="bean-utils" options="-parameters" />
+      <module name="event-demo" options="-parameters" />
       <module name="filter-Interceptor" options="-parameters" />
       <module name="jenkins-demo01" options="-parameters" />
       <module name="jpa" options="-parameters" />
       <module name="kafka-native" options="-parameters" />
       <module name="lab-01-springsecurity-demo" options="-parameters" />
+      <module name="lab01-springsecurity-demo-role" options="-parameters" />
       <module name="multiple-datasource" options="-parameters" />
       <module name="rabbitmq-consumer-retry" options="-parameters" />
+      <module name="rabbitmq-demo" options="-parameters" />
       <module name="rabbitmq-demo-ack" options="-parameters" />
+      <module name="rabbitmq-demo-batch" options="-parameters" />
       <module name="rabbitmq-demo-batch-consumer" options="-parameters" />
       <module name="rabbitmq-demo-batch-consumer2" options="-parameters" />
       <module name="rabbitmq-demo-concurrency" options="-parameters" />
@@ -420,18 +436,21 @@
       <module name="rabbitmq-demo-transaction" options="-parameters" />
       <module name="rest-spring" options="-parameters" />
       <module name="rocket-test" options="-parameters" />
+      <module name="rocketmq-ons" options="-parameters" />
       <module name="seata-at-dubbo-demo-order-service" options="-parameters" />
       <module name="seata-at-dubbo-demo-product-service" options="-parameters" />
       <module name="seata-at-httpclient-demo-account-service" options="-parameters" />
       <module name="seata-at-httpclient-demo-product-service" options="-parameters" />
       <module name="spring-boot-demo" options="-parameters" />
       <module name="spring-data-elasticsearch" options="-parameters" />
+      <module name="spring-data-jest" options="-parameters" />
       <module name="spring-data-redis-jedis" options="-parameters" />
       <module name="task-demo" options="-parameters" />
       <module name="task-xxl-job" options="-parameters" />
       <module name="utils" options="-parameters" />
       <module name="websocket01" options="-parameters" />
       <module name="websocket02" options="-parameters" />
+      <module name="yly-server-oss-sdk-starter" options="-parameters" />
     </option>
   </component>
 </project>
