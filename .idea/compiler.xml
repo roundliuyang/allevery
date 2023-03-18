@@ -195,7 +195,7 @@
       <module name="clean-architecture" target="8" />
       <module name="code-design" target="8" />
       <module name="collection" target="8" />
-      <module name="concurrent-programing" target="1.7" />
+      <module name="concurrent-programing" target="8" />
       <module name="cqrs-es" target="8" />
       <module name="ddd" target="8" />
       <module name="ddd-contexts" target="8" />
@@ -254,16 +254,16 @@
       <module name="java-string" target="8" />
       <module name="jenkins" target="8" />
       <module name="jenkins-cloud-demo01" target="1.8" />
-      <module name="jenkins-demo01" target="1.8" />
+      <module name="jenkins-demo01" target="1.5" />
       <module name="jpa" target="8" />
       <module name="jpa-hibernate-cascade-type" target="8" />
       <module name="json-with-jackson" target="8" />
       <module name="junit-5-basics" target="8" />
       <module name="kafka" target="8" />
-      <module name="kafka-native" target="1.8" />
+      <module name="kafka-native" target="1.5" />
       <module name="lab-01-springsecurity-demo" target="8" />
       <module name="lab01-springsecurity-demo-role" target="8" />
-      <module name="labx-10-sc-stream-rabbitmq-producer-demo" target="8" />
+      <module name="labx-10-sc-stream-rabbitmq-producer-demo" target="1.8" />
       <module name="lambda" target="8" />
       <module name="libraries-apache-commons" target="8" />
       <module name="Lock" target="8" />
@@ -275,7 +275,7 @@
       <module name="message-queue" target="8" />
       <module name="method-reference" target="8" />
       <module name="mockito-simple" target="8" />
-      <module name="multiple-datasource" target="1.8" />
+      <module name="multiple-datasource" target="1.5" />
       <module name="mybatis" target="8" />
       <module name="mybatis-annotation" target="8" />
       <module name="mybatis-crud" target="8" />
@@ -348,7 +348,7 @@
       <module name="seata-at-httpclient-demo" target="8" />
       <module name="seata-at-httpclient-demo-account-service" target="1.8" />
       <module name="seata-at-httpclient-demo-order-service" target="1.8" />
-      <module name="seata-at-httpclient-demo-product-service" target="1.8" />
+      <module name="seata-at-httpclient-demo-product-service" target="1.5" />
       <module name="sentinel" target="8" />
       <module name="sharding-datasource" target="8" />
       <module name="sharding-datasource-sphere-01" target="1.8" />
@@ -373,7 +373,7 @@
       <module name="spring-core-2" target="8" />
       <module name="spring-core-4" target="8" />
       <module name="spring-data" target="8" />
-      <module name="spring-data-elasticsearch" target="1.8" />
+      <module name="spring-data-elasticsearch" target="1.5" />
       <module name="spring-data-es" target="8" />
       <module name="spring-data-jest" target="8" />
       <module name="spring-data-jpa" target="8" />
@@ -440,7 +440,9 @@
       <module name="seata-at-dubbo-demo-order-service" options="-parameters" />
       <module name="seata-at-dubbo-demo-product-service" options="-parameters" />
       <module name="seata-at-httpclient-demo-account-service" options="-parameters" />
+      <module name="seata-at-httpclient-demo-order-service" options="-parameters" />
       <module name="seata-at-httpclient-demo-product-service" options="-parameters" />
+      <module name="sharding-datasource-sphere-01" options="-parameters" />
       <module name="spring-boot-demo" options="-parameters" />
       <module name="spring-data-elasticsearch" options="-parameters" />
       <module name="spring-data-jest" options="-parameters" />

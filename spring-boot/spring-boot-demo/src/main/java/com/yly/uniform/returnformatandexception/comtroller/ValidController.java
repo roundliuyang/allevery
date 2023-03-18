@@ -41,7 +41,7 @@ public class ValidController {
     @ApiOperation("单参数校验")
     @PostMapping(value = "/valid/test3")
     public String test3(@Email String email){
-        log.info("email is {}", email);
+//        log.info("email is {}", email);
         return "email valid success";
     }
 
