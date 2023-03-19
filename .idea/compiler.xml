@@ -206,7 +206,7 @@
       <module name="docker-message-server" target="8" />
       <module name="docker-product-server" target="8" />
       <module name="dubbo" target="8" />
-      <module name="dubbo-consumer-sample" target="8" />
+      <module name="dubbo-consumer-sample" target="1.8" />
       <module name="dubbo-demo" target="8" />
       <module name="dubbo-provider-sample" target="1.8" />
       <module name="dubbo-sample-api" target="8" />
