@@ -7,10 +7,12 @@
       <module fileurl="file://$PROJECT_DIR$/Java/Java.iml" filepath="$PROJECT_DIR$/Java/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/Lock/Lock.iml" filepath="$PROJECT_DIR$/Java/Lock/Lock.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/ThreadPool/ThreadPool.iml" filepath="$PROJECT_DIR$/Java/ThreadPool/ThreadPool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/java-agent/agent/agent.iml" filepath="$PROJECT_DIR$/Java/java-agent/agent/agent.iml" />
       <module fileurl="file://$PROJECT_DIR$/oss/ali-oss/alioss.iml" filepath="$PROJECT_DIR$/oss/ali-oss/alioss.iml" />
       <module fileurl="file://$PROJECT_DIR$/allevery.iml" filepath="$PROJECT_DIR$/allevery.iml" />
       <module fileurl="file://$PROJECT_DIR$/aop/aop.iml" filepath="$PROJECT_DIR$/aop/aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/aop/aop-log/aop-log.iml" filepath="$PROJECT_DIR$/aop/aop-log/aop-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/java-agent/attach/attach.iml" filepath="$PROJECT_DIR$/Java/java-agent/attach/attach.iml" />
       <module fileurl="file://$PROJECT_DIR$/bean-convert/bean-convert.iml" filepath="$PROJECT_DIR$/bean-convert/bean-convert.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-programming/thinking-in-spring/bean-lifecycle/bean-lifecycle.iml" filepath="$PROJECT_DIR$/spring-programming/thinking-in-spring/bean-lifecycle/bean-lifecycle.iml" />
       <module fileurl="file://$PROJECT_DIR$/bean-convert/bean-utils/bean-utils.iml" filepath="$PROJECT_DIR$/bean-convert/bean-utils/bean-utils.iml" />
@@ -67,6 +69,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-programming/thinking-in-spring/ioc-container-overview/ioc-container-overview.iml" filepath="$PROJECT_DIR$/spring-programming/thinking-in-spring/ioc-container-overview/ioc-container-overview.iml" />
       <module fileurl="file://$PROJECT_DIR$/jackson-modules/jackson-conversions/jackson-conversions.iml" filepath="$PROJECT_DIR$/jackson-modules/jackson-conversions/jackson-conversions.iml" />
       <module fileurl="file://$PROJECT_DIR$/jackson-modules/jackson-modules.iml" filepath="$PROJECT_DIR$/jackson-modules/jackson-modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/java-agent/java-agent.iml" filepath="$PROJECT_DIR$/Java/java-agent/java-agent.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/java-date/java-date.iml" filepath="$PROJECT_DIR$/Java/java-date/java-date.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/java-optional/java-optional.iml" filepath="$PROJECT_DIR$/Java/java-optional/java-optional.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/java-reflect/java-reflect.iml" filepath="$PROJECT_DIR$/Java/java-reflect/java-reflect.iml" />
