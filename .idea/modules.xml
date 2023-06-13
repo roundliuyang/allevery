@@ -52,6 +52,10 @@
       <module fileurl="file://$PROJECT_DIR$/feign/springcloud-feign/feign-demo07-cosumer/feign-demo07-cosumer.iml" filepath="$PROJECT_DIR$/feign/springcloud-feign/feign-demo07-cosumer/feign-demo07-cosumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/filter-Interceptor/filter-Interceptor.iml" filepath="$PROJECT_DIR$/filter-Interceptor/filter-Interceptor.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/functional-programming/functional-programming.iml" filepath="$PROJECT_DIR$/Java/functional-programming/functional-programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-modules/spring-boot-custom-starter/greeter-library/greeter-library.iml" filepath="$PROJECT_DIR$/spring-boot-modules/spring-boot-custom-starter/greeter-library/greeter-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-modules/spring-boot-custom-starter/greeter-spring-boot-autoconfigure/greeter-spring-boot-autoconfigure.iml" filepath="$PROJECT_DIR$/spring-boot-modules/spring-boot-custom-starter/greeter-spring-boot-autoconfigure/greeter-spring-boot-autoconfigure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-modules/spring-boot-custom-starter/greeter-spring-boot-sample-app/greeter-spring-boot-sample-app.iml" filepath="$PROJECT_DIR$/spring-boot-modules/spring-boot-custom-starter/greeter-spring-boot-sample-app/greeter-spring-boot-sample-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-modules/spring-boot-custom-starter/greeter-spring-boot-starter/greeter-spring-boot-starter.iml" filepath="$PROJECT_DIR$/spring-boot-modules/spring-boot-custom-starter/greeter-spring-boot-starter/greeter-spring-boot-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/grpc/grpc.iml" filepath="$PROJECT_DIR$/grpc/grpc.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-grpc/grpc-cloud/grpc-cloud.iml" filepath="$PROJECT_DIR$/spring-cloud-grpc/grpc-cloud/grpc-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-grpc/grpc-cloud/grpc-cloud-user-application/grpc-cloud-user-application.iml" filepath="$PROJECT_DIR$/spring-cloud-grpc/grpc-cloud/grpc-cloud-user-application/grpc-cloud-user-application.iml" />
@@ -178,6 +182,7 @@
       <module fileurl="file://$PROJECT_DIR$/ddd-contexts/sharedkernel/sharedkernel.iml" filepath="$PROJECT_DIR$/ddd-contexts/sharedkernel/sharedkernel.iml" />
       <module fileurl="file://$PROJECT_DIR$/patterns/solid/solid.iml" filepath="$PROJECT_DIR$/patterns/solid/solid.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-modules/spring-boot-custom-starter/spring-boot-custom-starter.iml" filepath="$PROJECT_DIR$/spring-boot-modules/spring-boot-custom-starter/spring-boot-custom-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot-demo/spring-boot-demo.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot-demo/spring-boot-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-modules/spring-boot-di/spring-boot-di.iml" filepath="$PROJECT_DIR$/spring-boot-modules/spring-boot-di/spring-boot-di.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-modules/spring-boot-modules.iml" filepath="$PROJECT_DIR$/spring-boot-modules/spring-boot-modules.iml" />
