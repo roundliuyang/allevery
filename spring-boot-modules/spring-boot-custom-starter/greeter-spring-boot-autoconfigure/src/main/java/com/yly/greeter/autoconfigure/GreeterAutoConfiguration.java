@@ -21,6 +21,7 @@ public class GreeterAutoConfiguration {
     private GreeterProperties greeterProperties;
 
     @Bean
+    // @ConditionalOnMissingBean注解将确保这些Bean只有在不存在的情况下才会被创建。这使得开发者可以通过在@Configuration类中定义自己的Bean来完全覆盖自动配置的Bean
     @ConditionalOnMissingBean
     public GreetingConfig greeterConfig() {
 
