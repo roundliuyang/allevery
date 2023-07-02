@@ -6,7 +6,6 @@
     <option name="delegateToJavac" value="true" />
   </component>
   <component name="CompilerConfiguration">
-    <option name="DEFAULT_COMPILER" value="ajc" />
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -375,7 +374,7 @@
       <module name="sharding-datasource-sphere-02" target="8" />
       <module name="sharedkernel" target="8" />
       <module name="solid" target="8" />
-      <module name="spring-aop" target="1.8" />
+      <module name="spring-aop" target="8" />
       <module name="spring-boot" target="8" />
       <module name="spring-boot-custom-starter" target="8" />
       <module name="spring-boot-demo" target="8" />
