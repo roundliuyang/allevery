@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AjcSettings">
+    <option name="ajcPath" value="$PROJECT_DIR$/../../maven/maven/repository/org/aspectj/aspectjtools/1.8.13/aspectjtools-1.8.13.jar" />
+    <option name="cmdLineParams" value="-Xlint:ignore -showWeaveInfo" />
+    <option name="delegateToJavac" value="true" />
+  </component>
   <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="ajc" />
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -369,7 +375,7 @@
       <module name="sharding-datasource-sphere-02" target="8" />
       <module name="sharedkernel" target="8" />
       <module name="solid" target="8" />
-      <module name="spring-aop" target="8" />
+      <module name="spring-aop" target="1.8" />
       <module name="spring-boot" target="8" />
       <module name="spring-boot-custom-starter" target="8" />
       <module name="spring-boot-demo" target="8" />
@@ -461,7 +467,7 @@
       <module name="seata-at-httpclient-demo-order-service" options="-parameters" />
       <module name="seata-at-httpclient-demo-product-service" options="-parameters" />
       <module name="sharding-datasource-sphere-01" options="-parameters" />
-      <module name="spring-aop" options="-parameters" />
+      <module name="spring-aop" options="" />
       <module name="spring-boot-demo" options="-parameters" />
       <module name="spring-data-elasticsearch" options="-parameters" />
       <module name="spring-data-jest" options="-parameters" />
