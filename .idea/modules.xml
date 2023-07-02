@@ -181,6 +181,7 @@
       <module fileurl="file://$PROJECT_DIR$/sharding-datasource/sharding-datasource-sphere-02/sharding-datasource-sphere-02.iml" filepath="$PROJECT_DIR$/sharding-datasource/sharding-datasource-sphere-02/sharding-datasource-sphere-02.iml" />
       <module fileurl="file://$PROJECT_DIR$/ddd-contexts/sharedkernel/sharedkernel.iml" filepath="$PROJECT_DIR$/ddd-contexts/sharedkernel/sharedkernel.iml" />
       <module fileurl="file://$PROJECT_DIR$/patterns/solid/solid.iml" filepath="$PROJECT_DIR$/patterns/solid/solid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aop/spring-aop/spring-aop.iml" filepath="$PROJECT_DIR$/aop/spring-aop/spring-aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-modules/spring-boot-custom-starter/spring-boot-custom-starter.iml" filepath="$PROJECT_DIR$/spring-boot-modules/spring-boot-custom-starter/spring-boot-custom-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot-demo/spring-boot-demo.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot-demo/spring-boot-demo.iml" />

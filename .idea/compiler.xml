@@ -69,6 +69,7 @@
         <module name="feign-demo03-consumer" />
         <module name="cqrs-es" />
         <module name="attach" />
+        <module name="spring-aop" />
         <module name="greeter-spring-boot-starter" />
         <module name="grpc-cloud-user-service-api" />
         <module name="ribbon-demo02A-sonsumer" />
@@ -238,9 +239,9 @@
       <module name="functional-programming" target="8" />
       <module name="FutureTask" target="8" />
       <module name="greeter-library" target="8" />
-      <module name="greeter-spring-boot-autoconfigure" target="8" />
+      <module name="greeter-spring-boot-autoconfigure" target="11.0.10" />
       <module name="greeter-spring-boot-sample-app" target="8" />
-      <module name="greeter-spring-boot-starter" target="8" />
+      <module name="greeter-spring-boot-starter" target="11.0.10" />
       <module name="grpc" target="8" />
       <module name="grpc-cloud" target="8" />
       <module name="grpc-cloud-user-application" target="1.8" />
@@ -295,7 +296,7 @@
       <module name="mybatis-plus" target="8" />
       <module name="mybatis-xml" target="8" />
       <module name="nacos-config-demo" target="8" />
-      <module name="nacos-discovery-consumer-sample" target="8" />
+      <module name="nacos-discovery-consumer-sample" target="1.8" />
       <module name="nacos-discovery-provider-sample" target="1.8" />
       <module name="oss" target="8" />
       <module name="parent-boot-2" target="8" />
@@ -368,6 +369,7 @@
       <module name="sharding-datasource-sphere-02" target="8" />
       <module name="sharedkernel" target="8" />
       <module name="solid" target="8" />
+      <module name="spring-aop" target="8" />
       <module name="spring-boot" target="8" />
       <module name="spring-boot-custom-starter" target="8" />
       <module name="spring-boot-demo" target="8" />
@@ -459,6 +461,7 @@
       <module name="seata-at-httpclient-demo-order-service" options="-parameters" />
       <module name="seata-at-httpclient-demo-product-service" options="-parameters" />
       <module name="sharding-datasource-sphere-01" options="-parameters" />
+      <module name="spring-aop" options="-parameters" />
       <module name="spring-boot-demo" options="-parameters" />
       <module name="spring-data-elasticsearch" options="-parameters" />
       <module name="spring-data-jest" options="-parameters" />
