@@ -39,6 +39,7 @@
         <module name="jenkins-demo01" />
         <module name="time-date-api" />
         <module name="aop-log" />
+        <module name="core-java-lang-5" />
         <module name="util-data-api" />
         <module name="grpc-demo-application" />
         <module name="rocketmq-ons" />
@@ -197,7 +198,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="agent" target="8" />
-      <module name="alioss" target="1.6" />
+      <module name="alioss" target="1.8" />
       <module name="allevery" target="8" />
       <module name="aop" target="8" />
       <module name="aop-log" target="8" />
@@ -210,6 +211,8 @@
       <module name="code-design" target="8" />
       <module name="collection" target="8" />
       <module name="concurrent-programing" target="8" />
+      <module name="core-java-lang-5" target="8" />
+      <module name="core-java-modules" target="8" />
       <module name="cqrs-es" target="8" />
       <module name="ddd" target="8" />
       <module name="ddd-contexts" target="8" />

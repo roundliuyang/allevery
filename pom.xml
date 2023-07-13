@@ -67,6 +67,7 @@
         <module>spring-cloud-modules</module>
         <module>sharding-datasource</module>
         <module>jenkins</module>
+        <module>core-java-modules</module>
     </modules>
 
     <dependencyManagement>

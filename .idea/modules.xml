@@ -20,6 +20,8 @@
       <module fileurl="file://$PROJECT_DIR$/code-design/code-design.iml" filepath="$PROJECT_DIR$/code-design/code-design.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/collection/collection.iml" filepath="$PROJECT_DIR$/Java/collection/collection.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrent-programing/concurrent-programing.iml" filepath="$PROJECT_DIR$/concurrent-programing/concurrent-programing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-java-modules/core-java-lang-5/core-java-lang-5.iml" filepath="$PROJECT_DIR$/core-java-modules/core-java-lang-5/core-java-lang-5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-java-modules/core-java-modules.iml" filepath="$PROJECT_DIR$/core-java-modules/core-java-modules.iml" />
       <module fileurl="file://$PROJECT_DIR$/patterns/cqrs-es/cqrs-es.iml" filepath="$PROJECT_DIR$/patterns/cqrs-es/cqrs-es.iml" />
       <module fileurl="file://$PROJECT_DIR$/ddd/ddd.iml" filepath="$PROJECT_DIR$/ddd/ddd.iml" />
       <module fileurl="file://$PROJECT_DIR$/ddd-contexts/ddd-contexts.iml" filepath="$PROJECT_DIR$/ddd-contexts/ddd-contexts.iml" />
