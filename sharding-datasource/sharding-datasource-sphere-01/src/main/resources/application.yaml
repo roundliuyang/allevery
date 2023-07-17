@@ -3,7 +3,7 @@ spring:
   shardingsphere:
     datasource:
       # 所有数据源的名字
-      names: ds-orders-0, ds-orders-1
+      names: ds-orders-0, ds-orders-1, ds-orders-2
       # 订单 orders 数据源配置 00
       ds-orders-0:
         type: com.zaxxer.hikari.HikariDataSource # 使用 Hikari 数据库连接池
@@ -16,6 +16,12 @@ spring:
         type: com.zaxxer.hikari.HikariDataSource # 使用 Hikari 数据库连接池
         driver-class-name: com.mysql.jdbc.Driver
         jdbc-url: jdbc:mysql://127.0.0.1:3306/lab18_orders_1?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+        username: root
+        password: 123456
+      ds-orders-2:
+        type: com.zaxxer.hikari.HikariDataSource # 使用 Hikari 数据库连接池
+        driver-class-name: com.mysql.jdbc.Driver
+        jdbc-url: jdbc:mysql://127.0.0.1:3306/lab18_orders_0?useSSL=false&useUnicode=true&characterEncoding=UTF-8
         username: root
         password: 123456
     # 分片规则
@@ -40,6 +46,7 @@ spring:
         # order_config 表配置
         order_config:
           actualDataNodes: ds-orders-0.order_config # 仅映射到 ds-orders-0 数据源的 order_config 表
+      default-data-source-name: ds-orders-2
     # 拓展属性配置
     props:
       sql:
