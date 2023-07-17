@@ -49,6 +49,7 @@
         <module name="task-demo" />
         <module name="grpc-cloud-user-service" />
         <module name="seata-at-httpclient-demo-product-service" />
+        <module name="core-java-nio-2" />
         <module name="sc-gateway-demo02-registry" />
         <module name="spring-data-jpa-annotations" />
         <module name="nacos-discovery-consumer-sample" />
@@ -215,6 +216,7 @@
       <module name="core-java-io-2" target="8" />
       <module name="core-java-lang-5" target="8" />
       <module name="core-java-modules" target="8" />
+      <module name="core-java-nio-2" target="8" />
       <module name="cqrs-es" target="8" />
       <module name="ddd" target="8" />
       <module name="ddd-contexts" target="8" />
