@@ -77,6 +77,7 @@
         <module name="cqrs-es" />
         <module name="attach" />
         <module name="spring-aop" />
+        <module name="sentineldemo" />
         <module name="greeter-spring-boot-starter" />
         <module name="grpc-cloud-user-service-api" />
         <module name="ribbon-demo02A-sonsumer" />
@@ -376,6 +377,7 @@
       <module name="seata-at-httpclient-demo-order-service" target="1.8" />
       <module name="seata-at-httpclient-demo-product-service" target="1.8" />
       <module name="sentinel" target="8" />
+      <module name="sentineldemo" target="8" />
       <module name="sharding-datasource" target="8" />
       <module name="sharding-datasource-sphere-01" target="1.8" />
       <module name="sharding-datasource-sphere-02" target="8" />
@@ -472,6 +474,7 @@
       <module name="seata-at-httpclient-demo-account-service" options="-parameters" />
       <module name="seata-at-httpclient-demo-order-service" options="-parameters" />
       <module name="seata-at-httpclient-demo-product-service" options="-parameters" />
+      <module name="sentineldemo" options="-parameters" />
       <module name="sharding-datasource-sphere-01" options="-parameters" />
       <module name="spring-aop" options="" />
       <module name="spring-boot-demo" options="-parameters" />
