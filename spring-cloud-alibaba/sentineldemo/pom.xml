@@ -53,6 +53,13 @@
             <artifactId>sentinel-annotation-aspectj</artifactId>
             <version>1.7.1</version>
         </dependency>
+
+        <!-- Sentinel 对 Nacos 作为数据源的支持 -->
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-datasource-nacos</artifactId>
+            <version>1.7.1</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
