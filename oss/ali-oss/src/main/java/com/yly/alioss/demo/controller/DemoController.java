@@ -5,7 +5,9 @@ import com.aliyun.vod20170321.models.GetPlayInfoResponse;
 import com.aliyun.vod20170321.models.GetVideoPlayAuthResponse;
 import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 
-
+/**
+ * 没用
+ */
 public class DemoController {
 
     /**
