@@ -110,6 +110,7 @@
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis-annotation/mybatis-annotation.iml" filepath="$PROJECT_DIR$/mybatis/mybatis-annotation/mybatis-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis-crud/mybatis-crud.iml" filepath="$PROJECT_DIR$/mybatis/mybatis-crud/mybatis-crud.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis-plus/mybatis-plus.iml" filepath="$PROJECT_DIR$/mybatis/mybatis-plus/mybatis-plus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis-plus/mybatis-plus-join/mybatis-plus-join.iml" filepath="$PROJECT_DIR$/mybatis/mybatis-plus/mybatis-plus-join/mybatis-plus-join.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis-xml/mybatis-xml.iml" filepath="$PROJECT_DIR$/mybatis/mybatis-xml/mybatis-xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/nacos-config-demo/nacos-config-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/nacos-config-demo/nacos-config-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/nacos-discovery-consumer-sample/nacos-discovery-consumer-sample.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/nacos-discovery-consumer-sample/nacos-discovery-consumer-sample.iml" />

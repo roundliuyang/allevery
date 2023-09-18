@@ -56,6 +56,7 @@
         <module name="java-stream" />
         <module name="sc-gateway-demo05-custom-gateway-filter" />
         <module name="sc-bus-rabbitmq-demo-listener" />
+        <module name="mybatis-plus-join" />
         <module name="rabbitmq-demo-message-model" />
         <module name="log" />
         <module name="sc-gateway-demo03-config-apollo" />
@@ -99,7 +100,6 @@
         <module name="jpa-hibernate-cascade-type" />
         <module name="rabbitmq-demo-confirm" />
         <module name="rabbitmq-demo-rpc" />
-        <module name="mybatis-plus" />
         <module name="rabbitmq-demo-concurrency" />
         <module name="greeter-spring-boot-sample-app" />
         <module name="agent" />
@@ -290,7 +290,7 @@
       <module name="kafka-native" target="1.8" />
       <module name="lab-01-springsecurity-demo" target="8" />
       <module name="lab01-springsecurity-demo-role" target="8" />
-      <module name="labx-10-sc-stream-rabbitmq-producer-demo" target="1.8" />
+      <module name="labx-10-sc-stream-rabbitmq-producer-demo" target="8" />
       <module name="lambda" target="8" />
       <module name="libraries-apache-commons" target="8" />
       <module name="Lock" target="8" />
@@ -307,6 +307,7 @@
       <module name="mybatis-annotation" target="8" />
       <module name="mybatis-crud" target="8" />
       <module name="mybatis-plus" target="8" />
+      <module name="mybatis-plus-join" target="8" />
       <module name="mybatis-xml" target="8" />
       <module name="nacos-config-demo" target="8" />
       <module name="nacos-discovery-consumer-sample" target="1.8" />
@@ -450,6 +451,7 @@
       <module name="lab-01-springsecurity-demo" options="-parameters" />
       <module name="lab01-springsecurity-demo-role" options="-parameters" />
       <module name="multiple-datasource" options="-parameters" />
+      <module name="mybatis-plus-join" options="-parameters" />
       <module name="rabbitmq-consumer-retry" options="-parameters" />
       <module name="rabbitmq-demo" options="-parameters" />
       <module name="rabbitmq-demo-ack" options="-parameters" />
