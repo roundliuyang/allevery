@@ -99,9 +99,13 @@
         <module name="greeter-spring-boot-autoconfigure" />
         <module name="jpa-hibernate-cascade-type" />
         <module name="rabbitmq-demo-confirm" />
+        <module name="order-client" />
         <module name="rabbitmq-demo-rpc" />
+        <module name="discovery" />
+        <module name="config" />
         <module name="rabbitmq-demo-concurrency" />
         <module name="greeter-spring-boot-sample-app" />
+        <module name="svc-rating" />
         <module name="agent" />
         <module name="feign-demo01-consumer" />
         <module name="sc-stream-rabbitmq-consumer-demo" />
@@ -137,6 +141,7 @@
         <module name="jenkins-cloud-demo01" />
         <module name="dubbo-sample-api" />
         <module name="core-java-io-2" />
+        <module name="customer-service" />
         <module name="spring-di-2" />
         <module name="seata-at-httpclient-demo-account-service" />
         <module name="feign-demo06-consumer" />
@@ -180,11 +185,14 @@
         <module name="ddd" />
         <module name="rabbitmq-demo-ordely" />
         <module name="spring-boot-di" />
+        <module name="svc-book" />
         <module name="rocketmq-learn" />
+        <module name="order-server" />
         <module name="hibernate-annotations" />
         <module name="feign-demo06B-consumer" />
         <module name="feign-demo02A-consumer" />
         <module name="mockito-simple" />
+        <module name="gateway" />
       </profile>
       <profile name="Annotation profile for allevery" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -205,6 +213,7 @@
       <module name="allevery" target="8" />
       <module name="aop" target="8" />
       <module name="aop-log" target="8" />
+      <module name="application-config" target="8" />
       <module name="attach" target="8" />
       <module name="bean-convert" target="8" />
       <module name="bean-lifecycle" target="8" />
@@ -213,24 +222,28 @@
       <module name="clean-architecture" target="8" />
       <module name="code-design" target="8" />
       <module name="collection" target="8" />
+      <module name="com.yly.orderservice.client" target="8" />
       <module name="concurrent-programing" target="8" />
+      <module name="config" target="8" />
       <module name="core-java-io-2" target="8" />
       <module name="core-java-lang-5" target="8" />
       <module name="core-java-modules" target="8" />
       <module name="core-java-nio-2" target="8" />
       <module name="cqrs-es" target="8" />
+      <module name="customer-service" target="1.8" />
       <module name="ddd" target="8" />
       <module name="ddd-contexts" target="8" />
       <module name="demo-api" target="1.8" />
       <module name="demo-service" target="1.8" />
-      <module name="demo-web" target="8" />
+      <module name="demo-web" target="1.8" />
       <module name="dip" target="8" />
+      <module name="discovery" target="8" />
       <module name="docker-message-server" target="8" />
       <module name="docker-product-server" target="8" />
       <module name="dubbo" target="8" />
-      <module name="dubbo-consumer-sample" target="8" />
+      <module name="dubbo-consumer-sample" target="1.8" />
       <module name="dubbo-demo" target="8" />
-      <module name="dubbo-provider-sample" target="8" />
+      <module name="dubbo-provider-sample" target="1.8" />
       <module name="dubbo-sample-api" target="8" />
       <module name="event-demo" target="8" />
       <module name="feign" target="8" />
@@ -251,6 +264,7 @@
       <module name="filter-Interceptor" target="8" />
       <module name="functional-programming" target="8" />
       <module name="FutureTask" target="8" />
+      <module name="gateway" target="8" />
       <module name="greeter-library" target="8" />
       <module name="greeter-spring-boot-autoconfigure" target="11.0.10" />
       <module name="greeter-spring-boot-sample-app" target="8" />
@@ -290,7 +304,7 @@
       <module name="kafka-native" target="1.8" />
       <module name="lab-01-springsecurity-demo" target="8" />
       <module name="lab01-springsecurity-demo-role" target="8" />
-      <module name="labx-10-sc-stream-rabbitmq-producer-demo" target="8" />
+      <module name="labx-10-sc-stream-rabbitmq-producer-demo" target="1.8" />
       <module name="lambda" target="8" />
       <module name="libraries-apache-commons" target="8" />
       <module name="Lock" target="8" />
@@ -309,9 +323,12 @@
       <module name="mybatis-plus" target="8" />
       <module name="mybatis-plus-join" target="8" />
       <module name="mybatis-xml" target="8" />
-      <module name="nacos-config-demo" target="8" />
+      <module name="nacos-config-demo" target="1.8" />
       <module name="nacos-discovery-consumer-sample" target="1.8" />
       <module name="nacos-discovery-provider-sample" target="1.8" />
+      <module name="order-client" target="8" />
+      <module name="order-server" target="8" />
+      <module name="order-service" target="1.8" />
       <module name="oss" target="8" />
       <module name="parent-boot-2" target="8" />
       <module name="parent-java" target="8" />
@@ -382,7 +399,7 @@
       <module name="sharding-datasource" target="8" />
       <module name="sharding-datasource-sphere-01" target="1.8" />
       <module name="sharding-datasource-sphere-02" target="8" />
-      <module name="sharedkernel" target="8" />
+      <module name="sharedkernel" target="9" />
       <module name="solid" target="8" />
       <module name="spring-aop" target="8" />
       <module name="spring-boot" target="8" />
@@ -393,6 +410,7 @@
       <module name="spring-boot-testing" target="8" />
       <module name="spring-cloud-alibaba" target="8" />
       <module name="spring-cloud-apollo" target="8" />
+      <module name="spring-cloud-bootstrap" target="8" />
       <module name="spring-cloud-bus-rabbitmq" target="8" />
       <module name="spring-cloud-docker" target="8" />
       <module name="spring-cloud-gateway" target="8" />
@@ -422,6 +440,8 @@
       <module name="starter" target="8" />
       <module name="string-basics" target="8" />
       <module name="string-tools" target="8" />
+      <module name="svc-book" target="8" />
+      <module name="svc-rating" target="8" />
       <module name="task" target="8" />
       <module name="task-demo" target="8" />
       <module name="task-xxl-job" target="8" />
