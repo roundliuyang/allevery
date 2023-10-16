@@ -166,6 +166,8 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-apollo/sc-apollo-demo-profiles/sc-apollo-demo-profiles.iml" filepath="$PROJECT_DIR$/spring-cloud-apollo/sc-apollo-demo-profiles/sc-apollo-demo-profiles.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-bus-rabbitmq/sc-bus-rabbitmq-demo-listener/sc-bus-rabbitmq-demo-listener.iml" filepath="$PROJECT_DIR$/spring-cloud-bus-rabbitmq/sc-bus-rabbitmq-demo-listener/sc-bus-rabbitmq-demo-listener.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-bus-rabbitmq/sc-bus-rabbitmq-demo-publisher/sc-bus-rabbitmq-demo-publisher.iml" filepath="$PROJECT_DIR$/spring-cloud-bus-rabbitmq/sc-bus-rabbitmq-demo-publisher/sc-bus-rabbitmq-demo-publisher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/sc-config-server-git/sc-config-server-git.iml" filepath="$PROJECT_DIR$/spring-cloud-config/sc-config-server-git/sc-config-server-git.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/sc-config-user-application/sc-config-user-application.iml" filepath="$PROJECT_DIR$/spring-cloud-config/sc-config-user-application/sc-config-user-application.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-gateway/sc-gateway-demo01/sc-gateway-demo01.iml" filepath="$PROJECT_DIR$/spring-cloud-gateway/sc-gateway-demo01/sc-gateway-demo01.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-gateway/sc-gateway-demo02-registry/sc-gateway-demo02-registry.iml" filepath="$PROJECT_DIR$/spring-cloud-gateway/sc-gateway-demo02-registry/sc-gateway-demo02-registry.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-gateway/sc-gateway-demo03-config-apollo/sc-gateway-demo03-config-apollo.iml" filepath="$PROJECT_DIR$/spring-cloud-gateway/sc-gateway-demo03-config-apollo/sc-gateway-demo03-config-apollo.iml" />
@@ -205,6 +207,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-apollo/spring-cloud-apollo.iml" filepath="$PROJECT_DIR$/spring-cloud-apollo/spring-cloud-apollo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/spring-cloud-bootstrap.iml" filepath="$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/spring-cloud-bootstrap.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-bus-rabbitmq/spring-cloud-bus-rabbitmq.iml" filepath="$PROJECT_DIR$/spring-cloud-bus-rabbitmq/spring-cloud-bus-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" filepath="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-modules/spring-cloud-docker/spring-cloud-docker.iml" filepath="$PROJECT_DIR$/spring-cloud-modules/spring-cloud-docker/spring-cloud-docker.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-gateway/spring-cloud-gateway.iml" filepath="$PROJECT_DIR$/spring-cloud-gateway/spring-cloud-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-grpc/spring-cloud-grpc.iml" filepath="$PROJECT_DIR$/spring-cloud-grpc/spring-cloud-grpc.iml" />

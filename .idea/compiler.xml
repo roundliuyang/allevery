@@ -45,6 +45,7 @@
         <module name="rocketmq-ons" />
         <module name="code-design" />
         <module name="solid" />
+        <module name="sc-config-server-git" />
         <module name="multiple-datasource" />
         <module name="task-demo" />
         <module name="grpc-cloud-user-service" />
@@ -148,6 +149,7 @@
         <module name="CallableFuture" />
         <module name="thread-pool" />
         <module name="sc-gateway-demo01" />
+        <module name="sc-config-user-application" />
         <module name="collection" />
         <module name="sc-gateway-demo04" />
         <module name="docker-product-server" />
@@ -373,6 +375,8 @@
       <module name="sc-apollo-demo-profiles" target="1.8" />
       <module name="sc-bus-rabbitmq-demo-listener" target="1.8" />
       <module name="sc-bus-rabbitmq-demo-publisher" target="1.8" />
+      <module name="sc-config-server-git" target="1.8" />
+      <module name="sc-config-user-application" target="1.8" />
       <module name="sc-gateway-demo01" target="8" />
       <module name="sc-gateway-demo02-registry" target="8" />
       <module name="sc-gateway-demo03-config-apollo" target="1.8" />
@@ -412,6 +416,7 @@
       <module name="spring-cloud-apollo" target="8" />
       <module name="spring-cloud-bootstrap" target="8" />
       <module name="spring-cloud-bus-rabbitmq" target="8" />
+      <module name="spring-cloud-config" target="8" />
       <module name="spring-cloud-docker" target="8" />
       <module name="spring-cloud-gateway" target="8" />
       <module name="spring-cloud-grpc" target="8" />
