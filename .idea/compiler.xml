@@ -103,11 +103,13 @@
         <module name="order-client" />
         <module name="rabbitmq-demo-rpc" />
         <module name="discovery" />
+        <module name="seata-at-dubbo-demo-account-service" />
         <module name="config" />
         <module name="rabbitmq-demo-concurrency" />
         <module name="greeter-spring-boot-sample-app" />
         <module name="svc-rating" />
         <module name="agent" />
+        <module name="seata-at-dubbo-demo-account-service-api" />
         <module name="feign-demo01-consumer" />
         <module name="sc-stream-rabbitmq-consumer-demo" />
         <module name="feign-demo03-provider-api" />
@@ -306,7 +308,7 @@
       <module name="kafka-native" target="1.8" />
       <module name="lab-01-springsecurity-demo" target="8" />
       <module name="lab01-springsecurity-demo-role" target="8" />
-      <module name="labx-10-sc-stream-rabbitmq-producer-demo" target="1.8" />
+      <module name="labx-10-sc-stream-rabbitmq-producer-demo" target="8" />
       <module name="lambda" target="8" />
       <module name="libraries-apache-commons" target="8" />
       <module name="Lock" target="8" />
@@ -390,6 +392,8 @@
       <module name="sc-user-service" target="8" />
       <module name="seata" target="8" />
       <module name="seata-at-dubbo-demo" target="8" />
+      <module name="seata-at-dubbo-demo-account-service" target="8" />
+      <module name="seata-at-dubbo-demo-account-service-api" target="8" />
       <module name="seata-at-dubbo-demo-order-service" target="8" />
       <module name="seata-at-dubbo-demo-order-service-api" target="8" />
       <module name="seata-at-dubbo-demo-product-service" target="8" />
@@ -496,6 +500,7 @@
       <module name="resttemplate" options="-parameters" />
       <module name="rocket-test" options="-parameters" />
       <module name="rocketmq-ons" options="-parameters" />
+      <module name="seata-at-dubbo-demo-account-service" options="-parameters" />
       <module name="seata-at-dubbo-demo-order-service" options="-parameters" />
       <module name="seata-at-dubbo-demo-product-service" options="-parameters" />
       <module name="seata-at-httpclient-demo-account-service" options="-parameters" />
