@@ -6,7 +6,7 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/seata_product?useSSL=false&useUnicode=true&characterEncoding=UTF-8
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password:
+    password: 123456
 
 # dubbo 配置项，对应 DubboConfigurationProperties 配置类
 dubbo:
@@ -15,14 +15,14 @@ dubbo:
     name: ${spring.application.name} # 应用名
   # Dubbo 注册中心配
   registry:
-    address: nacos://127.0.0.1:8848 # 注册中心地址。个鞥多注册中心，可见 http://dubbo.apache.org/zh-cn/docs/user/references/registry/introduction.html 文档。
+    address: nacos://121.196.184.98:8848 # 注册中心地址。个鞥多注册中心，可见 http://dubbo.apache.org/zh-cn/docs/user/references/registry/introduction.html 文档。
   # Dubbo 服务提供者协议配置
   protocol:
     port: -1 # 协议端口。使用 -1 表示随机端口。
     name: dubbo # 使用 `dubbo://` 协议。更多协议，可见 http://dubbo.apache.org/zh-cn/docs/user/references/protocol/introduction.html 文档
   # 配置扫描 Dubbo 自定义的 @Service 注解，暴露成 Dubbo 服务提供者
   scan:
-    base-packages: cn.iocoder.springboot.lab53.productservice.service
+    base-packages: com.yly.springboot.productservice.service
 
 # Seata 配置项，对应 SeataProperties 类
 seata:
@@ -39,4 +39,4 @@ seata:
     nacos:
       cluster: default # 使用的 Seata 分组
       namespace: # Nacos 命名空间
-      serverAddr: localhost # Nacos 服务地址
+      serverAddr: 121.196.184.98 # Nacos 服务地址

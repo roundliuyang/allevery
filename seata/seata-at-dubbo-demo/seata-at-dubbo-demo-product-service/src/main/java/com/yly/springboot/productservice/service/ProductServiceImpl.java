@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.transaction.annotation.Transactional;
 
-//@Service
+@org.apache.dubbo.config.annotation.Service
 public class ProductServiceImpl implements ProductService {
 
     private Logger logger = LoggerFactory.getLogger(getClass());

@@ -34,6 +34,8 @@ public class AccountServiceImpl implements AccountService {
             throw new Exception("余额不足");
         }
         logger.info("[reduceBalance] 扣除用户 {} 余额成功", userId);
+
+//        throw new RuntimeException();
     }
 
     private void checkBalance(Long userId, Integer price) throws Exception {
