@@ -56,6 +56,7 @@
         <module name="spring-data-jpa-annotations" />
         <module name="nacos-discovery-consumer-sample" />
         <module name="java-stream" />
+        <module name="sca-seata-at-dubbo-demo-order-service-api" />
         <module name="sc-gateway-demo05-custom-gateway-filter" />
         <module name="sc-bus-rabbitmq-demo-listener" />
         <module name="mybatis-plus-join" />
@@ -181,6 +182,7 @@
         <module name="FutureTask" />
         <module name="ribbon-demo03-consumer" />
         <module name="sc-bus-rabbitmq-demo-publisher" />
+        <module name="sca-seata-at-dubbo-demo-product-service-api" />
         <module name="method-reference" />
         <module name="seata-at-httpclient-demo-order-service" />
         <module name="jpa" />
@@ -401,6 +403,7 @@
       <module name="sca-seata-at-dubbo-demo" target="8" />
       <module name="sca-seata-at-dubbo-demo-account-service-api" target="8" />
       <module name="sca-seata-at-dubbo-demo-order-service-api" target="8" />
+      <module name="sca-seata-at-dubbo-demo-product-service-api" target="8" />
       <module name="seata" target="8" />
       <module name="seata-at-cloud-alibaba" target="8" />
       <module name="seata-at-dubbo-demo" target="8" />
