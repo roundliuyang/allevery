@@ -3,19 +3,18 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>allevery</artifactId>
+        <artifactId>seata-at-cloud-alibaba</artifactId>
         <groupId>com.yly</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>seata</artifactId>
+    <artifactId>sc-seata-at-feign-demo</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>multiple-datasource</module>
-        <module>seata-at-httpclient-demo</module>
-        <module>seata-at-dubbo-demo</module>
-        <module>seata-at-cloud-alibaba</module>
+        <module>sc-seata-at-feign-demo-account-service</module>
+        <module>sc-seata-at-feign-demo-product-service</module>
+        <module>sc-seata-at-feign-demo-order-service</module>
     </modules>
 
     <properties>

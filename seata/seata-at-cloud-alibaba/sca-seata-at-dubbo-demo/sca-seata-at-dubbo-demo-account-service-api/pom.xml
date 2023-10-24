@@ -3,20 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>allevery</artifactId>
+        <artifactId>sca-seata-at-dubbo-demo</artifactId>
         <groupId>com.yly</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>seata</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>multiple-datasource</module>
-        <module>seata-at-httpclient-demo</module>
-        <module>seata-at-dubbo-demo</module>
-        <module>seata-at-cloud-alibaba</module>
-    </modules>
+    <artifactId>sca-seata-at-dubbo-demo-account-service-api</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

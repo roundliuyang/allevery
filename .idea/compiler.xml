@@ -51,6 +51,7 @@
         <module name="grpc-cloud-user-service" />
         <module name="seata-at-httpclient-demo-product-service" />
         <module name="core-java-nio-2" />
+        <module name="sc-seata-at-feign-demo-account-service" />
         <module name="sc-gateway-demo02-registry" />
         <module name="spring-data-jpa-annotations" />
         <module name="nacos-discovery-consumer-sample" />
@@ -65,6 +66,7 @@
         <module name="spring-data-jpa-fetchmode" />
         <module name="dubbo" />
         <module name="feign-demo07-cosumer" />
+        <module name="sc-seata-at-feign-demo-order-service" />
         <module name="kafka-native" />
         <module name="logback" />
         <module name="java-reflect" />
@@ -79,6 +81,7 @@
         <module name="cqrs-es" />
         <module name="attach" />
         <module name="spring-aop" />
+        <module name="sca-seata-at-dubbo-demo-account-service-api" />
         <module name="sentineldemo" />
         <module name="greeter-spring-boot-starter" />
         <module name="grpc-cloud-user-service-api" />
@@ -122,6 +125,7 @@
         <module name="user-service" />
         <module name="java-optional" />
         <module name="springissue" />
+        <module name="sc-seata-at-feign-demo-product-service" />
         <module name="grpc-starter-user-service-api" />
         <module name="spring-boot-demo" />
         <module name="rabbitmq-demo-ack" />
@@ -308,7 +312,7 @@
       <module name="kafka-native" target="1.8" />
       <module name="lab-01-springsecurity-demo" target="8" />
       <module name="lab01-springsecurity-demo-role" target="8" />
-      <module name="labx-10-sc-stream-rabbitmq-producer-demo" target="8" />
+      <module name="labx-10-sc-stream-rabbitmq-producer-demo" target="1.8" />
       <module name="lambda" target="8" />
       <module name="libraries-apache-commons" target="8" />
       <module name="Lock" target="8" />
@@ -385,12 +389,20 @@
       <module name="sc-gateway-demo03-config-nacos" target="1.8" />
       <module name="sc-gateway-demo04" target="8" />
       <module name="sc-gateway-demo05-custom-gateway-filter" target="1.8" />
+      <module name="sc-seata-at-feign-demo" target="8" />
+      <module name="sc-seata-at-feign-demo-account-service" target="1.8" />
+      <module name="sc-seata-at-feign-demo-order-service" target="1.8" />
+      <module name="sc-seata-at-feign-demo-product-service" target="1.8" />
       <module name="sc-stream-rabbitmq-consumer-delay" target="1.8" />
       <module name="sc-stream-rabbitmq-consumer-demo" target="1.8" />
       <module name="sc-stream-rabbitmq-consumer-retry" target="1.8" />
       <module name="sc-stream-rabbitmq-producer-delay" target="1.8" />
       <module name="sc-user-service" target="8" />
+      <module name="sca-seata-at-dubbo-demo" target="8" />
+      <module name="sca-seata-at-dubbo-demo-account-service-api" target="8" />
+      <module name="sca-seata-at-dubbo-demo-order-service-api" target="8" />
       <module name="seata" target="8" />
+      <module name="seata-at-cloud-alibaba" target="8" />
       <module name="seata-at-dubbo-demo" target="8" />
       <module name="seata-at-dubbo-demo-account-service" target="8" />
       <module name="seata-at-dubbo-demo-account-service-api" target="8" />
@@ -409,7 +421,7 @@
       <module name="sharding-datasource-sphere-02" target="8" />
       <module name="sharedkernel" target="9" />
       <module name="solid" target="8" />
-      <module name="spring-aop" target="8" />
+      <module name="spring-aop" target="1.8" />
       <module name="spring-boot" target="8" />
       <module name="spring-boot-custom-starter" target="8" />
       <module name="spring-boot-demo" target="8" />
