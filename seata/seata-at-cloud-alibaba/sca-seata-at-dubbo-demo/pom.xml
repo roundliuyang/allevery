@@ -15,6 +15,9 @@
         <module>sca-seata-at-dubbo-demo-account-service-api</module>
         <module>sca-seata-at-dubbo-demo-order-service-api</module>
         <module>sca-seata-at-dubbo-demo-product-service-api</module>
+        <module>sca-seata-at-dubbo-demo-account-service</module>
+        <module>sca-seata-at-dubbo-demo-product-service</module>
+        <module>sca-seata-at-dubbo-demo-order-service</module>
     </modules>
 
     <properties>

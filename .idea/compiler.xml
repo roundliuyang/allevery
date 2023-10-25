@@ -13,51 +13,127 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="rabbitmq-consumer-retry" />
-        <module name="greeter-library" />
         <module name="seata-at-dubbo-demo-order-service" />
         <module name="spring-core-2" />
-        <module name="feign-demo04-consumer" />
         <module name="spring-core-4" />
         <module name="feign-demo04-provider" />
-        <module name="rabbitmq-demo-error-handler" />
         <module name="rabbitmq-demo-batch-consumer" />
         <module name="ribbon-demo01-consumer" />
-        <module name="grpc-starter-application" />
-        <module name="sc-gateway-demo03-config-nacos" />
         <module name="sc-apollo-demo" />
         <module name="spring-session" />
-        <module name="redis" />
         <module name="dubbo-consumer-sample" />
         <module name="spring-data-redis-jedis" />
         <module name="lambda" />
-        <module name="rabbitmq-demo-batch" />
         <module name="utils" />
         <module name="sc-stream-rabbitmq-consumer-delay" />
-        <module name="alioss" />
-        <module name="lab01-springsecurity-demo-role" />
-        <module name="ribbon-demo-provider" />
         <module name="jenkins-demo01" />
         <module name="time-date-api" />
         <module name="aop-log" />
         <module name="core-java-lang-5" />
-        <module name="util-data-api" />
         <module name="grpc-demo-application" />
-        <module name="rocketmq-ons" />
         <module name="code-design" />
         <module name="solid" />
+        <module name="grpc-cloud-user-service" />
+        <module name="java-stream" />
+        <module name="sca-seata-at-dubbo-demo-order-service-api" />
+        <module name="sc-gateway-demo05-custom-gateway-filter" />
+        <module name="dubbo" />
+        <module name="feign-demo07-cosumer" />
+        <module name="sc-seata-at-feign-demo-order-service" />
+        <module name="logback" />
+        <module name="feign-demo05-consumer" />
+        <module name="sc-stream-rabbitmq-consumer-retry" />
+        <module name="rabbitmq-demo-batch-consumer2" />
+        <module name="yly-server-oss-sdk-starter" />
+        <module name="feign-demo03-consumer" />
+        <module name="cqrs-es" />
+        <module name="attach" />
+        <module name="sca-seata-at-dubbo-demo-account-service-api" />
+        <module name="sentineldemo" />
+        <module name="greeter-spring-boot-starter" />
+        <module name="grpc-cloud-user-service-api" />
+        <module name="ribbon-demo02A-sonsumer" />
+        <module name="rabbitmq-demo-transaction" />
+        <module name="grpc-demo-user-service" />
+        <module name="seata-at-dubbo-demo-order-service-api" />
+        <module name="websocket02" />
+        <module name="websocket01" />
+        <module name="rabbitmq-demo-confirm" />
+        <module name="order-client" />
+        <module name="seata-at-dubbo-demo-account-service" />
+        <module name="config" />
+        <module name="rabbitmq-demo-concurrency" />
+        <module name="svc-rating" />
+        <module name="agent" />
+        <module name="feign-demo01-consumer" />
+        <module name="spring-data-jest" />
+        <module name="dip" />
+        <module name="rest-spring" />
+        <module name="log-best-practice" />
+        <module name="sc-seata-at-feign-demo-product-service" />
+        <module name="grpc-starter-user-service-api" />
+        <module name="rabbitmq-demo-ack" />
+        <module name="seata-at-dubbo-demo-product-service-api" />
+        <module name="demo-web" />
+        <module name="sca-seata-at-dubbo-demo-account-service" />
+        <module name="junit-5-basics" />
+        <module name="feign-demo02B-consumer" />
+        <module name="ioc-container-overview" />
+        <module name="feign-demo" />
+        <module name="ribbon-demo05-consumer" />
+        <module name="jenkins-cloud-demo01" />
+        <module name="dubbo-sample-api" />
+        <module name="spring-di-2" />
+        <module name="CallableFuture" />
+        <module name="collection" />
+        <module name="docker-product-server" />
+        <module name="ribbon-demo04-consumer" />
+        <module name="libraries-apache-commons" />
+        <module name="dubbo-provider-sample" />
+        <module name="jackson-conversions" />
+        <module name="sharedkernel" />
+        <module name="labx-10-sc-stream-rabbitmq-producer-demo" />
+        <module name="spring-boot-testing" />
+        <module name="spring-data-elasticsearch" />
+        <module name="json-with-jackson" />
+        <module name="rabbitmq-demo-delay" />
+        <module name="event-demo" />
+        <module name="string-basics" />
+        <module name="FutureTask" />
+        <module name="sc-bus-rabbitmq-demo-publisher" />
+        <module name="sca-seata-at-dubbo-demo-product-service-api" />
+        <module name="method-reference" />
+        <module name="sca-seata-at-dubbo-demo-order-service" />
+        <module name="seata-at-httpclient-demo-order-service" />
+        <module name="mybatis-crud" />
+        <module name="ribbon-demo02B-consumer" />
+        <module name="resttemplate" />
+        <module name="rabbitmq-demo" />
+        <module name="sc-apollo-demo-auto-refresh" />
+        <module name="order-server" />
+        <module name="gateway" />
+        <module name="greeter-library" />
+        <module name="feign-demo04-consumer" />
+        <module name="rabbitmq-demo-error-handler" />
+        <module name="grpc-starter-application" />
+        <module name="sc-gateway-demo03-config-nacos" />
+        <module name="sca-seata-at-dubbo-demo-product-service" />
+        <module name="redis" />
+        <module name="rabbitmq-demo-batch" />
+        <module name="alioss" />
+        <module name="lab01-springsecurity-demo-role" />
+        <module name="ribbon-demo-provider" />
+        <module name="util-data-api" />
+        <module name="rocketmq-ons" />
         <module name="sc-config-server-git" />
         <module name="multiple-datasource" />
         <module name="task-demo" />
-        <module name="grpc-cloud-user-service" />
         <module name="seata-at-httpclient-demo-product-service" />
         <module name="core-java-nio-2" />
         <module name="sc-seata-at-feign-demo-account-service" />
         <module name="sc-gateway-demo02-registry" />
         <module name="spring-data-jpa-annotations" />
         <module name="nacos-discovery-consumer-sample" />
-        <module name="java-stream" />
-        <module name="sca-seata-at-dubbo-demo-order-service-api" />
-        <module name="sc-gateway-demo05-custom-gateway-filter" />
         <module name="sc-bus-rabbitmq-demo-listener" />
         <module name="mybatis-plus-join" />
         <module name="rabbitmq-demo-message-model" />
@@ -65,144 +141,71 @@
         <module name="sc-gateway-demo03-config-apollo" />
         <module name="ThreadPool" />
         <module name="spring-data-jpa-fetchmode" />
-        <module name="dubbo" />
-        <module name="feign-demo07-cosumer" />
-        <module name="sc-seata-at-feign-demo-order-service" />
         <module name="kafka-native" />
-        <module name="logback" />
         <module name="java-reflect" />
-        <module name="feign-demo05-consumer" />
-        <module name="sc-stream-rabbitmq-consumer-retry" />
         <module name="spring-core" />
         <module name="sc-apollo-demo-jasypt" />
-        <module name="rabbitmq-demo-batch-consumer2" />
         <module name="rocket-test" />
-        <module name="yly-server-oss-sdk-starter" />
-        <module name="feign-demo03-consumer" />
-        <module name="cqrs-es" />
-        <module name="attach" />
         <module name="spring-aop" />
-        <module name="sca-seata-at-dubbo-demo-account-service-api" />
-        <module name="sentineldemo" />
-        <module name="greeter-spring-boot-starter" />
-        <module name="grpc-cloud-user-service-api" />
-        <module name="ribbon-demo02A-sonsumer" />
         <module name="lab-01-springsecurity-demo" />
         <module name="feign-demo03-provider" />
-        <module name="rabbitmq-demo-transaction" />
         <module name="sc-apollo-demo-profiles" />
         <module name="seata-at-dubbo-demo-product-service" />
         <module name="rabbitmq-demo-json" />
-        <module name="grpc-demo-user-service" />
-        <module name="seata-at-dubbo-demo-order-service-api" />
         <module name="Lock" />
         <module name="grpc-starter-user-service" />
         <module name="sc-stream-rabbitmq-producer-delay" />
-        <module name="websocket02" />
-        <module name="websocket01" />
         <module name="clean-architecture" />
         <module name="greeter-spring-boot-autoconfigure" />
         <module name="jpa-hibernate-cascade-type" />
-        <module name="rabbitmq-demo-confirm" />
-        <module name="order-client" />
         <module name="rabbitmq-demo-rpc" />
         <module name="discovery" />
-        <module name="seata-at-dubbo-demo-account-service" />
-        <module name="config" />
-        <module name="rabbitmq-demo-concurrency" />
         <module name="greeter-spring-boot-sample-app" />
-        <module name="svc-rating" />
-        <module name="agent" />
         <module name="seata-at-dubbo-demo-account-service-api" />
-        <module name="feign-demo01-consumer" />
         <module name="sc-stream-rabbitmq-consumer-demo" />
         <module name="feign-demo03-provider-api" />
-        <module name="spring-data-jest" />
         <module name="mybatis-annotation" />
         <module name="sc-user-service" />
-        <module name="dip" />
-        <module name="rest-spring" />
-        <module name="log-best-practice" />
         <module name="user-service" />
         <module name="java-optional" />
         <module name="springissue" />
-        <module name="sc-seata-at-feign-demo-product-service" />
-        <module name="grpc-starter-user-service-api" />
         <module name="spring-boot-demo" />
-        <module name="rabbitmq-demo-ack" />
         <module name="rabbitmq-demo-confirm-async" />
         <module name="nacos-config-demo" />
-        <module name="seata-at-dubbo-demo-product-service-api" />
-        <module name="demo-web" />
         <module name="mybatis-xml" />
         <module name="grpc-cloud-user-application" />
         <module name="task-xxl-job" />
         <module name="bean-utils" />
-        <module name="junit-5-basics" />
         <module name="bean-lifecycle" />
-        <module name="feign-demo02B-consumer" />
-        <module name="ioc-container-overview" />
         <module name="filter-Interceptor" />
-        <module name="feign-demo" />
-        <module name="ribbon-demo05-consumer" />
         <module name="demo-service" />
-        <module name="jenkins-cloud-demo01" />
-        <module name="dubbo-sample-api" />
         <module name="core-java-io-2" />
         <module name="customer-service" />
-        <module name="spring-di-2" />
         <module name="seata-at-httpclient-demo-account-service" />
         <module name="feign-demo06-consumer" />
-        <module name="CallableFuture" />
         <module name="thread-pool" />
         <module name="sc-gateway-demo01" />
         <module name="sc-config-user-application" />
-        <module name="collection" />
         <module name="sc-gateway-demo04" />
-        <module name="docker-product-server" />
-        <module name="ribbon-demo04-consumer" />
         <module name="docker-message-server" />
-        <module name="libraries-apache-commons" />
-        <module name="dubbo-provider-sample" />
         <module name="feign-demo01-provider" />
-        <module name="jackson-conversions" />
         <module name="sharding-datasource-sphere-01" />
         <module name="sharding-datasource-sphere-02" />
-        <module name="sharedkernel" />
-        <module name="labx-10-sc-stream-rabbitmq-producer-demo" />
-        <module name="spring-boot-testing" />
         <module name="nacos-discovery-provider-sample" />
         <module name="ribbon-demo06-consumer" />
-        <module name="spring-data-elasticsearch" />
         <module name="demo-api" />
-        <module name="json-with-jackson" />
-        <module name="rabbitmq-demo-delay" />
-        <module name="event-demo" />
-        <module name="string-basics" />
-        <module name="FutureTask" />
         <module name="ribbon-demo03-consumer" />
-        <module name="sc-bus-rabbitmq-demo-publisher" />
-        <module name="sca-seata-at-dubbo-demo-product-service-api" />
-        <module name="method-reference" />
-        <module name="seata-at-httpclient-demo-order-service" />
         <module name="jpa" />
-        <module name="mybatis-crud" />
-        <module name="ribbon-demo02B-consumer" />
-        <module name="resttemplate" />
-        <module name="rabbitmq-demo" />
         <module name="grpc-demo-user-service-api" />
-        <module name="sc-apollo-demo-auto-refresh" />
         <module name="ddd" />
         <module name="rabbitmq-demo-ordely" />
         <module name="spring-boot-di" />
         <module name="svc-book" />
         <module name="rocketmq-learn" />
-        <module name="order-server" />
         <module name="hibernate-annotations" />
         <module name="feign-demo06B-consumer" />
         <module name="feign-demo02A-consumer" />
         <module name="mockito-simple" />
-        <module name="gateway" />
       </profile>
       <profile name="Annotation profile for allevery" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -219,7 +222,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="agent" target="8" />
-      <module name="alioss" target="1.6" />
+      <module name="alioss" target="1.8" />
       <module name="allevery" target="8" />
       <module name="aop" target="8" />
       <module name="aop-log" target="8" />
@@ -314,7 +317,7 @@
       <module name="kafka-native" target="1.8" />
       <module name="lab-01-springsecurity-demo" target="8" />
       <module name="lab01-springsecurity-demo-role" target="8" />
-      <module name="labx-10-sc-stream-rabbitmq-producer-demo" target="1.8" />
+      <module name="labx-10-sc-stream-rabbitmq-producer-demo" target="8" />
       <module name="lambda" target="8" />
       <module name="libraries-apache-commons" target="8" />
       <module name="Lock" target="8" />
@@ -401,8 +404,11 @@
       <module name="sc-stream-rabbitmq-producer-delay" target="1.8" />
       <module name="sc-user-service" target="8" />
       <module name="sca-seata-at-dubbo-demo" target="8" />
+      <module name="sca-seata-at-dubbo-demo-account-service" target="1.8" />
       <module name="sca-seata-at-dubbo-demo-account-service-api" target="8" />
+      <module name="sca-seata-at-dubbo-demo-order-service" target="1.8" />
       <module name="sca-seata-at-dubbo-demo-order-service-api" target="8" />
+      <module name="sca-seata-at-dubbo-demo-product-service" target="1.8" />
       <module name="sca-seata-at-dubbo-demo-product-service-api" target="8" />
       <module name="seata" target="8" />
       <module name="seata-at-cloud-alibaba" target="8" />
@@ -424,7 +430,7 @@
       <module name="sharding-datasource-sphere-02" target="8" />
       <module name="sharedkernel" target="9" />
       <module name="solid" target="8" />
-      <module name="spring-aop" target="1.8" />
+      <module name="spring-aop" target="8" />
       <module name="spring-boot" target="8" />
       <module name="spring-boot-custom-starter" target="8" />
       <module name="spring-boot-demo" target="8" />
