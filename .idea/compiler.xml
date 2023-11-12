@@ -37,6 +37,7 @@
         <module name="java-stream" />
         <module name="sca-seata-at-dubbo-demo-order-service-api" />
         <module name="sc-gateway-demo05-custom-gateway-filter" />
+        <module name="yly-server-oss-sdk-app" />
         <module name="dubbo" />
         <module name="feign-demo07-cosumer" />
         <module name="sc-seata-at-feign-demo-order-service" />
@@ -222,7 +223,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="agent" target="8" />
-      <module name="alioss" target="1.8" />
+      <module name="alioss" target="8" />
       <module name="allevery" target="8" />
       <module name="aop" target="8" />
       <module name="aop-log" target="8" />
@@ -236,7 +237,7 @@
       <module name="code-design" target="8" />
       <module name="collection" target="8" />
       <module name="com.yly.orderservice.client" target="8" />
-      <module name="concurrent-programing" target="8" />
+      <module name="concurrent-programing" target="1.7" />
       <module name="config" target="8" />
       <module name="core-java-io-2" target="8" />
       <module name="core-java-lang-5" target="8" />
@@ -486,6 +487,7 @@
       <module name="websocket" target="8" />
       <module name="websocket01" target="8" />
       <module name="websocket02" target="8" />
+      <module name="yly-server-oss-sdk-app" target="1.8" />
       <module name="yly-server-oss-sdk-starter" target="1.8" />
     </bytecodeTargetLevel>
   </component>

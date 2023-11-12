@@ -265,6 +265,7 @@
       <module fileurl="file://$PROJECT_DIR$/websocket/websocket.iml" filepath="$PROJECT_DIR$/websocket/websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/websocket/websocket01/websocket01.iml" filepath="$PROJECT_DIR$/websocket/websocket01/websocket01.iml" />
       <module fileurl="file://$PROJECT_DIR$/websocket/websocket02/websocket02.iml" filepath="$PROJECT_DIR$/websocket/websocket02/websocket02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter/yly-server-oss-sdk-app/yly-server-oss-sdk-app.iml" filepath="$PROJECT_DIR$/starter/yly-server-oss-sdk-app/yly-server-oss-sdk-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/starter/yly-server-oss-sdk-starter/yly-server-oss-sdk-starter.iml" filepath="$PROJECT_DIR$/starter/yly-server-oss-sdk-starter/yly-server-oss-sdk-starter.iml" />
     </modules>
   </component>

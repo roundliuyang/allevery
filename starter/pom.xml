@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>yly-server-oss-sdk-starter</module>
+        <module>yly-server-oss-sdk-app</module>
     </modules>
 
     <properties>

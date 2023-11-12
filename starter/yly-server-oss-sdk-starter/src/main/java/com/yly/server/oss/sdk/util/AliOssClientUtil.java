@@ -5,6 +5,8 @@ import com.aliyun.oss.OSSClientBuilder;
 import com.aliyun.oss.model.PutObjectResult;
 import com.yly.server.oss.sdk.config.OssProperties;
 import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.util.DigestUtils;
 import org.springframework.web.multipart.MultipartFile;
@@ -19,9 +21,11 @@ import java.util.Date;
  * @author xuzhipeng
  * @date 2021/2/3
  */
-@Slf4j
+
 @ConditionalOnProperty(prefix = OssProperties.OSS_CONFIG, name = "type", havingValue = "aliyun")
 public class AliOssClientUtil implements OssClientUtil {
+
+    private Logger log = LoggerFactory.getLogger(AliOssClientUtil.class);
 
     private OssProperties ossProperties;
 
