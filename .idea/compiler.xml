@@ -55,6 +55,7 @@
         <module name="greeter-spring-boot-starter" />
         <module name="grpc-cloud-user-service-api" />
         <module name="ribbon-demo02A-sonsumer" />
+        <module name="demo02-authorization-server-with-resource-owner-password-credentials" />
         <module name="rabbitmq-demo-transaction" />
         <module name="grpc-demo-user-service" />
         <module name="seata-at-dubbo-demo-order-service-api" />
@@ -81,6 +82,7 @@
         <module name="junit-5-basics" />
         <module name="feign-demo02B-consumer" />
         <module name="ioc-container-overview" />
+        <module name="demo02-resource-server" />
         <module name="feign-demo" />
         <module name="ribbon-demo05-consumer" />
         <module name="jenkins-cloud-demo01" />
@@ -239,7 +241,7 @@
       <module name="code-design" target="8" />
       <module name="collection" target="8" />
       <module name="com.yly.orderservice.client" target="8" />
-      <module name="concurrent-programing" target="8" />
+      <module name="concurrent-programing" target="1.7" />
       <module name="config" target="8" />
       <module name="core-java-io-2" target="8" />
       <module name="core-java-lang-5" target="8" />
@@ -252,6 +254,8 @@
       <module name="demo-api" target="1.8" />
       <module name="demo-service" target="1.8" />
       <module name="demo-web" target="1.8" />
+      <module name="demo02-authorization-server-with-resource-owner-password-credentials" target="1.8" />
+      <module name="demo02-resource-server" target="1.8" />
       <module name="dip" target="8" />
       <module name="discovery" target="8" />
       <module name="docker-message-server" target="8" />
@@ -468,6 +472,7 @@
       <module name="spring-di-2" target="8" />
       <module name="spring-programming" target="8" />
       <module name="spring-security" target="8" />
+      <module name="spring-security-oauth" target="8" />
       <module name="spring-session" target="8" />
       <module name="spring-web-modules" target="8" />
       <module name="springcloud-feign" target="8" />

@@ -69,6 +69,7 @@
         <module>jenkins</module>
         <module>core-java-modules</module>
         <module>spring-cloud-config</module>
+        <module>spring-security-oauth</module>
     </modules>
 
     <dependencyManagement>

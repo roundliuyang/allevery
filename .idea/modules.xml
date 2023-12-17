@@ -32,6 +32,8 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/sentinel/service-api/demo-api.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/sentinel/service-api/demo-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/sentinel/service-provider/demo-service.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/sentinel/service-provider/demo-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/sentinel/web/demo-web.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/sentinel/web/demo-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-oauth/demo02-authorization-server-with-resource-owner-password-credentials/demo02-authorization-server-with-resource-owner-password-credentials.iml" filepath="$PROJECT_DIR$/spring-security-oauth/demo02-authorization-server-with-resource-owner-password-credentials/demo02-authorization-server-with-resource-owner-password-credentials.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-oauth/demo02-resource-server/demo02-resource-server.iml" filepath="$PROJECT_DIR$/spring-security-oauth/demo02-resource-server/demo02-resource-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/patterns/dip/dip.iml" filepath="$PROJECT_DIR$/patterns/dip/dip.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/discovery/discovery.iml" filepath="$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/discovery/discovery.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-modules/spring-cloud-docker/docker-message-server/docker-message-server.iml" filepath="$PROJECT_DIR$/spring-cloud-modules/spring-cloud-docker/docker-message-server/docker-message-server.iml" />
@@ -245,6 +247,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-di-2/spring-di-2.iml" filepath="$PROJECT_DIR$/spring-di-2/spring-di-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-programming/spring-programming.iml" filepath="$PROJECT_DIR$/spring-programming/spring-programming.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security/spring-security.iml" filepath="$PROJECT_DIR$/spring-security/spring-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-oauth/spring-security-oauth.iml" filepath="$PROJECT_DIR$/spring-security-oauth/spring-security-oauth.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-session/spring-session.iml" filepath="$PROJECT_DIR$/spring-session/spring-session.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-web-modules/spring-web-modules.iml" filepath="$PROJECT_DIR$/spring-web-modules/spring-web-modules.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign/springcloud-feign/springcloud-feign.iml" filepath="$PROJECT_DIR$/feign/springcloud-feign/springcloud-feign.iml" />
