@@ -432,7 +432,7 @@
       <module name="sentineldemo" target="8" />
       <module name="sharding-datasource" target="8" />
       <module name="sharding-datasource-sphere-01" target="1.8" />
-      <module name="sharding-datasource-sphere-02" target="8" />
+      <module name="sharding-datasource-sphere-02" target="1.8" />
       <module name="sharedkernel" target="9" />
       <module name="solid" target="8" />
       <module name="spring-aop" target="8" />
@@ -537,6 +537,7 @@
       <module name="seata-at-httpclient-demo-product-service" options="-parameters" />
       <module name="sentineldemo" options="-parameters" />
       <module name="sharding-datasource-sphere-01" options="-parameters" />
+      <module name="sharding-datasource-sphere-02" options="-parameters" />
       <module name="spring-aop" options="" />
       <module name="spring-boot-demo" options="-parameters" />
       <module name="spring-data-elasticsearch" options="-parameters" />

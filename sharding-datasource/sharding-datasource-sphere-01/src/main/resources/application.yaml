@@ -44,8 +44,8 @@ spring:
               algorithm-expression: orders_$->{user_id % 8}
               sharding-column: user_id
         # order_config 表配置
-        order_config:
-          actualDataNodes: ds-orders-0.order_config # 仅映射到 ds-orders-0 数据源的 order_config 表
+#        order_config:
+#          actualDataNodes: ds-orders-0.order_config # 仅映射到 ds-orders-0 数据源的 order_config 表
       default-data-source-name: ds-orders-2
     # 拓展属性配置
     props:
