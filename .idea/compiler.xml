@@ -181,6 +181,7 @@
         <module name="grpc-cloud-user-application" />
         <module name="task-xxl-job" />
         <module name="bean-utils" />
+        <module name="redis-cluster" />
         <module name="bean-lifecycle" />
         <module name="filter-Interceptor" />
         <module name="demo-service" />
@@ -324,7 +325,7 @@
       <module name="kafka-native" target="1.8" />
       <module name="lab-01-springsecurity-demo" target="8" />
       <module name="lab01-springsecurity-demo-role" target="8" />
-      <module name="labx-10-sc-stream-rabbitmq-producer-demo" target="1.8" />
+      <module name="labx-10-sc-stream-rabbitmq-producer-demo" target="8" />
       <module name="lambda" target="8" />
       <module name="libraries-apache-commons" target="8" />
       <module name="Lock" target="8" />
@@ -375,6 +376,7 @@
       <module name="rabbitmq-demo-rpc" target="8" />
       <module name="rabbitmq-demo-transaction" target="8" />
       <module name="redis" target="8" />
+      <module name="redis-cluster" target="8" />
       <module name="rest-spring" target="8" />
       <module name="resttemplate" target="8" />
       <module name="ribbon-demo-provider" target="8" />
@@ -496,7 +498,7 @@
       <module name="websocket" target="8" />
       <module name="websocket01" target="8" />
       <module name="websocket02" target="8" />
-      <module name="yly-server-oss-sdk-app" target="1.6" />
+      <module name="yly-server-oss-sdk-app" target="1.8" />
       <module name="yly-server-oss-sdk-starter" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -530,6 +532,7 @@
       <module name="rabbitmq-demo-ordely" options="-parameters" />
       <module name="rabbitmq-demo-rpc" options="-parameters" />
       <module name="rabbitmq-demo-transaction" options="-parameters" />
+      <module name="redis-cluster" options="-parameters" />
       <module name="rest-spring" options="-parameters" />
       <module name="resttemplate" options="-parameters" />
       <module name="rocket-test" options="-parameters" />

@@ -150,6 +150,7 @@
       <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq-demo-rpc/rabbitmq-demo-rpc.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq-demo-rpc/rabbitmq-demo-rpc.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq-demo-transaction/rabbitmq-demo-transaction.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq-demo-transaction/rabbitmq-demo-transaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/persistence-modules/redis/redis.iml" filepath="$PROJECT_DIR$/persistence-modules/redis/redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-data/spring-data-redis/redis-cluster/redis-cluster.iml" filepath="$PROJECT_DIR$/spring-data/spring-data-redis/redis-cluster/redis-cluster.iml" />
       <module fileurl="file://$PROJECT_DIR$/rest-spring/rest-spring.iml" filepath="$PROJECT_DIR$/rest-spring/rest-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-web-modules/resttemplate/resttemplate.iml" filepath="$PROJECT_DIR$/spring-web-modules/resttemplate/resttemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-netflix-ribbon/ribbon-demo-provider/ribbon-demo-provider.iml" filepath="$PROJECT_DIR$/spring-cloud-netflix-ribbon/ribbon-demo-provider/ribbon-demo-provider.iml" />

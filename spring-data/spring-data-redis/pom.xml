@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>spring-data-redis-jedis</module>
+        <module>redis-cluster</module>
     </modules>
 
 
