@@ -24,6 +24,7 @@
         <module>ThreadPool</module>
         <module>Lock</module>
         <module>java-agent</module>
+        <module>multithreaded</module>
     </modules>
 
     <properties>

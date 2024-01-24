@@ -112,6 +112,7 @@
       <module fileurl="file://$PROJECT_DIR$/Java/functional-programming/method-reference/method-reference.iml" filepath="$PROJECT_DIR$/Java/functional-programming/method-reference/method-reference.iml" />
       <module fileurl="file://$PROJECT_DIR$/testing-modules/mockito-simple/mockito-simple.iml" filepath="$PROJECT_DIR$/testing-modules/mockito-simple/mockito-simple.iml" />
       <module fileurl="file://$PROJECT_DIR$/seata/multiple-datasource/multiple-datasource.iml" filepath="$PROJECT_DIR$/seata/multiple-datasource/multiple-datasource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/multithreaded/multithreaded.iml" filepath="$PROJECT_DIR$/Java/multithreaded/multithreaded.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis-annotation/mybatis-annotation.iml" filepath="$PROJECT_DIR$/mybatis/mybatis-annotation/mybatis-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis-crud/mybatis-crud.iml" filepath="$PROJECT_DIR$/mybatis/mybatis-crud/mybatis-crud.iml" />

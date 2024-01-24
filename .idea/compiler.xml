@@ -197,6 +197,7 @@
         <module name="feign-demo01-provider" />
         <module name="sharding-datasource-sphere-01" />
         <module name="sharding-datasource-sphere-02" />
+        <module name="multithreaded" />
         <module name="nacos-discovery-provider-sample" />
         <module name="ribbon-demo06-consumer" />
         <module name="demo-api" />
@@ -242,7 +243,7 @@
       <module name="code-design" target="8" />
       <module name="collection" target="8" />
       <module name="com.yly.orderservice.client" target="8" />
-      <module name="concurrent-programing" target="1.7" />
+      <module name="concurrent-programing" target="8" />
       <module name="config" target="8" />
       <module name="core-java-io-2" target="8" />
       <module name="core-java-lang-5" target="8" />
@@ -338,6 +339,7 @@
       <module name="method-reference" target="8" />
       <module name="mockito-simple" target="8" />
       <module name="multiple-datasource" target="1.8" />
+      <module name="multithreaded" target="8" />
       <module name="mybatis" target="8" />
       <module name="mybatis-annotation" target="8" />
       <module name="mybatis-crud" target="8" />
