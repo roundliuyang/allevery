@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/Java/CallableFuture/CallableFuture.iml" filepath="$PROJECT_DIR$/Java/CallableFuture/CallableFuture.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/FutureTask/FutureTask.iml" filepath="$PROJECT_DIR$/Java/FutureTask/FutureTask.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/Java.iml" filepath="$PROJECT_DIR$/Java/Java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/Lock/Lock.iml" filepath="$PROJECT_DIR$/Java/Lock/Lock.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/ThreadPool/ThreadPool.iml" filepath="$PROJECT_DIR$/Java/ThreadPool/ThreadPool.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/java-agent/agent/agent.iml" filepath="$PROJECT_DIR$/Java/java-agent/agent/agent.iml" />
       <module fileurl="file://$PROJECT_DIR$/oss/ali-oss/alioss.iml" filepath="$PROJECT_DIR$/oss/ali-oss/alioss.iml" />
@@ -95,6 +94,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-data-jpa/jpa/jpa.iml" filepath="$PROJECT_DIR$/spring-data-jpa/jpa/jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/persistence-modules/jpa-hibernate-cascade-type/jpa-hibernate-cascade-type.iml" filepath="$PROJECT_DIR$/persistence-modules/jpa-hibernate-cascade-type/jpa-hibernate-cascade-type.iml" />
       <module fileurl="file://$PROJECT_DIR$/json-with-jackson/json-with-jackson.iml" filepath="$PROJECT_DIR$/json-with-jackson/json-with-jackson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/juc/juc.iml" filepath="$PROJECT_DIR$/Java/juc/juc.iml" />
       <module fileurl="file://$PROJECT_DIR$/testing-modules/junit-5-basics/junit-5-basics.iml" filepath="$PROJECT_DIR$/testing-modules/junit-5-basics/junit-5-basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/kafka/kafka.iml" filepath="$PROJECT_DIR$/kafka/kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/kafka/kafka-native/kafka-native.iml" filepath="$PROJECT_DIR$/kafka/kafka-native/kafka-native.iml" />
@@ -112,7 +112,6 @@
       <module fileurl="file://$PROJECT_DIR$/Java/functional-programming/method-reference/method-reference.iml" filepath="$PROJECT_DIR$/Java/functional-programming/method-reference/method-reference.iml" />
       <module fileurl="file://$PROJECT_DIR$/testing-modules/mockito-simple/mockito-simple.iml" filepath="$PROJECT_DIR$/testing-modules/mockito-simple/mockito-simple.iml" />
       <module fileurl="file://$PROJECT_DIR$/seata/multiple-datasource/multiple-datasource.iml" filepath="$PROJECT_DIR$/seata/multiple-datasource/multiple-datasource.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/multithreaded/multithreaded.iml" filepath="$PROJECT_DIR$/Java/multithreaded/multithreaded.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis-annotation/mybatis-annotation.iml" filepath="$PROJECT_DIR$/mybatis/mybatis-annotation/mybatis-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis-crud/mybatis-crud.iml" filepath="$PROJECT_DIR$/mybatis/mybatis-crud/mybatis-crud.iml" />
@@ -265,6 +264,7 @@
       <module fileurl="file://$PROJECT_DIR$/testing-modules/testing-modules.iml" filepath="$PROJECT_DIR$/testing-modules/testing-modules.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-programming/thinking-in-spring/thinking-in-spring.iml" filepath="$PROJECT_DIR$/spring-programming/thinking-in-spring/thinking-in-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrent-programing/thread-pool/thread-pool.iml" filepath="$PROJECT_DIR$/concurrent-programing/thread-pool/thread-pool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/thread-rel/thread-rel.iml" filepath="$PROJECT_DIR$/Java/thread-rel/thread-rel.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/java-date/time-date-api/time-date-api.iml" filepath="$PROJECT_DIR$/Java/java-date/time-date-api/time-date-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign/user-service/user-service.iml" filepath="$PROJECT_DIR$/feign/user-service/user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/java-date/util-data-api/util-data-api.iml" filepath="$PROJECT_DIR$/Java/java-date/util-data-api/util-data-api.iml" />

@@ -22,9 +22,9 @@
         <module>CallableFuture</module>
         <module>FutureTask</module>
         <module>ThreadPool</module>
-        <module>Lock</module>
         <module>java-agent</module>
-        <module>multithreaded</module>
+        <module>thread-rel</module>
+        <module>juc</module>
     </modules>
 
     <properties>

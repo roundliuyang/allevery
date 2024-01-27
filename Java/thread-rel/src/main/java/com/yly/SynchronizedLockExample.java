@@ -1,4 +1,4 @@
-package com.yly.reentrantlock;
+package com.yly;
 
 /**
  *  现在假设我们有一个 Runnable 类，我们将在其中使用Resource 方法
