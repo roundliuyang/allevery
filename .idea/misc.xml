@@ -15,6 +15,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/Java/Lock/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/application-config/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/order-service/com.yly.orderservice.client/pom.xml" />
       </set>
