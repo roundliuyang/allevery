@@ -25,6 +25,7 @@
         <module>java-agent</module>
         <module>thread-rel</module>
         <module>juc</module>
+        <module>exception</module>
     </modules>
 
     <properties>

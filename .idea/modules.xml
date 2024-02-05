@@ -43,6 +43,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/dubbo-demo/dubbo-provider-sample/dubbo-provider-sample.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/dubbo-demo/dubbo-provider-sample/dubbo-provider-sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/dubbo-demo/dubbo-sample-api/dubbo-sample-api.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/dubbo-demo/dubbo-sample-api/dubbo-sample-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot/event-demo/event-demo.iml" filepath="$PROJECT_DIR$/spring-boot/event-demo/event-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/exception/exception.iml" filepath="$PROJECT_DIR$/Java/exception/exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign/feign.iml" filepath="$PROJECT_DIR$/feign/feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign/feign-demo/feign-demo.iml" filepath="$PROJECT_DIR$/feign/feign-demo/feign-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign/springcloud-feign/feign-demo01-consumer/feign-demo01-consumer.iml" filepath="$PROJECT_DIR$/feign/springcloud-feign/feign-demo01-consumer/feign-demo01-consumer.iml" />
