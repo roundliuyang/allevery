@@ -26,6 +26,7 @@
         <module>thread-rel</module>
         <module>juc</module>
         <module>exception</module>
+        <module>oop</module>
     </modules>
 
     <properties>

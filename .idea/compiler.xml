@@ -77,6 +77,7 @@
         <module name="log-best-practice" />
         <module name="sc-seata-at-feign-demo-product-service" />
         <module name="grpc-starter-user-service-api" />
+        <module name="oop" />
         <module name="rabbitmq-demo-ack" />
         <module name="seata-at-dubbo-demo-product-service-api" />
         <module name="demo-web" />
@@ -353,6 +354,7 @@
       <module name="nacos-config-demo" target="1.8" />
       <module name="nacos-discovery-consumer-sample" target="1.8" />
       <module name="nacos-discovery-provider-sample" target="1.8" />
+      <module name="oop" target="8" />
       <module name="order-client" target="8" />
       <module name="order-server" target="8" />
       <module name="order-service" target="1.8" />
@@ -445,7 +447,7 @@
       <module name="sharding-datasource-sphere-02" target="1.8" />
       <module name="sharedkernel" target="9" />
       <module name="solid" target="8" />
-      <module name="spring-aop" target="8" />
+      <module name="spring-aop" target="1.8" />
       <module name="spring-boot" target="8" />
       <module name="spring-boot-custom-starter" target="8" />
       <module name="spring-boot-demo" target="8" />
