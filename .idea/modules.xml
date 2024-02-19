@@ -152,7 +152,8 @@
       <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq-demo-rpc/rabbitmq-demo-rpc.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq-demo-rpc/rabbitmq-demo-rpc.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq-demo-transaction/rabbitmq-demo-transaction.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq-demo-transaction/rabbitmq-demo-transaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/persistence-modules/redis/redis.iml" filepath="$PROJECT_DIR$/persistence-modules/redis/redis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-data/spring-data-redis/redis-cluster/redis-cluster.iml" filepath="$PROJECT_DIR$/spring-data/spring-data-redis/redis-cluster/redis-cluster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis-module/spring-data-redis/redis-cluster/redis-cluster.iml" filepath="$PROJECT_DIR$/redis-module/spring-data-redis/redis-cluster/redis-cluster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis-module/redis-module.iml" filepath="$PROJECT_DIR$/redis-module/redis-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/rest-spring/rest-spring.iml" filepath="$PROJECT_DIR$/rest-spring/rest-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-web-modules/resttemplate/resttemplate.iml" filepath="$PROJECT_DIR$/spring-web-modules/resttemplate/resttemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-netflix-ribbon/ribbon-demo-provider/ribbon-demo-provider.iml" filepath="$PROJECT_DIR$/spring-cloud-netflix-ribbon/ribbon-demo-provider/ribbon-demo-provider.iml" />
@@ -238,15 +239,14 @@
       <module fileurl="file://$PROJECT_DIR$/spring-core/spring-core.iml" filepath="$PROJECT_DIR$/spring-core/spring-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-core-2/spring-core-2.iml" filepath="$PROJECT_DIR$/spring-core-2/spring-core-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-core-4/spring-core-4.iml" filepath="$PROJECT_DIR$/spring-core-4/spring-core-4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-data/spring-data.iml" filepath="$PROJECT_DIR$/spring-data/spring-data.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-data-es/spring-data-elasticsearch/spring-data-elasticsearch.iml" filepath="$PROJECT_DIR$/spring-data-es/spring-data-elasticsearch/spring-data-elasticsearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-data-es/spring-data-es.iml" filepath="$PROJECT_DIR$/spring-data-es/spring-data-es.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-data-es/spring-data-jest/spring-data-jest.iml" filepath="$PROJECT_DIR$/spring-data-es/spring-data-jest/spring-data-jest.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-data-jpa/spring-data-jpa.iml" filepath="$PROJECT_DIR$/spring-data-jpa/spring-data-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/persistence-modules/spring-data-jpa-annotations/spring-data-jpa-annotations.iml" filepath="$PROJECT_DIR$/persistence-modules/spring-data-jpa-annotations/spring-data-jpa-annotations.iml" />
       <module fileurl="file://$PROJECT_DIR$/persistence-modules/spring-data-jpa-fetchmode/spring-data-jpa-fetchmode.iml" filepath="$PROJECT_DIR$/persistence-modules/spring-data-jpa-fetchmode/spring-data-jpa-fetchmode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-data/spring-data-redis/spring-data-redis.iml" filepath="$PROJECT_DIR$/spring-data/spring-data-redis/spring-data-redis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-data/spring-data-redis/spring-data-redis-jedis/spring-data-redis-jedis.iml" filepath="$PROJECT_DIR$/spring-data/spring-data-redis/spring-data-redis-jedis/spring-data-redis-jedis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis-module/spring-data-redis/spring-data-redis.iml" filepath="$PROJECT_DIR$/redis-module/spring-data-redis/spring-data-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis-module/spring-data-redis/spring-data-redis-jedis/spring-data-redis-jedis.iml" filepath="$PROJECT_DIR$/redis-module/spring-data-redis/spring-data-redis-jedis/spring-data-redis-jedis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-di-2/spring-di-2.iml" filepath="$PROJECT_DIR$/spring-di-2/spring-di-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-programming/spring-programming.iml" filepath="$PROJECT_DIR$/spring-programming/spring-programming.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security/spring-security.iml" filepath="$PROJECT_DIR$/spring-security/spring-security.iml" />

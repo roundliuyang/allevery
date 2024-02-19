@@ -23,8 +23,8 @@
         <module name="sc-apollo-demo" />
         <module name="spring-session" />
         <module name="dubbo-consumer-sample" />
-        <module name="spring-data-redis-jedis" />
         <module name="lambda" />
+        <module name="spring-data-redis-jedis" />
         <module name="utils" />
         <module name="sc-stream-rabbitmq-consumer-delay" />
         <module name="jenkins-demo01" />
@@ -330,7 +330,7 @@
       <module name="kafka-native" target="1.8" />
       <module name="lab-01-springsecurity-demo" target="8" />
       <module name="lab01-springsecurity-demo-role" target="8" />
-      <module name="labx-10-sc-stream-rabbitmq-producer-demo" target="1.8" />
+      <module name="labx-10-sc-stream-rabbitmq-producer-demo" target="8" />
       <module name="lambda" target="8" />
       <module name="libraries-apache-commons" target="8" />
       <module name="Lock" target="8" />
@@ -383,6 +383,7 @@
       <module name="rabbitmq-demo-transaction" target="8" />
       <module name="redis" target="8" />
       <module name="redis-cluster" target="8" />
+      <module name="redis-module" target="8" />
       <module name="rest-spring" target="8" />
       <module name="resttemplate" target="8" />
       <module name="ribbon-demo-provider" target="8" />
@@ -447,7 +448,7 @@
       <module name="sharding-datasource-sphere-02" target="1.8" />
       <module name="sharedkernel" target="9" />
       <module name="solid" target="8" />
-      <module name="spring-aop" target="1.8" />
+      <module name="spring-aop" target="8" />
       <module name="spring-boot" target="8" />
       <module name="spring-boot-custom-starter" target="8" />
       <module name="spring-boot-demo" target="8" />
@@ -468,7 +469,6 @@
       <module name="spring-core" target="8" />
       <module name="spring-core-2" target="8" />
       <module name="spring-core-4" target="8" />
-      <module name="spring-data" target="8" />
       <module name="spring-data-elasticsearch" target="1.8" />
       <module name="spring-data-es" target="8" />
       <module name="spring-data-jest" target="8" />
@@ -505,7 +505,7 @@
       <module name="websocket" target="8" />
       <module name="websocket01" target="8" />
       <module name="websocket02" target="8" />
-      <module name="yly-server-oss-sdk-app" target="1.6" />
+      <module name="yly-server-oss-sdk-app" target="1.8" />
       <module name="yly-server-oss-sdk-starter" target="1.8" />
     </bytecodeTargetLevel>
   </component>
