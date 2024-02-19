@@ -203,6 +203,7 @@
         <module name="nacos-discovery-provider-sample" />
         <module name="ribbon-demo06-consumer" />
         <module name="demo-api" />
+        <module name="Redisson" />
         <module name="ribbon-demo03-consumer" />
         <module name="jpa" />
         <module name="grpc-demo-user-service-api" />
@@ -384,6 +385,7 @@
       <module name="redis" target="8" />
       <module name="redis-cluster" target="8" />
       <module name="redis-module" target="8" />
+      <module name="Redisson" target="1.8" />
       <module name="rest-spring" target="8" />
       <module name="resttemplate" target="8" />
       <module name="ribbon-demo-provider" target="8" />
@@ -511,6 +513,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Redisson" options="-parameters" />
       <module name="aop-log" options="-parameters" />
       <module name="bean-utils" options="-parameters" />
       <module name="event-demo" options="-parameters" />

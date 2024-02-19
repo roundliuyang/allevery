@@ -18,6 +18,7 @@
     </properties>
     <modules>
         <module>spring-data-redis</module>
+        <module>Redisson</module>
     </modules>
 
 </project>

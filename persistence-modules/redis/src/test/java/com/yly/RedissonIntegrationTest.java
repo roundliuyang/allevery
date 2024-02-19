@@ -30,7 +30,7 @@ public class RedissonIntegrationTest {
 
     @BeforeClass
     public static void setUp() throws IOException {
-        redisServer = new RedisServer(63789);
+        redisServer = new RedisServer(6379);
         redisServer.start();
         client = Redisson.create();
     }
