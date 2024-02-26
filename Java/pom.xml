@@ -27,6 +27,7 @@
         <module>juc</module>
         <module>exception</module>
         <module>oop</module>
+        <module>jvm</module>
     </modules>
 
     <properties>

@@ -86,6 +86,7 @@
         <module name="feign-demo02B-consumer" />
         <module name="ioc-container-overview" />
         <module name="demo02-resource-server" />
+        <module name="jvm" />
         <module name="feign-demo" />
         <module name="ribbon-demo05-consumer" />
         <module name="jenkins-cloud-demo01" />
@@ -327,11 +328,12 @@
       <module name="json-with-jackson" target="8" />
       <module name="juc" target="8" />
       <module name="junit-5-basics" target="8" />
+      <module name="jvm" target="8" />
       <module name="kafka" target="8" />
       <module name="kafka-native" target="1.8" />
       <module name="lab-01-springsecurity-demo" target="8" />
       <module name="lab01-springsecurity-demo-role" target="8" />
-      <module name="labx-10-sc-stream-rabbitmq-producer-demo" target="8" />
+      <module name="labx-10-sc-stream-rabbitmq-producer-demo" target="1.8" />
       <module name="lambda" target="8" />
       <module name="libraries-apache-commons" target="8" />
       <module name="Lock" target="8" />
@@ -507,7 +509,7 @@
       <module name="websocket" target="8" />
       <module name="websocket01" target="8" />
       <module name="websocket02" target="8" />
-      <module name="yly-server-oss-sdk-app" target="1.8" />
+      <module name="yly-server-oss-sdk-app" target="1.6" />
       <module name="yly-server-oss-sdk-starter" target="1.8" />
     </bytecodeTargetLevel>
   </component>
