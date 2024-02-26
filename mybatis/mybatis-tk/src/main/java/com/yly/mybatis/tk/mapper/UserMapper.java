@@ -1,8 +1,8 @@
-package com.yly.mybatis.mapper;
+package com.yly.mybatis.tk.mapper;
 
 
-import com.yly.mybatis.dataobject.UserDO;
-import com.yly.mybatis.util.BaseMapper;
+import com.yly.mybatis.tk.dataobject.UserDO;
+import com.yly.mybatis.tk.util.BaseMapper;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 import tk.mybatis.mapper.entity.Example;

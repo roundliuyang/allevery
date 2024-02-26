@@ -1,4 +1,4 @@
-package com.yly.mybatis.dataobject;
+package com.yly.mybatis.tk.dataobject;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

@@ -3,8 +3,10 @@ package com.yly.mybatis;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.yly.mybatis.dataobject.UserDO;
-import com.yly.mybatis.mapper.UserMapper;
+
+import com.yly.mybatis.tk.Application;
+import com.yly.mybatis.tk.dataobject.UserDO;
+import com.yly.mybatis.tk.mapper.UserMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

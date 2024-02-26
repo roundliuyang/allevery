@@ -1,9 +1,9 @@
-package com.yly.mybatis;
+package com.yly.mybatis.tk;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import tk.mybatis.spring.annotation.MapperScan;
 
 @SpringBootApplication
-@MapperScan(basePackages = "cn.iocoder.springboot.lab12.mybatis.mapper") // 注意，要换成 tk 提供的 @MapperScan 注解
+@MapperScan(basePackages = "com.yly.mybatis.tk.mapper") // 注意，要换成 tk 提供的 @MapperScan 注解
 public class Application {
 }
