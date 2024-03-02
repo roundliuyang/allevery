@@ -28,6 +28,7 @@
         <module>exception</module>
         <module>oop</module>
         <module>jvm</module>
+        <module>util</module>
     </modules>
 
     <properties>

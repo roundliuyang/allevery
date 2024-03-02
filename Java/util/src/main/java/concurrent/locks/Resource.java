@@ -1,4 +1,4 @@
-package com.yly.concurrent.locks;
+package concurrent.locks;
 
 /*
     现在让我们看一个简单的例子，我们将用 Java Lock API 替换 synchronized 关键字。

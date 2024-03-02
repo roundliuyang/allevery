@@ -1,4 +1,4 @@
-package com.yly.concurrent.locks;
+package concurrent.locks;
 
 
 import java.util.concurrent.TimeUnit;

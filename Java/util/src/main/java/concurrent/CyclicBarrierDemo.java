@@ -1,4 +1,4 @@
-package com.yly.concurrent;
+package concurrent;
 
 import java.util.Vector;
 import java.util.concurrent.CyclicBarrier;
@@ -88,6 +88,7 @@ public class CyclicBarrierDemo {
     private void save(Diff diff) {
         // 实现将差异写入差异库的逻辑
         // ...
+        System.out.println(diff.toString());
     }
 
     // 定义订单和差异的类，具体实现根据业务逻辑而定

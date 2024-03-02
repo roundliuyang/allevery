@@ -6,6 +6,7 @@
     <option name="delegateToJavac" value="true" />
   </component>
   <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="ajc" />
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -35,6 +36,7 @@
         <module name="code-design" />
         <module name="solid" />
         <module name="grpc-cloud-user-service" />
+        <module name="util" />
         <module name="java-stream" />
         <module name="sca-seata-at-dubbo-demo-order-service-api" />
         <module name="sc-gateway-demo05-custom-gateway-filter" />
@@ -333,7 +335,7 @@
       <module name="kafka-native" target="1.8" />
       <module name="lab-01-springsecurity-demo" target="8" />
       <module name="lab01-springsecurity-demo-role" target="8" />
-      <module name="labx-10-sc-stream-rabbitmq-producer-demo" target="1.8" />
+      <module name="labx-10-sc-stream-rabbitmq-producer-demo" target="8" />
       <module name="lambda" target="8" />
       <module name="libraries-apache-commons" target="8" />
       <module name="Lock" target="8" />
@@ -452,7 +454,7 @@
       <module name="sharding-datasource-sphere-02" target="1.8" />
       <module name="sharedkernel" target="9" />
       <module name="solid" target="8" />
-      <module name="spring-aop" target="8" />
+      <module name="spring-aop" target="1.8" />
       <module name="spring-boot" target="8" />
       <module name="spring-boot-custom-starter" target="8" />
       <module name="spring-boot-demo" target="8" />
@@ -504,12 +506,13 @@
       <module name="ThreadPool" target="8" />
       <module name="time-date-api" target="8" />
       <module name="user-service" target="1.8" />
+      <module name="util" target="8" />
       <module name="util-data-api" target="8" />
       <module name="utils" target="8" />
       <module name="websocket" target="8" />
       <module name="websocket01" target="8" />
       <module name="websocket02" target="8" />
-      <module name="yly-server-oss-sdk-app" target="1.6" />
+      <module name="yly-server-oss-sdk-app" target="1.8" />
       <module name="yly-server-oss-sdk-starter" target="1.8" />
     </bytecodeTargetLevel>
   </component>

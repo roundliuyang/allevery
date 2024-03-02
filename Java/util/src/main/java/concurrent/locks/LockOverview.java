@@ -1,4 +1,4 @@
-package com.yly.concurrent.locks;
+package concurrent.locks;
 
 /*
     欢迎使用 Java Lock 示例教程。通常在多线程环境中工作时，我们使用同步来保证线程安全。
