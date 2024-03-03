@@ -24,7 +24,6 @@
         <module>ThreadPool</module>
         <module>java-agent</module>
         <module>thread-rel</module>
-        <module>juc</module>
         <module>exception</module>
         <module>oop</module>
         <module>jvm</module>

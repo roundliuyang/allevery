@@ -1,4 +1,4 @@
-package com.yly.concurrent;
+package concurrent;
 
 import java.util.concurrent.Semaphore;
 

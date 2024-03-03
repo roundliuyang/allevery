@@ -96,7 +96,6 @@
       <module fileurl="file://$PROJECT_DIR$/spring-data-jpa/jpa/jpa.iml" filepath="$PROJECT_DIR$/spring-data-jpa/jpa/jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/persistence-modules/jpa-hibernate-cascade-type/jpa-hibernate-cascade-type.iml" filepath="$PROJECT_DIR$/persistence-modules/jpa-hibernate-cascade-type/jpa-hibernate-cascade-type.iml" />
       <module fileurl="file://$PROJECT_DIR$/json-with-jackson/json-with-jackson.iml" filepath="$PROJECT_DIR$/json-with-jackson/json-with-jackson.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/juc/juc.iml" filepath="$PROJECT_DIR$/Java/juc/juc.iml" />
       <module fileurl="file://$PROJECT_DIR$/testing-modules/junit-5-basics/junit-5-basics.iml" filepath="$PROJECT_DIR$/testing-modules/junit-5-basics/junit-5-basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/jvm/jvm.iml" filepath="$PROJECT_DIR$/Java/jvm/jvm.iml" />
       <module fileurl="file://$PROJECT_DIR$/kafka/kafka.iml" filepath="$PROJECT_DIR$/kafka/kafka.iml" />
