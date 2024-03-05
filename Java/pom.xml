@@ -28,6 +28,8 @@
         <module>oop</module>
         <module>jvm</module>
         <module>util</module>
+        <module>lang</module>
+        <module>serializer</module>
     </modules>
 
     <properties>

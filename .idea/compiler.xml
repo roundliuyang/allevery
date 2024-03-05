@@ -202,11 +202,13 @@
         <module name="sharding-datasource-sphere-01" />
         <module name="sharding-datasource-sphere-02" />
         <module name="nacos-discovery-provider-sample" />
+        <module name="serializer" />
         <module name="ribbon-demo06-consumer" />
         <module name="demo-api" />
         <module name="Redisson" />
         <module name="ribbon-demo03-consumer" />
         <module name="jpa" />
+        <module name="lang" />
         <module name="grpc-demo-user-service-api" />
         <module name="ddd" />
         <module name="rabbitmq-demo-ordely" />
@@ -333,8 +335,9 @@
       <module name="kafka-native" target="1.8" />
       <module name="lab-01-springsecurity-demo" target="8" />
       <module name="lab01-springsecurity-demo-role" target="8" />
-      <module name="labx-10-sc-stream-rabbitmq-producer-demo" target="8" />
+      <module name="labx-10-sc-stream-rabbitmq-producer-demo" target="1.8" />
       <module name="lambda" target="8" />
+      <module name="lang" target="8" />
       <module name="libraries-apache-commons" target="8" />
       <module name="Lock" target="8" />
       <module name="log" target="8" />
@@ -447,12 +450,13 @@
       <module name="seata-at-httpclient-demo-product-service" target="1.8" />
       <module name="sentinel" target="8" />
       <module name="sentineldemo" target="8" />
+      <module name="serializer" target="8" />
       <module name="sharding-datasource" target="8" />
       <module name="sharding-datasource-sphere-01" target="1.8" />
       <module name="sharding-datasource-sphere-02" target="1.8" />
       <module name="sharedkernel" target="9" />
       <module name="solid" target="8" />
-      <module name="spring-aop" target="8" />
+      <module name="spring-aop" target="1.8" />
       <module name="spring-boot" target="8" />
       <module name="spring-boot-custom-starter" target="8" />
       <module name="spring-boot-demo" target="8" />
@@ -510,7 +514,7 @@
       <module name="websocket" target="8" />
       <module name="websocket01" target="8" />
       <module name="websocket02" target="8" />
-      <module name="yly-server-oss-sdk-app" target="1.8" />
+      <module name="yly-server-oss-sdk-app" target="1.6" />
       <module name="yly-server-oss-sdk-starter" target="1.8" />
     </bytecodeTargetLevel>
   </component>

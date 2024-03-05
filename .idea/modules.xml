@@ -104,6 +104,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-security/lab01-springsecurity-demo-role/lab01-springsecurity-demo-role.iml" filepath="$PROJECT_DIR$/spring-security/lab01-springsecurity-demo-role/lab01-springsecurity-demo-role.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-stream-rabbitmq/sc-stream-rabbitmq-producer-demo/labx-10-sc-stream-rabbitmq-producer-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-stream-rabbitmq/sc-stream-rabbitmq-producer-demo/labx-10-sc-stream-rabbitmq-producer-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/lambda/lambda.iml" filepath="$PROJECT_DIR$/Java/lambda/lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/lang/lang.iml" filepath="$PROJECT_DIR$/Java/lang/lang.iml" />
       <module fileurl="file://$PROJECT_DIR$/libraries-apache-commons/libraries-apache-commons.iml" filepath="$PROJECT_DIR$/libraries-apache-commons/libraries-apache-commons.iml" />
       <module fileurl="file://$PROJECT_DIR$/logging-modules/log/log.iml" filepath="$PROJECT_DIR$/logging-modules/log/log.iml" />
       <module fileurl="file://$PROJECT_DIR$/logging-modules/log-best-practice/log-best-practice.iml" filepath="$PROJECT_DIR$/logging-modules/log-best-practice/log-best-practice.iml" />
@@ -214,6 +215,7 @@
       <module fileurl="file://$PROJECT_DIR$/seata/seata-at-httpclient-demo/seata-at-httpclient-demo-product-service/seata-at-httpclient-demo-product-service.iml" filepath="$PROJECT_DIR$/seata/seata-at-httpclient-demo/seata-at-httpclient-demo-product-service/seata-at-httpclient-demo-product-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/sentinel/sentinel.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/sentinel/sentinel.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/sentineldemo/sentineldemo.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/sentineldemo/sentineldemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/serializer/serializer.iml" filepath="$PROJECT_DIR$/Java/serializer/serializer.iml" />
       <module fileurl="file://$PROJECT_DIR$/sharding-datasource/sharding-datasource.iml" filepath="$PROJECT_DIR$/sharding-datasource/sharding-datasource.iml" />
       <module fileurl="file://$PROJECT_DIR$/sharding-datasource/sharding-datasource-sphere-01/sharding-datasource-sphere-01.iml" filepath="$PROJECT_DIR$/sharding-datasource/sharding-datasource-sphere-01/sharding-datasource-sphere-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/sharding-datasource/sharding-datasource-sphere-02/sharding-datasource-sphere-02.iml" filepath="$PROJECT_DIR$/sharding-datasource/sharding-datasource-sphere-02/sharding-datasource-sphere-02.iml" />
