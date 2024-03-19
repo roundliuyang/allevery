@@ -70,6 +70,7 @@
         <module>core-java-modules</module>
         <module>spring-cloud-config</module>
         <module>spring-security-oauth</module>
+        <module>spring-data-mongodb</module>
     </modules>
 
     <dependencyManagement>

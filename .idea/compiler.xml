@@ -214,6 +214,7 @@
         <module name="rabbitmq-demo-ordely" />
         <module name="spring-boot-di" />
         <module name="svc-book" />
+        <module name="spring-data-mongodb" />
         <module name="rocketmq-learn" />
         <module name="hibernate-annotations" />
         <module name="feign-demo06B-consumer" />
@@ -456,7 +457,7 @@
       <module name="sharding-datasource-sphere-02" target="1.8" />
       <module name="sharedkernel" target="9" />
       <module name="solid" target="8" />
-      <module name="spring-aop" target="1.8" />
+      <module name="spring-aop" target="8" />
       <module name="spring-boot" target="8" />
       <module name="spring-boot-custom-starter" target="8" />
       <module name="spring-boot-demo" target="8" />
@@ -483,6 +484,7 @@
       <module name="spring-data-jpa" target="8" />
       <module name="spring-data-jpa-annotations" target="8" />
       <module name="spring-data-jpa-fetchmode" target="8" />
+      <module name="spring-data-mongodb" target="8" />
       <module name="spring-data-redis" target="8" />
       <module name="spring-data-redis-jedis" target="8" />
       <module name="spring-di-2" target="8" />
@@ -567,6 +569,7 @@
       <module name="spring-boot-demo" options="-parameters" />
       <module name="spring-data-elasticsearch" options="-parameters" />
       <module name="spring-data-jest" options="-parameters" />
+      <module name="spring-data-mongodb" options="-parameters" />
       <module name="spring-data-redis-jedis" options="-parameters" />
       <module name="task-demo" options="-parameters" />
       <module name="task-xxl-job" options="-parameters" />
