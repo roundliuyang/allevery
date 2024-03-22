@@ -1,6 +1,7 @@
-package com.yly;
+package concurrent.threadpool;
 
 import java.util.concurrent.*;
+
 /*
     下面是使用 ThreadPoolExecutor 的线程池实现示例
  */

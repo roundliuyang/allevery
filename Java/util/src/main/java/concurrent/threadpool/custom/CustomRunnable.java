@@ -1,14 +1,18 @@
-package com.yly.custom;
+package concurrent.threadpool.custom;
 
-import java.util.concurrent.Callable;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
+public class CustomRunnable implements Runnable {
 
-public class CustomCallable<T> implements Callable {
+    private Runnable runnable;
 
-    Callable<T> callable;
+    public CustomRunnable() {
 
-    public CustomCallable(Callable<T> callable) {
-        this.callable = callable;
+    }
+
+    public CustomRunnable(final Runnable runnable) {
+        this.runnable = runnable;
     }
 
     private String taskId;
@@ -18,18 +22,18 @@ public class CustomCallable<T> implements Callable {
     }
 
     @Override
-    public T call() throws Exception {
-        if (callable == null) {
-            return null;
+    public void run() {
+        if (runnable == null) {
+            return;
         }
 
         try {
-            return callable.call();
+            runnable.run();
         } catch (Exception e) {
 //            log.error("任务:{},错误栈:{}", taskId, e);
             e.printStackTrace();
         }
-        return null;
+
     }
 
     @Override

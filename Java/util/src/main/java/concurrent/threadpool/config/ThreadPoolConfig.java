@@ -1,4 +1,4 @@
-package com.yly.config;
+package concurrent.threadpool.config;
 
 
 import org.springframework.beans.factory.annotation.Value;
@@ -8,7 +8,6 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
 import java.util.concurrent.Executor;
-
 
 
 @Configuration

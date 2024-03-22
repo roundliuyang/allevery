@@ -1,6 +1,7 @@
-package com.yly;
+package concurrent.threadpool;
 
 import java.util.concurrent.ThreadPoolExecutor;
+
 /*
     ThreadPoolExecutor提供了几个方法，利用这些方法我们可以找出执行器的当前状态、池的大小、活动线程数和任务数。所以我有一个监控线程，它将在一定的时间间隔内打印执行器的信息。
  */

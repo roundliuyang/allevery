@@ -16,7 +16,9 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/Java/FutureTask/pom.xml" />
         <option value="$PROJECT_DIR$/Java/Lock/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/ThreadPool/pom.xml" />
         <option value="$PROJECT_DIR$/persistence-modules/redis/Redisson/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/application-config/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/order-service/com.yly.orderservice.client/pom.xml" />

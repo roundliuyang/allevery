@@ -1,4 +1,4 @@
-package com.yly;
+package concurrent.threadpool;
 
 /*
     Java 线程池管理工作线程池。它包含一个队列，使任务等待执行。我们可以使用ThreadPoolExecutorJava 来创建线程池。

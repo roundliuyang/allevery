@@ -3,10 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Java/CallableFuture/CallableFuture.iml" filepath="$PROJECT_DIR$/Java/CallableFuture/CallableFuture.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/FutureTask/FutureTask.iml" filepath="$PROJECT_DIR$/Java/FutureTask/FutureTask.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/Java.iml" filepath="$PROJECT_DIR$/Java/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis-module/Redisson/Redisson.iml" filepath="$PROJECT_DIR$/redis-module/Redisson/Redisson.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/ThreadPool/ThreadPool.iml" filepath="$PROJECT_DIR$/Java/ThreadPool/ThreadPool.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/java-agent/agent/agent.iml" filepath="$PROJECT_DIR$/Java/java-agent/agent/agent.iml" />
       <module fileurl="file://$PROJECT_DIR$/oss/ali-oss/alioss.iml" filepath="$PROJECT_DIR$/oss/ali-oss/alioss.iml" />
       <module fileurl="file://$PROJECT_DIR$/allevery.iml" filepath="$PROJECT_DIR$/allevery.iml" />

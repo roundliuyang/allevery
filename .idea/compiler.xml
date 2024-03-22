@@ -107,7 +107,6 @@
         <module name="rabbitmq-demo-delay" />
         <module name="event-demo" />
         <module name="string-basics" />
-        <module name="FutureTask" />
         <module name="sc-bus-rabbitmq-demo-publisher" />
         <module name="sca-seata-at-dubbo-demo-product-service-api" />
         <module name="method-reference" />
@@ -148,7 +147,6 @@
         <module name="rabbitmq-demo-message-model" />
         <module name="log" />
         <module name="sc-gateway-demo03-config-apollo" />
-        <module name="ThreadPool" />
         <module name="spring-data-jpa-fetchmode" />
         <module name="kafka-native" />
         <module name="java-reflect" />

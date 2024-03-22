@@ -1,6 +1,4 @@
-package com.yly.custom;
-
-import lombok.extern.slf4j.Slf4j;
+package concurrent.threadpool.custom;
 
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.atomic.AtomicInteger;
