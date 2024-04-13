@@ -6,6 +6,7 @@ package com.yly.collections;
  */
 public class CollectionsTest {
 
+    // 测试
     /*
         我们一般看方法名和参数就可以确认Collections提供的该方法的功能。例如，对于以下静态方法：
         public static boolean addAll(Collection<? super T> c, T... elements) { ... }
