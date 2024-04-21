@@ -117,6 +117,8 @@
         <module name="resttemplate" />
         <module name="rabbitmq-demo" />
         <module name="sc-apollo-demo-auto-refresh" />
+        <module name="kafka-demo" />
+        <module name="kafka-demo-ack" />
         <module name="order-server" />
         <module name="gateway" />
         <module name="greeter-library" />
@@ -248,7 +250,7 @@
       <module name="code-design" target="8" />
       <module name="collection" target="8" />
       <module name="com.yly.orderservice.client" target="8" />
-      <module name="concurrent-programing" target="1.7" />
+      <module name="concurrent-programing" target="8" />
       <module name="config" target="8" />
       <module name="core-java-io-2" target="8" />
       <module name="core-java-lang-5" target="8" />
@@ -331,6 +333,8 @@
       <module name="junit-5-basics" target="8" />
       <module name="jvm" target="8" />
       <module name="kafka" target="8" />
+      <module name="kafka-demo" target="8" />
+      <module name="kafka-demo-ack" target="8" />
       <module name="kafka-native" target="1.8" />
       <module name="lab-01-springsecurity-demo" target="8" />
       <module name="lab01-springsecurity-demo-role" target="8" />
@@ -455,7 +459,7 @@
       <module name="sharding-datasource-sphere-02" target="1.8" />
       <module name="sharedkernel" target="9" />
       <module name="solid" target="8" />
-      <module name="spring-aop" target="1.8" />
+      <module name="spring-aop" target="8" />
       <module name="spring-boot" target="8" />
       <module name="spring-boot-custom-starter" target="8" />
       <module name="spring-boot-demo" target="8" />
@@ -527,6 +531,8 @@
       <module name="filter-Interceptor" options="-parameters" />
       <module name="jenkins-demo01" options="-parameters" />
       <module name="jpa" options="-parameters" />
+      <module name="kafka-demo" options="-parameters" />
+      <module name="kafka-demo-ack" options="-parameters" />
       <module name="kafka-native" options="-parameters" />
       <module name="lab-01-springsecurity-demo" options="-parameters" />
       <module name="lab01-springsecurity-demo-role" options="-parameters" />
