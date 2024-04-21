@@ -3,4 +3,4 @@ spring:
     # Elasticsearch 配置项
     elasticsearch:
       cluster-name: elasticsearch # 集群名
-      cluster-nodes: 121.196.184.98:9300 # 集群节点
+      cluster-nodes: 172.19.171.168:9300 # 集群节点
