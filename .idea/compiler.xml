@@ -251,7 +251,7 @@
       <module name="code-design" target="8" />
       <module name="collection" target="8" />
       <module name="com.yly.orderservice.client" target="8" />
-      <module name="concurrent-programing" target="1.7" />
+      <module name="concurrent-programing" target="8" />
       <module name="config" target="8" />
       <module name="core-java-io-2" target="8" />
       <module name="core-java-lang-5" target="8" />
@@ -340,7 +340,7 @@
       <module name="kafka-native" target="1.8" />
       <module name="lab-01-springsecurity-demo" target="8" />
       <module name="lab01-springsecurity-demo-role" target="8" />
-      <module name="labx-10-sc-stream-rabbitmq-producer-demo" target="8" />
+      <module name="labx-10-sc-stream-rabbitmq-producer-demo" target="1.8" />
       <module name="lambda" target="8" />
       <module name="lang" target="8" />
       <module name="libraries-apache-commons" target="8" />
