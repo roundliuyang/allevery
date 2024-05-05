@@ -47,7 +47,7 @@
         <module>ddd-contexts</module>
         <module>spring-cloud-gateway</module>
         <module>spring-cloud-apollo</module>
-        <module>spring-data-es</module>
+        <module>es</module>
         <module>kafka</module>
         <module>grpc</module>
         <module>spring-cloud-grpc</module>

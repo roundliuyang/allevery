@@ -41,6 +41,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/dubbo-demo/dubbo-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/dubbo-demo/dubbo-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/dubbo-demo/dubbo-provider-sample/dubbo-provider-sample.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/dubbo-demo/dubbo-provider-sample/dubbo-provider-sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/dubbo-demo/dubbo-sample-api/dubbo-sample-api.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/dubbo-demo/dubbo-sample-api/dubbo-sample-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/es/es.iml" filepath="$PROJECT_DIR$/es/es.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot/event-demo/event-demo.iml" filepath="$PROJECT_DIR$/spring-boot/event-demo/event-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/exception/exception.iml" filepath="$PROJECT_DIR$/Java/exception/exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign/feign.iml" filepath="$PROJECT_DIR$/feign/feign.iml" />
@@ -242,9 +243,8 @@
       <module fileurl="file://$PROJECT_DIR$/spring-core/spring-core.iml" filepath="$PROJECT_DIR$/spring-core/spring-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-core-2/spring-core-2.iml" filepath="$PROJECT_DIR$/spring-core-2/spring-core-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-core-4/spring-core-4.iml" filepath="$PROJECT_DIR$/spring-core-4/spring-core-4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-data-es/spring-data-elasticsearch/spring-data-elasticsearch.iml" filepath="$PROJECT_DIR$/spring-data-es/spring-data-elasticsearch/spring-data-elasticsearch.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-data-es/spring-data-es.iml" filepath="$PROJECT_DIR$/spring-data-es/spring-data-es.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-data-es/spring-data-jest/spring-data-jest.iml" filepath="$PROJECT_DIR$/spring-data-es/spring-data-jest/spring-data-jest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/es/spring-data-elasticsearch/spring-data-elasticsearch.iml" filepath="$PROJECT_DIR$/es/spring-data-elasticsearch/spring-data-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/es/spring-data-jest/spring-data-jest.iml" filepath="$PROJECT_DIR$/es/spring-data-jest/spring-data-jest.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-data-jpa/spring-data-jpa.iml" filepath="$PROJECT_DIR$/spring-data-jpa/spring-data-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/persistence-modules/spring-data-jpa-annotations/spring-data-jpa-annotations.iml" filepath="$PROJECT_DIR$/persistence-modules/spring-data-jpa-annotations/spring-data-jpa-annotations.iml" />
       <module fileurl="file://$PROJECT_DIR$/persistence-modules/spring-data-jpa-fetchmode/spring-data-jpa-fetchmode.iml" filepath="$PROJECT_DIR$/persistence-modules/spring-data-jpa-fetchmode/spring-data-jpa-fetchmode.iml" />
