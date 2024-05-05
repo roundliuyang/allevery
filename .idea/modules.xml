@@ -133,6 +133,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/order-service/order-service.iml" filepath="$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/order-service/order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/oss/oss.iml" filepath="$PROJECT_DIR$/oss/oss.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent-boot-2/parent-boot-2.iml" filepath="$PROJECT_DIR$/parent-boot-2/parent-boot-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent-boot-3/parent-boot-3.iml" filepath="$PROJECT_DIR$/parent-boot-3/parent-boot-3.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent-java/parent-java.iml" filepath="$PROJECT_DIR$/parent-java/parent-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent-spring-5/parent-spring-5.iml" filepath="$PROJECT_DIR$/parent-spring-5/parent-spring-5.iml" />
       <module fileurl="file://$PROJECT_DIR$/patterns/patterns.iml" filepath="$PROJECT_DIR$/patterns/patterns.iml" />
@@ -244,6 +245,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-core-2/spring-core-2.iml" filepath="$PROJECT_DIR$/spring-core-2/spring-core-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-core-4/spring-core-4.iml" filepath="$PROJECT_DIR$/spring-core-4/spring-core-4.iml" />
       <module fileurl="file://$PROJECT_DIR$/es/spring-data-elasticsearch/spring-data-elasticsearch.iml" filepath="$PROJECT_DIR$/es/spring-data-elasticsearch/spring-data-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/es/spring-data-elasticsearch2/spring-data-elasticsearch2.iml" filepath="$PROJECT_DIR$/es/spring-data-elasticsearch2/spring-data-elasticsearch2.iml" />
       <module fileurl="file://$PROJECT_DIR$/es/spring-data-jest/spring-data-jest.iml" filepath="$PROJECT_DIR$/es/spring-data-jest/spring-data-jest.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-data-jpa/spring-data-jpa.iml" filepath="$PROJECT_DIR$/spring-data-jpa/spring-data-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/persistence-modules/spring-data-jpa-annotations/spring-data-jpa-annotations.iml" filepath="$PROJECT_DIR$/persistence-modules/spring-data-jpa-annotations/spring-data-jpa-annotations.iml" />

@@ -70,6 +70,7 @@
         <module>spring-cloud-config</module>
         <module>spring-security-oauth</module>
         <module>spring-data-mongodb</module>
+        <module>parent-boot-3</module>
     </modules>
 
     <dependencyManagement>
