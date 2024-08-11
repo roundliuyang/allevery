@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/spring-cloud-alibaba/sentineldemo/pom.xml" />
         <option value="$PROJECT_DIR$/Java/multithreaded/pom.xml" />
         <option value="$PROJECT_DIR$/redis-module/pom.xml" />
+        <option value="$PROJECT_DIR$/es/spring-data-elasticsearch2/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

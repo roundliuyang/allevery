@@ -14,7 +14,7 @@
     <modules>
         <module>spring-data-elasticsearch</module>
         <module>spring-data-jest</module>
-        <module>spring-data-elasticsearch2</module>
+        <module>spring-elasticsearch-demo</module>
     </modules>
 
     <properties>

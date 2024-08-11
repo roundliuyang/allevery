@@ -86,6 +86,7 @@
         <module name="feign-demo02B-consumer" />
         <module name="ioc-container-overview" />
         <module name="demo02-resource-server" />
+        <module name="spring-elasticsearch-demo" />
         <module name="jvm" />
         <module name="feign-demo" />
         <module name="ribbon-demo05-consumer" />
@@ -94,7 +95,6 @@
         <module name="spring-di-2" />
         <module name="CallableFuture" />
         <module name="collection" />
-        <module name="spring-data-elasticsearch2" />
         <module name="docker-product-server" />
         <module name="ribbon-demo04-consumer" />
         <module name="libraries-apache-commons" />
@@ -338,7 +338,7 @@
       <module name="kafka-native" target="1.8" />
       <module name="lab-01-springsecurity-demo" target="8" />
       <module name="lab01-springsecurity-demo-role" target="8" />
-      <module name="labx-10-sc-stream-rabbitmq-producer-demo" target="1.8" />
+      <module name="labx-10-sc-stream-rabbitmq-producer-demo" target="8" />
       <module name="lambda" target="8" />
       <module name="lang" target="8" />
       <module name="libraries-apache-commons" target="8" />
@@ -481,7 +481,6 @@
       <module name="spring-core-2" target="8" />
       <module name="spring-core-4" target="8" />
       <module name="spring-data-elasticsearch" target="1.8" />
-      <module name="spring-data-elasticsearch2" target="17" />
       <module name="spring-data-jest" target="8" />
       <module name="spring-data-jpa" target="8" />
       <module name="spring-data-jpa-annotations" target="8" />
@@ -490,6 +489,7 @@
       <module name="spring-data-redis" target="8" />
       <module name="spring-data-redis-jedis" target="8" />
       <module name="spring-di-2" target="8" />
+      <module name="spring-elasticsearch-demo" target="8" />
       <module name="spring-programming" target="8" />
       <module name="spring-security" target="8" />
       <module name="spring-security-oauth" target="8" />

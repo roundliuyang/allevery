@@ -246,7 +246,6 @@
       <module fileurl="file://$PROJECT_DIR$/spring-core-2/spring-core-2.iml" filepath="$PROJECT_DIR$/spring-core-2/spring-core-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-core-4/spring-core-4.iml" filepath="$PROJECT_DIR$/spring-core-4/spring-core-4.iml" />
       <module fileurl="file://$PROJECT_DIR$/es/spring-data-elasticsearch/spring-data-elasticsearch.iml" filepath="$PROJECT_DIR$/es/spring-data-elasticsearch/spring-data-elasticsearch.iml" />
-      <module fileurl="file://$PROJECT_DIR$/es/spring-data-elasticsearch2/spring-data-elasticsearch2.iml" filepath="$PROJECT_DIR$/es/spring-data-elasticsearch2/spring-data-elasticsearch2.iml" />
       <module fileurl="file://$PROJECT_DIR$/es/spring-data-jest/spring-data-jest.iml" filepath="$PROJECT_DIR$/es/spring-data-jest/spring-data-jest.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-data-jpa/spring-data-jpa.iml" filepath="$PROJECT_DIR$/spring-data-jpa/spring-data-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/persistence-modules/spring-data-jpa-annotations/spring-data-jpa-annotations.iml" filepath="$PROJECT_DIR$/persistence-modules/spring-data-jpa-annotations/spring-data-jpa-annotations.iml" />
@@ -255,6 +254,7 @@
       <module fileurl="file://$PROJECT_DIR$/redis-module/spring-data-redis/spring-data-redis.iml" filepath="$PROJECT_DIR$/redis-module/spring-data-redis/spring-data-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis-module/spring-data-redis/spring-data-redis-jedis/spring-data-redis-jedis.iml" filepath="$PROJECT_DIR$/redis-module/spring-data-redis/spring-data-redis-jedis/spring-data-redis-jedis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-di-2/spring-di-2.iml" filepath="$PROJECT_DIR$/spring-di-2/spring-di-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/es/spring-elasticsearch-demo/spring-elasticsearch-demo.iml" filepath="$PROJECT_DIR$/es/spring-elasticsearch-demo/spring-elasticsearch-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-programming/spring-programming.iml" filepath="$PROJECT_DIR$/spring-programming/spring-programming.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security/spring-security.iml" filepath="$PROJECT_DIR$/spring-security/spring-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security-oauth/spring-security-oauth.iml" filepath="$PROJECT_DIR$/spring-security-oauth/spring-security-oauth.iml" />

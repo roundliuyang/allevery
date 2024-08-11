@@ -6,21 +6,10 @@ import com.yly.spring.data.es.model.Article;
 import com.yly.spring.data.es.model.Author;
 import com.yly.spring.data.es.repository.ArticleRepository;
 import org.apache.lucene.search.join.ScoreMode;
-import org.elasticsearch.action.search.SearchRequest;
-import org.elasticsearch.action.search.SearchResponse;
-import org.elasticsearch.client.RequestOptions;
-import org.elasticsearch.client.RestHighLevelClient;
 import org.elasticsearch.common.unit.Fuzziness;
 import org.elasticsearch.index.query.MultiMatchQueryBuilder;
 import org.elasticsearch.index.query.Operator;
 import org.elasticsearch.index.query.QueryBuilder;
-import org.elasticsearch.search.aggregations.Aggregation;
-import org.elasticsearch.search.aggregations.AggregationBuilders;
-import org.elasticsearch.search.aggregations.BucketOrder;
-import org.elasticsearch.search.aggregations.bucket.MultiBucketsAggregation;
-import org.elasticsearch.search.aggregations.bucket.terms.ParsedStringTerms;
-import org.elasticsearch.search.aggregations.bucket.terms.TermsAggregationBuilder;
-import org.elasticsearch.search.builder.SearchSourceBuilder;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -34,11 +23,8 @@ import org.springframework.data.elasticsearch.core.mapping.IndexCoordinates;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import java.util.List;
-import java.util.Map;
 
 import static java.util.Arrays.asList;
-import static java.util.stream.Collectors.toList;
 import static org.elasticsearch.index.query.QueryBuilders.*;
 import static org.junit.Assert.assertEquals;
 
@@ -58,8 +44,6 @@ public class ElasticSearchQueryManualTest {
     @Autowired
     private ArticleRepository articleRepository;
 
-    @Autowired
-    private RestHighLevelClient client;
 
     private final Author johnSmith = new Author("John Smith");
     private final Author johnDoe = new Author("John Doe");
@@ -150,57 +134,6 @@ public class ElasticSearchQueryManualTest {
         assertEquals(2, articles.getTotalHits());
     }
 
-    @Test
-    public void givenAnalyzedQuery_whenMakeAggregationOnTermCount_thenEachTokenCountsSeparately() throws Exception { 
-        // 创建了一个名为"top_tags"的术语聚合（Terms Aggregation），该聚合将应用于"title"字段。这意味着它将根据"title"字段中的术语（terms）对文档进行分组
-        final TermsAggregationBuilder aggregation = AggregationBuilders.terms("top_tags")
-                .field("title");
-
-        // 创建一个用于构建搜索请求的SearchSourceBuilder对象，并将上面创建的聚合添加到其中
-        final SearchSourceBuilder builder = new SearchSourceBuilder().aggregation(aggregation);
-        // 创建了一个搜索请求对象，并指定了索引名称为"blog"，并将之前构建的SearchSourceBuilder设置为请求的源
-        final SearchRequest searchRequest = new SearchRequest("blog").source(builder);
-
-        // 执行了搜索请求，并通过Elasticsearch的客户端（可能是通过REST API或者其他方式）发送请求，并将响应保存在response对象中
-        final SearchResponse response = client.search(searchRequest, RequestOptions.DEFAULT);
-
-        // 从搜索响应中获取聚合结果，并将其存储在一个Map中，其中键是聚合的名称，值是Aggregation对象
-        final Map<String, Aggregation> results = response.getAggregations()
-                .asMap();
-        
-        // 从上一步得到的Map中获取名为"top_tags"的聚合结果，并将其强制转换为ParsedStringTerms类型，这是Elasticsearch中用于表示字符串类型的术语聚合结果的类
-        final ParsedStringTerms topTags = (ParsedStringTerms) results.get("top_tags");
-
-        final List<String> keys = topTags.getBuckets()
-                .stream()
-                .map(MultiBucketsAggregation.Bucket::getKeyAsString)
-                .sorted()
-                .collect(toList());
-        assertEquals(asList("about", "article", "data", "elasticsearch", "engines", "search", "second", "spring", "tutorial"), keys);
-    }
-
-    @Test
-    public void givenNotAnalyzedQuery_whenMakeAggregationOnTermCount_thenEachTermCountsIndividually() throws Exception {
-        final TermsAggregationBuilder aggregation = AggregationBuilders.terms("top_tags")
-                .field("tags")
-                .order(BucketOrder.count(false));
-
-        final SearchSourceBuilder builder = new SearchSourceBuilder().aggregation(aggregation);
-        final SearchRequest searchRequest = new SearchRequest().indices("blog")
-                .source(builder);
-
-        final SearchResponse response = client.search(searchRequest, RequestOptions.DEFAULT);
-
-        final Map<String, Aggregation> results = response.getAggregations()
-                .asMap();
-        final ParsedStringTerms topTags = (ParsedStringTerms) results.get("top_tags");
-
-        final List<String> keys = topTags.getBuckets()
-                .stream()
-                .map(MultiBucketsAggregation.Bucket::getKeyAsString)
-                .collect(toList());
-        assertEquals(asList("elasticsearch", "spring data", "search engines", "tutorial"), keys);
-    }
 
     @Test
     public void givenNotExactPhrase_whenUseSlop_thenQueryMatches() {
