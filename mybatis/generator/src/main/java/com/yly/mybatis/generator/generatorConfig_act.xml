@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <!-- 数据库驱动 -->
+    <classPathEntry
+            location="D:\maven\maven\repository\mysql\mysql-connector-java\8.0.11\mysql-connector-java-8.0.11.jar"/>
+    <context id="my" targetRuntime="Mybatis3">
+        <property name="javaFileEncoding" value="UTF-8"/>
+        <!--domain字段的命名规则，false:默认为驼峰命名 true:按数据库真实命名  -->
+        <property name="useActualColumnNames" value="true" />
+
+        <commentGenerator>
+            <!-- 抑制警告 -->
+            <property name="suppressTypeWarnings" value="true"/>
+            <property name="suppressDate" value="true"/>    <!-- 是否生成注释代时间戳 -->
+            <property name="suppressAllComments" value="true"/>     <!-- 是否取消注释 -->
+        </commentGenerator>
+
+        <!--		<jdbcConnection driverClass="com.mysql.jdbc.Driver"-->
+        <!--			connectionURL="jdbc:mysql://192.168.2.150:3316/elapp_db?characterEncoding=utf8"-->
+        <!--			userId="developer" password="developer_select" />-->
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/mycooltv_account?characterEncoding=utf8"
+                        userId="root" password="123456"/>
+
+        <!-- 类型转换 -->
+        <javaTypeResolver>
+            <!-- 是否使用bigDecimal， false可自动转化以下类型（Long, Integer, Short, etc.） -->
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
+
+        <!-- 生成model -->
+        <javaModelGenerator targetPackage="com.yly.account.model"
+                            targetProject="D:\allevery\allevery\mybatis\generator\src\main\java">
+            <property name="enableSubPackages" value="true"/>
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+
+        <!-- generate mapper xml -->
+        <sqlMapGenerator targetPackage="mapper"
+                         targetProject="D:\allevery\allevery\mybatis\generator\src\main\java\com\yly\account\dao">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+
+        <!--  generate Mapper  dao-->
+        <javaClientGenerator type="XMLMAPPER"
+                             targetPackage="com.yly.account"
+                             targetProject="D:\allevery\allevery\mybatis\generator\src\main\java">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+
+        <table tableName="apis" domainObjectName="AccountApis" enableCountByExample="false"
+               enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false"/>
+    </context>
+</generatorConfiguration>

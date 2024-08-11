@@ -62,6 +62,7 @@
       <module fileurl="file://$PROJECT_DIR$/filter-Interceptor/filter-Interceptor.iml" filepath="$PROJECT_DIR$/filter-Interceptor/filter-Interceptor.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/functional-programming/functional-programming.iml" filepath="$PROJECT_DIR$/Java/functional-programming/functional-programming.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/gateway/gateway.iml" filepath="$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis/generator/generator.iml" filepath="$PROJECT_DIR$/mybatis/generator/generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-modules/spring-boot-custom-starter/greeter-library/greeter-library.iml" filepath="$PROJECT_DIR$/spring-boot-modules/spring-boot-custom-starter/greeter-library/greeter-library.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-modules/spring-boot-custom-starter/greeter-spring-boot-autoconfigure/greeter-spring-boot-autoconfigure.iml" filepath="$PROJECT_DIR$/spring-boot-modules/spring-boot-custom-starter/greeter-spring-boot-autoconfigure/greeter-spring-boot-autoconfigure.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-modules/spring-boot-custom-starter/greeter-spring-boot-sample-app/greeter-spring-boot-sample-app.iml" filepath="$PROJECT_DIR$/spring-boot-modules/spring-boot-custom-starter/greeter-spring-boot-sample-app/greeter-spring-boot-sample-app.iml" />

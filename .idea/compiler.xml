@@ -204,6 +204,7 @@
         <module name="sharding-datasource-sphere-02" />
         <module name="nacos-discovery-provider-sample" />
         <module name="serializer" />
+        <module name="generator" />
         <module name="ribbon-demo06-consumer" />
         <module name="demo-api" />
         <module name="Redisson" />
@@ -294,6 +295,7 @@
       <module name="filter-Interceptor" target="8" />
       <module name="functional-programming" target="8" />
       <module name="gateway" target="8" />
+      <module name="generator" target="8" />
       <module name="greeter-library" target="8" />
       <module name="greeter-spring-boot-autoconfigure" target="11.0.10" />
       <module name="greeter-spring-boot-sample-app" target="8" />
@@ -526,6 +528,7 @@
       <module name="bean-utils" options="-parameters" />
       <module name="event-demo" options="-parameters" />
       <module name="filter-Interceptor" options="-parameters" />
+      <module name="generator" options="-parameters" />
       <module name="jenkins-demo01" options="-parameters" />
       <module name="jpa" options="-parameters" />
       <module name="kafka-demo" options="-parameters" />
