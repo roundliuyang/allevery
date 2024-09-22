@@ -16,14 +16,14 @@ public class StudentService3 {
     public void saveStudent(String realname) throws Exception {
         Student student = new Student();
         student.setRealname(realname);
-//        studentService.doSaveStudent(student);
+        studentService.doSaveStudent(student);
     }
 
-//    @Transactional
-//    private void doSaveStudent(Student student) throws Exception {
-//        studentMapper.saveStudent(student);
-//        if (student.getRealname().equals("小明")) {
-//            throw new RuntimeException("该用户已存在");
-//        }
-//    }
+    @Transactional
+    private void doSaveStudent(Student student) throws Exception {
+        studentMapper.saveStudent(student);
+        if (student.getRealname().equals("小明")) {
+            throw new RuntimeException("该用户已存在");
+        }
+    }
 }
