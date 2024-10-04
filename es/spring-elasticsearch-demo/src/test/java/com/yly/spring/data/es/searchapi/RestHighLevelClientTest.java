@@ -21,6 +21,7 @@ import org.elasticsearch.search.aggregations.bucket.MultiBucketsAggregation;
 import org.elasticsearch.search.aggregations.bucket.terms.ParsedStringTerms;
 import org.elasticsearch.search.aggregations.bucket.terms.TermsAggregationBuilder;
 import org.elasticsearch.search.builder.SearchSourceBuilder;
+import org.elasticsearch.search.sort.SortOrder;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -146,6 +147,16 @@ public class RestHighLevelClientTest {
         boolQueryBuilder.must(QueryBuilders.matchPhraseQuery("title","Tutorial"));
 
         searchSourceBuilder.query(boolQueryBuilder);
+
+        // 设置分页参数
+        int page = 0; 
+        int pageSize = 10; 
+        searchSourceBuilder.from(page * pageSize);
+        searchSourceBuilder.size(pageSize);
+
+        // 设置多字段排序，先按 post_date 升序排序，再按 id 排序
+        searchSourceBuilder.sort("post_date", SortOrder.ASC);
+//        searchSourceBuilder.sort("_id", SortOrder.ASC); // 使用 _id 进行次级排序
         searchRequest.source(searchSourceBuilder);
         
         SearchResponse response = client.search(searchRequest, RequestOptions.DEFAULT);
