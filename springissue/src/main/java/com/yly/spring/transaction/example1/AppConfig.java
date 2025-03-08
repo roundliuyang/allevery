@@ -63,7 +63,8 @@ public class AppConfig {
         问题修正
         了解了问题的根源以后，解决它就变得很简单了，我们只需要把它的修饰符从 private 改成 public 就可以了。
         不过需要额外补充的是，我们调用这个加了事务注解的方法，必须是调用被 Spring AOP 代理过的方法，也就是不能通过类的内部调用或者通过 this 的方式调用。
-        所以我们的案例的 StudentService，它含有一个自动装配（Autowired）了自身（StudentService）的实例来完成代理方法的调用。这个问题我们在之前 Spring AOP 的代码解析中重点强调过，此处就不再详述了。
+        所以我们的案例的 StudentService，它含有一个自动装配（Autowired）了自身（StudentService）的实例来完成代理方法的调用。
+        这个问题我们在之前 Spring AOP 的代码解析中重点强调过，此处就不再详述了。             //很重要欧！
         重新运行一下，异常正常抛出，数据库也没有新数据产生，事务生效了，问题解决。
      */
 }
