@@ -30,6 +30,7 @@
         <module>util</module>
         <module>lang</module>
         <module>serializer</module>
+        <module>java-interface</module>
     </modules>
 
     <properties>

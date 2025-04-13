@@ -86,6 +86,7 @@
       <module fileurl="file://$PROJECT_DIR$/jackson-modules/jackson-modules.iml" filepath="$PROJECT_DIR$/jackson-modules/jackson-modules.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/java-agent/java-agent.iml" filepath="$PROJECT_DIR$/Java/java-agent/java-agent.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/java-date/java-date.iml" filepath="$PROJECT_DIR$/Java/java-date/java-date.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/java-interface/java-interface.iml" filepath="$PROJECT_DIR$/Java/java-interface/java-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/java-optional/java-optional.iml" filepath="$PROJECT_DIR$/Java/java-optional/java-optional.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/java-reflect/java-reflect.iml" filepath="$PROJECT_DIR$/Java/java-reflect/java-reflect.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/java-stream/java-stream.iml" filepath="$PROJECT_DIR$/Java/java-stream/java-stream.iml" />
