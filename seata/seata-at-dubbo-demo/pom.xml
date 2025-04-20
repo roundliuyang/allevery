@@ -16,6 +16,8 @@
         <module>seata-at-dubbo-demo-order-service</module>
         <module>seata-at-dubbo-demo-product-service-api</module>
         <module>seata-at-dubbo-demo-product-service</module>
+        <module>seata-at-dubbo-demo-account-service-api</module>
+        <module>seata-at-dubbo-demo-account-service</module>
     </modules>
 
     <properties>

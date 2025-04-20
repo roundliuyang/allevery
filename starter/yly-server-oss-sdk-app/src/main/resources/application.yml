@@ -1,0 +1,10 @@
+yly:
+  sdk:
+    oss:
+      type: aliyun
+      accessKeyId: LTAI4GKTkNmshPHuFku28PXi
+      accessKeySecret: Um6lYxAU1wKHr8gGSj005ZSJdjf0J3
+      endpoint: oss-cn-beijing.aliyuncs.com
+      endpointOut: oss-cn-beijing.aliyuncs.com
+      expiration: 100000000
+      bucket: liuyang-oss

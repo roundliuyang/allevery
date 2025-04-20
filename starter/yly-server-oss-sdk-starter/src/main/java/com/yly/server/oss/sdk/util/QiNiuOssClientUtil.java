@@ -9,6 +9,8 @@ import com.qiniu.storage.model.DefaultPutRet;
 import com.qiniu.util.Auth;
 import com.yly.server.oss.sdk.config.OssProperties;
 import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -22,9 +24,10 @@ import java.util.Date;
  * @author yangtao
  * @date : 2021-07-08 15:08
  */
-@Slf4j
 @ConditionalOnProperty(prefix = OssProperties.OSS_CONFIG, name = "type", havingValue = "qiniuyun")
 public class QiNiuOssClientUtil implements OssClientUtil {
+
+    private Logger log = LoggerFactory.getLogger(QiNiuOssClientUtil.class);
 
     private OssProperties ossProperties;
 

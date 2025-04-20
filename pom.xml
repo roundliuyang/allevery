@@ -16,7 +16,6 @@
         <module>json-with-jackson</module>
         <module>logging-modules</module>
         <module>springissue</module>
-        <module>spring-data</module>
         <module>rest-spring</module>
         <module>code-design</module>
         <module>spring-session</module>
@@ -47,7 +46,7 @@
         <module>ddd-contexts</module>
         <module>spring-cloud-gateway</module>
         <module>spring-cloud-apollo</module>
-        <module>spring-data-es</module>
+        <module>es</module>
         <module>kafka</module>
         <module>grpc</module>
         <module>spring-cloud-grpc</module>
@@ -67,6 +66,11 @@
         <module>spring-cloud-modules</module>
         <module>sharding-datasource</module>
         <module>jenkins</module>
+        <module>core-java-modules</module>
+        <module>spring-cloud-config</module>
+        <module>spring-security-oauth</module>
+        <module>spring-data-mongodb</module>
+        <module>parent-boot-3</module>
     </modules>
 
     <dependencyManagement>

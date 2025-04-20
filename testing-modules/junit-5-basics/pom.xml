@@ -36,12 +36,7 @@
             <version>${junit-jupiter.version}</version>
             <scope>test</scope>
         </dependency>
-        <!--
-            junit-jupiter-api 是 JUnit 5 的核心依赖，它包含了 JUnit 5 中的核心注解和类，如 @Test、@BeforeAll、@AfterAll 等。
-            使用 JUnit 5 开发单元测试时，需要在项目中引入这个依赖。
-            junit-jupiter-engine 是 JUnit 5 中的测试引擎。它提供了执行 JUnit 5 中定义的测试用例的能力，
-            是运行 JUnit 5 测试的基础。在项目中引入了 junit-jupiter-api 之后，需要再引入这个依赖才能正常运行JUnit 5 的测试用例。
-        -->
+
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>

@@ -16,6 +16,8 @@
         <module>mybatis-annotation</module>
         <module>mybatis-plus</module>
         <module>mybatis-crud</module>
+        <module>mybatis-tk</module>
+        <module>generator</module>
     </modules>
 
     <properties>

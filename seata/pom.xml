@@ -15,6 +15,7 @@
         <module>multiple-datasource</module>
         <module>seata-at-httpclient-demo</module>
         <module>seata-at-dubbo-demo</module>
+        <module>seata-at-cloud-alibaba</module>
     </modules>
 
     <properties>

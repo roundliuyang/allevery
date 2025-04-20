@@ -22,8 +22,15 @@
         <module>CallableFuture</module>
         <module>FutureTask</module>
         <module>ThreadPool</module>
-        <module>Lock</module>
         <module>java-agent</module>
+        <module>thread-rel</module>
+        <module>exception</module>
+        <module>oop</module>
+        <module>jvm</module>
+        <module>util</module>
+        <module>lang</module>
+        <module>serializer</module>
+        <module>java-interface</module>
     </modules>
 
     <properties>

@@ -13,6 +13,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>kafka-native</module>
+        <module>kafka-demo</module>
+        <module>kafka-demo-ack</module>
     </modules>
 
     <properties>

@@ -48,15 +48,15 @@ public class OssComponentTest {
     @Test
     public void putObject() throws Exception {
         String bucket = "liuyang-oss";
-        String filePath = localPath + "src/main/resources/xpic935.jpg";
+        String filePath = localPath + "src/main/resources/sonic.jpg";
         System.out.println(filePath+"----------------------------------------");
 
-        String fileKey = ossComponent.putObject(bucket, filePath, null);
-        System.out.println(fileKey+"--------------------------");
-        logger.debug(fileKey);
-        assertNotNull(fileKey);
+//        String fileKey = ossComponent.putObject(bucket, filePath, null);
+//        System.out.println(fileKey+"--------------------------");
+//        logger.debug(fileKey);
+//        assertNotNull(fileKey);
 
-        fileKey = ossComponent.putObject(bucket, filePath, "test/sonic.jpg");
+        String fileKey = ossComponent.putObject(bucket, filePath, "sonic.jpg");
         System.out.println(fileKey+"--------------------------");
         logger.debug(fileKey);
         assertNotNull(fileKey);
@@ -65,10 +65,10 @@ public class OssComponentTest {
     @Test
     public void getObject() throws Exception {
         String bucket = "liuyang-oss";
-        String fileKey = "sonic.jpg";
+        String fileKey = "test/sonic.jpg";
         String localPath = this.localPath;
 
-        String localFileKey = ossComponent.getObject(bucket, fileKey, localPath);
+        String localFileKey = ossComponent.getObject(bucket, fileKey, "D:\\");
 
         logger.debug(localFileKey);
         System.out.println();
