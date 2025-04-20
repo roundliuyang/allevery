@@ -31,7 +31,7 @@ public class DemoController {
 //
 //    public static void main(String[] args_) throws Exception {
 //        java.util.List<String> args = java.util.Arrays.asList(args_);
-//        com.aliyun.vod20170321.Client client = DemoController.createClient("LTAI4GKTkNmshPHuFku28PXi", "Um6lYxAU1wKHr8gGSj005ZSJdjf0J3");
+//        com.aliyun.vod20170321.Client client = DemoController.createClient("LTAI4GKTkNmshPHuFku28PXi", "");
 //        com.aliyun.vod20170321.models.GetVideoPlayAuthRequest getVideoPlayAuthRequest = new com.aliyun.vod20170321.models.GetVideoPlayAuthRequest()
 //                .setVideoId("8716433844474384bb349cd6e24d86dd");
 //        com.aliyun.teautil.models.RuntimeOptions runtime = new com.aliyun.teautil.models.RuntimeOptions();
@@ -50,7 +50,7 @@ public class DemoController {
 //    }
 public static void main(String[] args_) throws Exception {
     java.util.List<String> args = java.util.Arrays.asList(args_);
-    com.aliyun.vod20170321.Client client = DemoController.createClient("LTAI4GKTkNmshPHuFku28PXi", "Um6lYxAU1wKHr8gGSj005ZSJdjf0J3");
+    com.aliyun.vod20170321.Client client = DemoController.createClient("", "");
     com.aliyun.vod20170321.models.GetPlayInfoRequest getPlayInfoRequest = new com.aliyun.vod20170321.models.GetPlayInfoRequest()
             .setVideoId("8716433844474384bb349cd6e24d86dd");
     com.aliyun.teautil.models.RuntimeOptions runtime = new com.aliyun.teautil.models.RuntimeOptions();

@@ -2,49 +2,24 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Java/CallableFuture/CallableFuture.iml" filepath="$PROJECT_DIR$/Java/CallableFuture/CallableFuture.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/Java.iml" filepath="$PROJECT_DIR$/Java/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis-module/Redisson/Redisson.iml" filepath="$PROJECT_DIR$/redis-module/Redisson/Redisson.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/java-agent/agent/agent.iml" filepath="$PROJECT_DIR$/Java/java-agent/agent/agent.iml" />
       <module fileurl="file://$PROJECT_DIR$/oss/ali-oss/alioss.iml" filepath="$PROJECT_DIR$/oss/ali-oss/alioss.iml" />
-      <module fileurl="file://$PROJECT_DIR$/allevery.iml" filepath="$PROJECT_DIR$/allevery.iml" />
-      <module fileurl="file://$PROJECT_DIR$/aop/aop.iml" filepath="$PROJECT_DIR$/aop/aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/aop/aop-log/aop-log.iml" filepath="$PROJECT_DIR$/aop/aop-log/aop-log.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/java-agent/attach/attach.iml" filepath="$PROJECT_DIR$/Java/java-agent/attach/attach.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bean-convert/bean-convert.iml" filepath="$PROJECT_DIR$/bean-convert/bean-convert.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-programming/thinking-in-spring/bean-lifecycle/bean-lifecycle.iml" filepath="$PROJECT_DIR$/spring-programming/thinking-in-spring/bean-lifecycle/bean-lifecycle.iml" />
       <module fileurl="file://$PROJECT_DIR$/bean-convert/bean-utils/bean-utils.iml" filepath="$PROJECT_DIR$/bean-convert/bean-utils/bean-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/patterns/clean-architecture/clean-architecture.iml" filepath="$PROJECT_DIR$/patterns/clean-architecture/clean-architecture.iml" />
-      <module fileurl="file://$PROJECT_DIR$/code-design/code-design.iml" filepath="$PROJECT_DIR$/code-design/code-design.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/collection/collection.iml" filepath="$PROJECT_DIR$/Java/collection/collection.iml" />
-      <module fileurl="file://$PROJECT_DIR$/concurrent-programing/concurrent-programing.iml" filepath="$PROJECT_DIR$/concurrent-programing/concurrent-programing.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/config/config.iml" filepath="$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/config/config.iml" />
-      <module fileurl="file://$PROJECT_DIR$/core-java-modules/core-java-io-2/core-java-io-2.iml" filepath="$PROJECT_DIR$/core-java-modules/core-java-io-2/core-java-io-2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/core-java-modules/core-java-lang-5/core-java-lang-5.iml" filepath="$PROJECT_DIR$/core-java-modules/core-java-lang-5/core-java-lang-5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/core-java-modules/core-java-modules.iml" filepath="$PROJECT_DIR$/core-java-modules/core-java-modules.iml" />
-      <module fileurl="file://$PROJECT_DIR$/core-java-modules/core-java-nio-2/core-java-nio-2.iml" filepath="$PROJECT_DIR$/core-java-modules/core-java-nio-2/core-java-nio-2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/patterns/cqrs-es/cqrs-es.iml" filepath="$PROJECT_DIR$/patterns/cqrs-es/cqrs-es.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/customer-service/customer-service.iml" filepath="$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/customer-service/customer-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/ddd/ddd.iml" filepath="$PROJECT_DIR$/ddd/ddd.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ddd-contexts/ddd-contexts.iml" filepath="$PROJECT_DIR$/ddd-contexts/ddd-contexts.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/sentinel/service-api/demo-api.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/sentinel/service-api/demo-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/sentinel/service-provider/demo-service.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/sentinel/service-provider/demo-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/sentinel/web/demo-web.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/sentinel/web/demo-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security-oauth/demo02-authorization-server-with-resource-owner-password-credentials/demo02-authorization-server-with-resource-owner-password-credentials.iml" filepath="$PROJECT_DIR$/spring-security-oauth/demo02-authorization-server-with-resource-owner-password-credentials/demo02-authorization-server-with-resource-owner-password-credentials.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security-oauth/demo02-resource-server/demo02-resource-server.iml" filepath="$PROJECT_DIR$/spring-security-oauth/demo02-resource-server/demo02-resource-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/patterns/dip/dip.iml" filepath="$PROJECT_DIR$/patterns/dip/dip.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/discovery/discovery.iml" filepath="$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/discovery/discovery.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-modules/spring-cloud-docker/docker-message-server/docker-message-server.iml" filepath="$PROJECT_DIR$/spring-cloud-modules/spring-cloud-docker/docker-message-server/docker-message-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-modules/spring-cloud-docker/docker-product-server/docker-product-server.iml" filepath="$PROJECT_DIR$/spring-cloud-modules/spring-cloud-docker/docker-product-server/docker-product-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dubbo/dubbo.iml" filepath="$PROJECT_DIR$/dubbo/dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/dubbo-demo/dubbo-consumer-sample/dubbo-consumer-sample.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/dubbo-demo/dubbo-consumer-sample/dubbo-consumer-sample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/dubbo-demo/dubbo-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/dubbo-demo/dubbo-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/dubbo-demo/dubbo-provider-sample/dubbo-provider-sample.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/dubbo-demo/dubbo-provider-sample/dubbo-provider-sample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/dubbo-demo/dubbo-sample-api/dubbo-sample-api.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/dubbo-demo/dubbo-sample-api/dubbo-sample-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/es/es.iml" filepath="$PROJECT_DIR$/es/es.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot/event-demo/event-demo.iml" filepath="$PROJECT_DIR$/spring-boot/event-demo/event-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/exception/exception.iml" filepath="$PROJECT_DIR$/Java/exception/exception.iml" />
-      <module fileurl="file://$PROJECT_DIR$/feign/feign.iml" filepath="$PROJECT_DIR$/feign/feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign/feign-demo/feign-demo.iml" filepath="$PROJECT_DIR$/feign/feign-demo/feign-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign/springcloud-feign/feign-demo01-consumer/feign-demo01-consumer.iml" filepath="$PROJECT_DIR$/feign/springcloud-feign/feign-demo01-consumer/feign-demo01-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign/springcloud-feign/feign-demo01-provider/feign-demo01-provider.iml" filepath="$PROJECT_DIR$/feign/springcloud-feign/feign-demo01-provider/feign-demo01-provider.iml" />
@@ -52,7 +27,6 @@
       <module fileurl="file://$PROJECT_DIR$/feign/springcloud-feign/feign-demo02B-consumer/feign-demo02B-consumer.iml" filepath="$PROJECT_DIR$/feign/springcloud-feign/feign-demo02B-consumer/feign-demo02B-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign/springcloud-feign/feign-demo03-consumer/feign-demo03-consumer.iml" filepath="$PROJECT_DIR$/feign/springcloud-feign/feign-demo03-consumer/feign-demo03-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign/springcloud-feign/feign-demo03-provider/feign-demo03-provider.iml" filepath="$PROJECT_DIR$/feign/springcloud-feign/feign-demo03-provider/feign-demo03-provider.iml" />
-      <module fileurl="file://$PROJECT_DIR$/feign/springcloud-feign/feign-demo03-provider-api/feign-demo03-provider-api.iml" filepath="$PROJECT_DIR$/feign/springcloud-feign/feign-demo03-provider-api/feign-demo03-provider-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign/springcloud-feign/feign-demo04-consumer/feign-demo04-consumer.iml" filepath="$PROJECT_DIR$/feign/springcloud-feign/feign-demo04-consumer/feign-demo04-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign/springcloud-feign/feign-demo04-provider/feign-demo04-provider.iml" filepath="$PROJECT_DIR$/feign/springcloud-feign/feign-demo04-provider/feign-demo04-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign/springcloud-feign/feign-demo05-consumer/feign-demo05-consumer.iml" filepath="$PROJECT_DIR$/feign/springcloud-feign/feign-demo05-consumer/feign-demo05-consumer.iml" />
@@ -60,65 +34,31 @@
       <module fileurl="file://$PROJECT_DIR$/feign/springcloud-feign/feign-demo06B-consumer/feign-demo06B-consumer.iml" filepath="$PROJECT_DIR$/feign/springcloud-feign/feign-demo06B-consumer/feign-demo06B-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign/springcloud-feign/feign-demo07-cosumer/feign-demo07-cosumer.iml" filepath="$PROJECT_DIR$/feign/springcloud-feign/feign-demo07-cosumer/feign-demo07-cosumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/filter-Interceptor/filter-Interceptor.iml" filepath="$PROJECT_DIR$/filter-Interceptor/filter-Interceptor.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/functional-programming/functional-programming.iml" filepath="$PROJECT_DIR$/Java/functional-programming/functional-programming.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/gateway/gateway.iml" filepath="$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/gateway/gateway.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mybatis/generator/generator.iml" filepath="$PROJECT_DIR$/mybatis/generator/generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-modules/spring-boot-custom-starter/greeter-library/greeter-library.iml" filepath="$PROJECT_DIR$/spring-boot-modules/spring-boot-custom-starter/greeter-library/greeter-library.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-modules/spring-boot-custom-starter/greeter-spring-boot-autoconfigure/greeter-spring-boot-autoconfigure.iml" filepath="$PROJECT_DIR$/spring-boot-modules/spring-boot-custom-starter/greeter-spring-boot-autoconfigure/greeter-spring-boot-autoconfigure.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-modules/spring-boot-custom-starter/greeter-spring-boot-sample-app/greeter-spring-boot-sample-app.iml" filepath="$PROJECT_DIR$/spring-boot-modules/spring-boot-custom-starter/greeter-spring-boot-sample-app/greeter-spring-boot-sample-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-modules/spring-boot-custom-starter/greeter-spring-boot-starter/greeter-spring-boot-starter.iml" filepath="$PROJECT_DIR$/spring-boot-modules/spring-boot-custom-starter/greeter-spring-boot-starter/greeter-spring-boot-starter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/grpc/grpc.iml" filepath="$PROJECT_DIR$/grpc/grpc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-grpc/grpc-cloud/grpc-cloud.iml" filepath="$PROJECT_DIR$/spring-cloud-grpc/grpc-cloud/grpc-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-grpc/grpc-cloud/grpc-cloud-user-application/grpc-cloud-user-application.iml" filepath="$PROJECT_DIR$/spring-cloud-grpc/grpc-cloud/grpc-cloud-user-application/grpc-cloud-user-application.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-grpc/grpc-cloud/grpc-cloud-user-service/grpc-cloud-user-service.iml" filepath="$PROJECT_DIR$/spring-cloud-grpc/grpc-cloud/grpc-cloud-user-service/grpc-cloud-user-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-grpc/grpc-cloud/grpc-cloud-user-service-api/grpc-cloud-user-service-api.iml" filepath="$PROJECT_DIR$/spring-cloud-grpc/grpc-cloud/grpc-cloud-user-service-api/grpc-cloud-user-service-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/grpc/grpc-demo/grpc-demo.iml" filepath="$PROJECT_DIR$/grpc/grpc-demo/grpc-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/grpc/grpc-demo/grpc-demo-application/grpc-demo-application.iml" filepath="$PROJECT_DIR$/grpc/grpc-demo/grpc-demo-application/grpc-demo-application.iml" />
       <module fileurl="file://$PROJECT_DIR$/grpc/grpc-demo/grpc-demo-user-service/grpc-demo-user-service.iml" filepath="$PROJECT_DIR$/grpc/grpc-demo/grpc-demo-user-service/grpc-demo-user-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/grpc/grpc-demo/grpc-demo-user-service-api/grpc-demo-user-service-api.iml" filepath="$PROJECT_DIR$/grpc/grpc-demo/grpc-demo-user-service-api/grpc-demo-user-service-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/grpc/grpc-starter/grpc-starter.iml" filepath="$PROJECT_DIR$/grpc/grpc-starter/grpc-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/grpc/grpc-starter/grpc-starter-application/grpc-starter-application.iml" filepath="$PROJECT_DIR$/grpc/grpc-starter/grpc-starter-application/grpc-starter-application.iml" />
       <module fileurl="file://$PROJECT_DIR$/grpc/grpc-starter/grpc-starter-user-service/grpc-starter-user-service.iml" filepath="$PROJECT_DIR$/grpc/grpc-starter/grpc-starter-user-service/grpc-starter-user-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/grpc/grpc-starter/grpc-starter-user-service-api/grpc-starter-user-service-api.iml" filepath="$PROJECT_DIR$/grpc/grpc-starter/grpc-starter-user-service-api/grpc-starter-user-service-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/persistence-modules/hibernate-annotations/hibernate-annotations.iml" filepath="$PROJECT_DIR$/persistence-modules/hibernate-annotations/hibernate-annotations.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-programming/thinking-in-spring/ioc-container-overview/ioc-container-overview.iml" filepath="$PROJECT_DIR$/spring-programming/thinking-in-spring/ioc-container-overview/ioc-container-overview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jackson-modules/jackson-conversions/jackson-conversions.iml" filepath="$PROJECT_DIR$/jackson-modules/jackson-conversions/jackson-conversions.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jackson-modules/jackson-modules.iml" filepath="$PROJECT_DIR$/jackson-modules/jackson-modules.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/java-agent/java-agent.iml" filepath="$PROJECT_DIR$/Java/java-agent/java-agent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/java-date/java-date.iml" filepath="$PROJECT_DIR$/Java/java-date/java-date.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/java-interface/java-interface.iml" filepath="$PROJECT_DIR$/Java/java-interface/java-interface.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/java-optional/java-optional.iml" filepath="$PROJECT_DIR$/Java/java-optional/java-optional.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/java-reflect/java-reflect.iml" filepath="$PROJECT_DIR$/Java/java-reflect/java-reflect.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/java-stream/java-stream.iml" filepath="$PROJECT_DIR$/Java/java-stream/java-stream.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-string/java-string.iml" filepath="$PROJECT_DIR$/java-string/java-string.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jenkins/jenkins.iml" filepath="$PROJECT_DIR$/jenkins/jenkins.iml" />
       <module fileurl="file://$PROJECT_DIR$/jenkins/jenkins-cloud-demo01/jenkins-cloud-demo01.iml" filepath="$PROJECT_DIR$/jenkins/jenkins-cloud-demo01/jenkins-cloud-demo01.iml" />
       <module fileurl="file://$PROJECT_DIR$/jenkins/jenkins-demo01/jenkins-demo01.iml" filepath="$PROJECT_DIR$/jenkins/jenkins-demo01/jenkins-demo01.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-data-jpa/jpa/jpa.iml" filepath="$PROJECT_DIR$/spring-data-jpa/jpa/jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/persistence-modules/jpa-hibernate-cascade-type/jpa-hibernate-cascade-type.iml" filepath="$PROJECT_DIR$/persistence-modules/jpa-hibernate-cascade-type/jpa-hibernate-cascade-type.iml" />
-      <module fileurl="file://$PROJECT_DIR$/json-with-jackson/json-with-jackson.iml" filepath="$PROJECT_DIR$/json-with-jackson/json-with-jackson.iml" />
       <module fileurl="file://$PROJECT_DIR$/testing-modules/junit-5-basics/junit-5-basics.iml" filepath="$PROJECT_DIR$/testing-modules/junit-5-basics/junit-5-basics.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/jvm/jvm.iml" filepath="$PROJECT_DIR$/Java/jvm/jvm.iml" />
-      <module fileurl="file://$PROJECT_DIR$/kafka/kafka.iml" filepath="$PROJECT_DIR$/kafka/kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/kafka/kafka-demo/kafka-demo.iml" filepath="$PROJECT_DIR$/kafka/kafka-demo/kafka-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/kafka/kafka-demo-ack/kafka-demo-ack.iml" filepath="$PROJECT_DIR$/kafka/kafka-demo-ack/kafka-demo-ack.iml" />
-      <module fileurl="file://$PROJECT_DIR$/kafka/kafka-native/kafka-native.iml" filepath="$PROJECT_DIR$/kafka/kafka-native/kafka-native.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security/lab-01-springsecurity-demo/lab-01-springsecurity-demo.iml" filepath="$PROJECT_DIR$/spring-security/lab-01-springsecurity-demo/lab-01-springsecurity-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security/lab01-springsecurity-demo-role/lab01-springsecurity-demo-role.iml" filepath="$PROJECT_DIR$/spring-security/lab01-springsecurity-demo-role/lab01-springsecurity-demo-role.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-stream-rabbitmq/sc-stream-rabbitmq-producer-demo/labx-10-sc-stream-rabbitmq-producer-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-stream-rabbitmq/sc-stream-rabbitmq-producer-demo/labx-10-sc-stream-rabbitmq-producer-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/lambda/lambda.iml" filepath="$PROJECT_DIR$/Java/lambda/lambda.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/lang/lang.iml" filepath="$PROJECT_DIR$/Java/lang/lang.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libraries-apache-commons/libraries-apache-commons.iml" filepath="$PROJECT_DIR$/libraries-apache-commons/libraries-apache-commons.iml" />
-      <module fileurl="file://$PROJECT_DIR$/logging-modules/log/log.iml" filepath="$PROJECT_DIR$/logging-modules/log/log.iml" />
-      <module fileurl="file://$PROJECT_DIR$/logging-modules/log-best-practice/log-best-practice.iml" filepath="$PROJECT_DIR$/logging-modules/log-best-practice/log-best-practice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/logging-modules/logback/logback.iml" filepath="$PROJECT_DIR$/logging-modules/logback/logback.iml" />
-      <module fileurl="file://$PROJECT_DIR$/logging-modules/logging-modules.iml" filepath="$PROJECT_DIR$/logging-modules/logging-modules.iml" />
       <module fileurl="file://$PROJECT_DIR$/bean-convert/mapstruct/mapstruct.iml" filepath="$PROJECT_DIR$/bean-convert/mapstruct/mapstruct.iml" />
-      <module fileurl="file://$PROJECT_DIR$/message-queue/message-queue.iml" filepath="$PROJECT_DIR$/message-queue/message-queue.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/functional-programming/method-reference/method-reference.iml" filepath="$PROJECT_DIR$/Java/functional-programming/method-reference/method-reference.iml" />
       <module fileurl="file://$PROJECT_DIR$/testing-modules/mockito-simple/mockito-simple.iml" filepath="$PROJECT_DIR$/testing-modules/mockito-simple/mockito-simple.iml" />
       <module fileurl="file://$PROJECT_DIR$/seata/multiple-datasource/multiple-datasource.iml" filepath="$PROJECT_DIR$/seata/multiple-datasource/multiple-datasource.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis-annotation/mybatis-annotation.iml" filepath="$PROJECT_DIR$/mybatis/mybatis-annotation/mybatis-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis-crud/mybatis-crud.iml" filepath="$PROJECT_DIR$/mybatis/mybatis-crud/mybatis-crud.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis-plus/mybatis-plus.iml" filepath="$PROJECT_DIR$/mybatis/mybatis-plus/mybatis-plus.iml" />
@@ -129,18 +69,10 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/nacos-config-demo/nacos-config-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/nacos-config-demo/nacos-config-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/nacos-discovery-consumer-sample/nacos-discovery-consumer-sample.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/nacos-discovery-consumer-sample/nacos-discovery-consumer-sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/nacos-discovery-provider-sample/nacos-discovery-provider-sample.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/nacos-discovery-provider-sample/nacos-discovery-provider-sample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/oop/oop.iml" filepath="$PROJECT_DIR$/Java/oop/oop.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/order-service/order-client/order-client.iml" filepath="$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/order-service/order-client/order-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/order-service/order-server/order-server.iml" filepath="$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/order-service/order-server/order-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/order-service/order-service.iml" filepath="$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/order-service/order-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oss/oss.iml" filepath="$PROJECT_DIR$/oss/oss.iml" />
-      <module fileurl="file://$PROJECT_DIR$/parent-boot-2/parent-boot-2.iml" filepath="$PROJECT_DIR$/parent-boot-2/parent-boot-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent-boot-3/parent-boot-3.iml" filepath="$PROJECT_DIR$/parent-boot-3/parent-boot-3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/parent-java/parent-java.iml" filepath="$PROJECT_DIR$/parent-java/parent-java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/parent-spring-5/parent-spring-5.iml" filepath="$PROJECT_DIR$/parent-spring-5/parent-spring-5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/patterns/patterns.iml" filepath="$PROJECT_DIR$/patterns/patterns.iml" />
-      <module fileurl="file://$PROJECT_DIR$/persistence-modules/persistence-modules.iml" filepath="$PROJECT_DIR$/persistence-modules/persistence-modules.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq-consumer-retry/rabbitmq-consumer-retry.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer-retry/rabbitmq-consumer-retry.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq-demo/rabbitmq-demo.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq-demo/rabbitmq-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq-demo-ack/rabbitmq-demo-ack.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq-demo-ack/rabbitmq-demo-ack.iml" />
@@ -151,7 +83,6 @@
       <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq-demo-confirm/rabbitmq-demo-confirm.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq-demo-confirm/rabbitmq-demo-confirm.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq-demo-confirm-async/rabbitmq-demo-confirm-async.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq-demo-confirm-async/rabbitmq-demo-confirm-async.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq-demo-delay/rabbitmq-demo-delay.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq-demo-delay/rabbitmq-demo-delay.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq-demo-error-handler/rabbitmq-demo-error-handler.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq-demo-error-handler/rabbitmq-demo-error-handler.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq-demo-json/rabbitmq-demo-json.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq-demo-json/rabbitmq-demo-json.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq-demo-message-model/rabbitmq-demo-message-model.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq-demo-message-model/rabbitmq-demo-message-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq-demo-ordely/rabbitmq-demo-ordely.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq-demo-ordely/rabbitmq-demo-ordely.iml" />
@@ -159,7 +90,6 @@
       <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq-demo-transaction/rabbitmq-demo-transaction.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq-demo-transaction/rabbitmq-demo-transaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/persistence-modules/redis/redis.iml" filepath="$PROJECT_DIR$/persistence-modules/redis/redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis-module/spring-data-redis/redis-cluster/redis-cluster.iml" filepath="$PROJECT_DIR$/redis-module/spring-data-redis/redis-cluster/redis-cluster.iml" />
-      <module fileurl="file://$PROJECT_DIR$/redis-module/redis-module.iml" filepath="$PROJECT_DIR$/redis-module/redis-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/rest-spring/rest-spring.iml" filepath="$PROJECT_DIR$/rest-spring/rest-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-web-modules/resttemplate/resttemplate.iml" filepath="$PROJECT_DIR$/spring-web-modules/resttemplate/resttemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-netflix-ribbon/ribbon-demo-provider/ribbon-demo-provider.iml" filepath="$PROJECT_DIR$/spring-cloud-netflix-ribbon/ribbon-demo-provider/ribbon-demo-provider.iml" />
@@ -171,8 +101,6 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-netflix-ribbon/ribbon-demo05-consumer/ribbon-demo05-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-netflix-ribbon/ribbon-demo05-consumer/ribbon-demo05-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-netflix-ribbon/ribbon-demo06-consumer/ribbon-demo06-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-netflix-ribbon/ribbon-demo06-consumer/ribbon-demo06-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/rocketmq/rocket-test/rocket-test.iml" filepath="$PROJECT_DIR$/rocketmq/rocket-test/rocket-test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rocketmq/rocketmq.iml" filepath="$PROJECT_DIR$/rocketmq/rocketmq.iml" />
-      <module fileurl="file://$PROJECT_DIR$/message-queue/rocketmq-learn/rocketmq-learn.iml" filepath="$PROJECT_DIR$/message-queue/rocketmq-learn/rocketmq-learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/rocketmq/rocketmq-ons/rocketmq-ons.iml" filepath="$PROJECT_DIR$/rocketmq/rocketmq-ons/rocketmq-ons.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-apollo/sc-apollo-demo/sc-apollo-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-apollo/sc-apollo-demo/sc-apollo-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-apollo/sc-apollo-demo-auto-refresh/sc-apollo-demo-auto-refresh.iml" filepath="$PROJECT_DIR$/spring-cloud-apollo/sc-apollo-demo-auto-refresh/sc-apollo-demo-auto-refresh.iml" />
@@ -188,7 +116,6 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-gateway/sc-gateway-demo03-config-nacos/sc-gateway-demo03-config-nacos.iml" filepath="$PROJECT_DIR$/spring-cloud-gateway/sc-gateway-demo03-config-nacos/sc-gateway-demo03-config-nacos.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-gateway/sc-gateway-demo04/sc-gateway-demo04.iml" filepath="$PROJECT_DIR$/spring-cloud-gateway/sc-gateway-demo04/sc-gateway-demo04.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-gateway/sc-gateway-demo05-custom-gateway-filter/sc-gateway-demo05-custom-gateway-filter.iml" filepath="$PROJECT_DIR$/spring-cloud-gateway/sc-gateway-demo05-custom-gateway-filter/sc-gateway-demo05-custom-gateway-filter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/seata/seata-at-cloud-alibaba/sc-seata-at-feign-demo/sc-seata-at-feign-demo.iml" filepath="$PROJECT_DIR$/seata/seata-at-cloud-alibaba/sc-seata-at-feign-demo/sc-seata-at-feign-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/seata/seata-at-cloud-alibaba/sc-seata-at-feign-demo/sc-seata-at-feign-demo-account-service/sc-seata-at-feign-demo-account-service.iml" filepath="$PROJECT_DIR$/seata/seata-at-cloud-alibaba/sc-seata-at-feign-demo/sc-seata-at-feign-demo-account-service/sc-seata-at-feign-demo-account-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/seata/seata-at-cloud-alibaba/sc-seata-at-feign-demo/sc-seata-at-feign-demo-order-service/sc-seata-at-feign-demo-order-service.iml" filepath="$PROJECT_DIR$/seata/seata-at-cloud-alibaba/sc-seata-at-feign-demo/sc-seata-at-feign-demo-order-service/sc-seata-at-feign-demo-order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/seata/seata-at-cloud-alibaba/sc-seata-at-feign-demo/sc-seata-at-feign-demo-product-service/sc-seata-at-feign-demo-product-service.iml" filepath="$PROJECT_DIR$/seata/seata-at-cloud-alibaba/sc-seata-at-feign-demo/sc-seata-at-feign-demo-product-service/sc-seata-at-feign-demo-product-service.iml" />
@@ -197,90 +124,43 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-stream-rabbitmq/sc-stream-rabbitmq-consumer-retry/sc-stream-rabbitmq-consumer-retry.iml" filepath="$PROJECT_DIR$/spring-cloud-stream-rabbitmq/sc-stream-rabbitmq-consumer-retry/sc-stream-rabbitmq-consumer-retry.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-stream-rabbitmq/sc-stream-rabbitmq-producer-delay/sc-stream-rabbitmq-producer-delay.iml" filepath="$PROJECT_DIR$/spring-cloud-stream-rabbitmq/sc-stream-rabbitmq-producer-delay/sc-stream-rabbitmq-producer-delay.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-gateway/sc-user-service/sc-user-service.iml" filepath="$PROJECT_DIR$/spring-cloud-gateway/sc-user-service/sc-user-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/seata/seata-at-cloud-alibaba/sca-seata-at-dubbo-demo/sca-seata-at-dubbo-demo.iml" filepath="$PROJECT_DIR$/seata/seata-at-cloud-alibaba/sca-seata-at-dubbo-demo/sca-seata-at-dubbo-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/seata/seata-at-cloud-alibaba/sca-seata-at-dubbo-demo/sca-seata-at-dubbo-demo-account-service/sca-seata-at-dubbo-demo-account-service.iml" filepath="$PROJECT_DIR$/seata/seata-at-cloud-alibaba/sca-seata-at-dubbo-demo/sca-seata-at-dubbo-demo-account-service/sca-seata-at-dubbo-demo-account-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/seata/seata-at-cloud-alibaba/sca-seata-at-dubbo-demo/sca-seata-at-dubbo-demo-account-service-api/sca-seata-at-dubbo-demo-account-service-api.iml" filepath="$PROJECT_DIR$/seata/seata-at-cloud-alibaba/sca-seata-at-dubbo-demo/sca-seata-at-dubbo-demo-account-service-api/sca-seata-at-dubbo-demo-account-service-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/seata/seata-at-cloud-alibaba/sca-seata-at-dubbo-demo/sca-seata-at-dubbo-demo-order-service/sca-seata-at-dubbo-demo-order-service.iml" filepath="$PROJECT_DIR$/seata/seata-at-cloud-alibaba/sca-seata-at-dubbo-demo/sca-seata-at-dubbo-demo-order-service/sca-seata-at-dubbo-demo-order-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/seata/seata-at-cloud-alibaba/sca-seata-at-dubbo-demo/sca-seata-at-dubbo-demo-order-service-api/sca-seata-at-dubbo-demo-order-service-api.iml" filepath="$PROJECT_DIR$/seata/seata-at-cloud-alibaba/sca-seata-at-dubbo-demo/sca-seata-at-dubbo-demo-order-service-api/sca-seata-at-dubbo-demo-order-service-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/seata/seata-at-cloud-alibaba/sca-seata-at-dubbo-demo/sca-seata-at-dubbo-demo-product-service/sca-seata-at-dubbo-demo-product-service.iml" filepath="$PROJECT_DIR$/seata/seata-at-cloud-alibaba/sca-seata-at-dubbo-demo/sca-seata-at-dubbo-demo-product-service/sca-seata-at-dubbo-demo-product-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/seata/seata-at-cloud-alibaba/sca-seata-at-dubbo-demo/sca-seata-at-dubbo-demo-product-service-api/sca-seata-at-dubbo-demo-product-service-api.iml" filepath="$PROJECT_DIR$/seata/seata-at-cloud-alibaba/sca-seata-at-dubbo-demo/sca-seata-at-dubbo-demo-product-service-api/sca-seata-at-dubbo-demo-product-service-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/seata/seata.iml" filepath="$PROJECT_DIR$/seata/seata.iml" />
-      <module fileurl="file://$PROJECT_DIR$/seata/seata-at-cloud-alibaba/seata-at-cloud-alibaba.iml" filepath="$PROJECT_DIR$/seata/seata-at-cloud-alibaba/seata-at-cloud-alibaba.iml" />
-      <module fileurl="file://$PROJECT_DIR$/seata/seata-at-dubbo-demo/seata-at-dubbo-demo.iml" filepath="$PROJECT_DIR$/seata/seata-at-dubbo-demo/seata-at-dubbo-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/seata/seata-at-dubbo-demo/seata-at-dubbo-demo-account-service/seata-at-dubbo-demo-account-service.iml" filepath="$PROJECT_DIR$/seata/seata-at-dubbo-demo/seata-at-dubbo-demo-account-service/seata-at-dubbo-demo-account-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/seata/seata-at-dubbo-demo/seata-at-dubbo-demo-account-service-api/seata-at-dubbo-demo-account-service-api.iml" filepath="$PROJECT_DIR$/seata/seata-at-dubbo-demo/seata-at-dubbo-demo-account-service-api/seata-at-dubbo-demo-account-service-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/seata/seata-at-dubbo-demo/seata-at-dubbo-demo-order-service/seata-at-dubbo-demo-order-service.iml" filepath="$PROJECT_DIR$/seata/seata-at-dubbo-demo/seata-at-dubbo-demo-order-service/seata-at-dubbo-demo-order-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/seata/seata-at-dubbo-demo/seata-at-dubbo-demo-order-service-api/seata-at-dubbo-demo-order-service-api.iml" filepath="$PROJECT_DIR$/seata/seata-at-dubbo-demo/seata-at-dubbo-demo-order-service-api/seata-at-dubbo-demo-order-service-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/seata/seata-at-dubbo-demo/seata-at-dubbo-demo-product-service/seata-at-dubbo-demo-product-service.iml" filepath="$PROJECT_DIR$/seata/seata-at-dubbo-demo/seata-at-dubbo-demo-product-service/seata-at-dubbo-demo-product-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/seata/seata-at-dubbo-demo/seata-at-dubbo-demo-product-service-api/seata-at-dubbo-demo-product-service-api.iml" filepath="$PROJECT_DIR$/seata/seata-at-dubbo-demo/seata-at-dubbo-demo-product-service-api/seata-at-dubbo-demo-product-service-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/seata/seata-at-httpclient-demo/seata-at-httpclient-demo.iml" filepath="$PROJECT_DIR$/seata/seata-at-httpclient-demo/seata-at-httpclient-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/seata/seata-at-httpclient-demo/seata-at-httpclient-demo-account-service/seata-at-httpclient-demo-account-service.iml" filepath="$PROJECT_DIR$/seata/seata-at-httpclient-demo/seata-at-httpclient-demo-account-service/seata-at-httpclient-demo-account-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/seata/seata-at-httpclient-demo/seata-at-httpclient-demo-order-service/seata-at-httpclient-demo-order-service.iml" filepath="$PROJECT_DIR$/seata/seata-at-httpclient-demo/seata-at-httpclient-demo-order-service/seata-at-httpclient-demo-order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/seata/seata-at-httpclient-demo/seata-at-httpclient-demo-product-service/seata-at-httpclient-demo-product-service.iml" filepath="$PROJECT_DIR$/seata/seata-at-httpclient-demo/seata-at-httpclient-demo-product-service/seata-at-httpclient-demo-product-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/sentinel/sentinel.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/sentinel/sentinel.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/sentineldemo/sentineldemo.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/sentineldemo/sentineldemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/serializer/serializer.iml" filepath="$PROJECT_DIR$/Java/serializer/serializer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sharding-datasource/sharding-datasource.iml" filepath="$PROJECT_DIR$/sharding-datasource/sharding-datasource.iml" />
       <module fileurl="file://$PROJECT_DIR$/sharding-datasource/sharding-datasource-sphere-01/sharding-datasource-sphere-01.iml" filepath="$PROJECT_DIR$/sharding-datasource/sharding-datasource-sphere-01/sharding-datasource-sphere-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/sharding-datasource/sharding-datasource-sphere-02/sharding-datasource-sphere-02.iml" filepath="$PROJECT_DIR$/sharding-datasource/sharding-datasource-sphere-02/sharding-datasource-sphere-02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ddd-contexts/sharedkernel/sharedkernel.iml" filepath="$PROJECT_DIR$/ddd-contexts/sharedkernel/sharedkernel.iml" />
-      <module fileurl="file://$PROJECT_DIR$/patterns/solid/solid.iml" filepath="$PROJECT_DIR$/patterns/solid/solid.iml" />
       <module fileurl="file://$PROJECT_DIR$/aop/spring-aop/spring-aop.iml" filepath="$PROJECT_DIR$/aop/spring-aop/spring-aop.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-modules/spring-boot-custom-starter/spring-boot-custom-starter.iml" filepath="$PROJECT_DIR$/spring-boot-modules/spring-boot-custom-starter/spring-boot-custom-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot-demo/spring-boot-demo.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot-demo/spring-boot-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-modules/spring-boot-di/spring-boot-di.iml" filepath="$PROJECT_DIR$/spring-boot-modules/spring-boot-di/spring-boot-di.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-modules/spring-boot-modules.iml" filepath="$PROJECT_DIR$/spring-boot-modules/spring-boot-modules.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-modules/spring-boot-testing/spring-boot-testing.iml" filepath="$PROJECT_DIR$/spring-boot-modules/spring-boot-testing/spring-boot-testing.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-alibaba.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-alibaba.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-apollo/spring-cloud-apollo.iml" filepath="$PROJECT_DIR$/spring-cloud-apollo/spring-cloud-apollo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/spring-cloud-bootstrap.iml" filepath="$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/spring-cloud-bootstrap.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-bus-rabbitmq/spring-cloud-bus-rabbitmq.iml" filepath="$PROJECT_DIR$/spring-cloud-bus-rabbitmq/spring-cloud-bus-rabbitmq.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" filepath="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-modules/spring-cloud-docker/spring-cloud-docker.iml" filepath="$PROJECT_DIR$/spring-cloud-modules/spring-cloud-docker/spring-cloud-docker.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-gateway/spring-cloud-gateway.iml" filepath="$PROJECT_DIR$/spring-cloud-gateway/spring-cloud-gateway.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-grpc/spring-cloud-grpc.iml" filepath="$PROJECT_DIR$/spring-cloud-grpc/spring-cloud-grpc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-modules/spring-cloud-modules.iml" filepath="$PROJECT_DIR$/spring-cloud-modules/spring-cloud-modules.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-netflix-ribbon/spring-cloud-netflix-ribbon.iml" filepath="$PROJECT_DIR$/spring-cloud-netflix-ribbon/spring-cloud-netflix-ribbon.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-stream-rabbitmq/spring-cloud-stream-rabbitmq.iml" filepath="$PROJECT_DIR$/spring-cloud-stream-rabbitmq/spring-cloud-stream-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-core/spring-core.iml" filepath="$PROJECT_DIR$/spring-core/spring-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-core-2/spring-core-2.iml" filepath="$PROJECT_DIR$/spring-core-2/spring-core-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-core-4/spring-core-4.iml" filepath="$PROJECT_DIR$/spring-core-4/spring-core-4.iml" />
       <module fileurl="file://$PROJECT_DIR$/es/spring-data-elasticsearch/spring-data-elasticsearch.iml" filepath="$PROJECT_DIR$/es/spring-data-elasticsearch/spring-data-elasticsearch.iml" />
-      <module fileurl="file://$PROJECT_DIR$/es/spring-data-jest/spring-data-jest.iml" filepath="$PROJECT_DIR$/es/spring-data-jest/spring-data-jest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-data-jpa/spring-data-jpa.iml" filepath="$PROJECT_DIR$/spring-data-jpa/spring-data-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-data-es/spring-data-jest/spring-data-jest.iml" filepath="$PROJECT_DIR$/spring-data-es/spring-data-jest/spring-data-jest.iml" />
       <module fileurl="file://$PROJECT_DIR$/persistence-modules/spring-data-jpa-annotations/spring-data-jpa-annotations.iml" filepath="$PROJECT_DIR$/persistence-modules/spring-data-jpa-annotations/spring-data-jpa-annotations.iml" />
       <module fileurl="file://$PROJECT_DIR$/persistence-modules/spring-data-jpa-fetchmode/spring-data-jpa-fetchmode.iml" filepath="$PROJECT_DIR$/persistence-modules/spring-data-jpa-fetchmode/spring-data-jpa-fetchmode.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-data-mongodb/spring-data-mongodb.iml" filepath="$PROJECT_DIR$/spring-data-mongodb/spring-data-mongodb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/redis-module/spring-data-redis/spring-data-redis.iml" filepath="$PROJECT_DIR$/redis-module/spring-data-redis/spring-data-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis-module/spring-data-redis/spring-data-redis-jedis/spring-data-redis-jedis.iml" filepath="$PROJECT_DIR$/redis-module/spring-data-redis/spring-data-redis-jedis/spring-data-redis-jedis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-di-2/spring-di-2.iml" filepath="$PROJECT_DIR$/spring-di-2/spring-di-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/es/spring-elasticsearch-demo/spring-elasticsearch-demo.iml" filepath="$PROJECT_DIR$/es/spring-elasticsearch-demo/spring-elasticsearch-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-programming/spring-programming.iml" filepath="$PROJECT_DIR$/spring-programming/spring-programming.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-security/spring-security.iml" filepath="$PROJECT_DIR$/spring-security/spring-security.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-security-oauth/spring-security-oauth.iml" filepath="$PROJECT_DIR$/spring-security-oauth/spring-security-oauth.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-session/spring-session.iml" filepath="$PROJECT_DIR$/spring-session/spring-session.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-web-modules/spring-web-modules.iml" filepath="$PROJECT_DIR$/spring-web-modules/spring-web-modules.iml" />
-      <module fileurl="file://$PROJECT_DIR$/feign/springcloud-feign/springcloud-feign.iml" filepath="$PROJECT_DIR$/feign/springcloud-feign/springcloud-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/springissue/springissue.iml" filepath="$PROJECT_DIR$/springissue/springissue.iml" />
-      <module fileurl="file://$PROJECT_DIR$/starter/starter.iml" filepath="$PROJECT_DIR$/starter/starter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-string/string-basics/string-basics.iml" filepath="$PROJECT_DIR$/java-string/string-basics/string-basics.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-string/string-tools/string-tools.iml" filepath="$PROJECT_DIR$/java-string/string-tools/string-tools.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/svc-book/svc-book.iml" filepath="$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/svc-book/svc-book.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/svc-rating/svc-rating.iml" filepath="$PROJECT_DIR$/spring-cloud-modules/spring-cloud-bootstrap/svc-rating/svc-rating.iml" />
-      <module fileurl="file://$PROJECT_DIR$/task/task.iml" filepath="$PROJECT_DIR$/task/task.iml" />
       <module fileurl="file://$PROJECT_DIR$/task/task-demo/task-demo.iml" filepath="$PROJECT_DIR$/task/task-demo/task-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/task/task-xxl-job/task-xxl-job.iml" filepath="$PROJECT_DIR$/task/task-xxl-job/task-xxl-job.iml" />
-      <module fileurl="file://$PROJECT_DIR$/testing-modules/testing-modules.iml" filepath="$PROJECT_DIR$/testing-modules/testing-modules.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-programming/thinking-in-spring/thinking-in-spring.iml" filepath="$PROJECT_DIR$/spring-programming/thinking-in-spring/thinking-in-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrent-programing/thread-pool/thread-pool.iml" filepath="$PROJECT_DIR$/concurrent-programing/thread-pool/thread-pool.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/thread-rel/thread-rel.iml" filepath="$PROJECT_DIR$/Java/thread-rel/thread-rel.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/java-date/time-date-api/time-date-api.iml" filepath="$PROJECT_DIR$/Java/java-date/time-date-api/time-date-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign/user-service/user-service.iml" filepath="$PROJECT_DIR$/feign/user-service/user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/util/util.iml" filepath="$PROJECT_DIR$/Java/util/util.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/java-date/util-data-api/util-data-api.iml" filepath="$PROJECT_DIR$/Java/java-date/util-data-api/util-data-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/utils/utils.iml" filepath="$PROJECT_DIR$/utils/utils.iml" />
-      <module fileurl="file://$PROJECT_DIR$/websocket/websocket.iml" filepath="$PROJECT_DIR$/websocket/websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/websocket/websocket01/websocket01.iml" filepath="$PROJECT_DIR$/websocket/websocket01/websocket01.iml" />
       <module fileurl="file://$PROJECT_DIR$/websocket/websocket02/websocket02.iml" filepath="$PROJECT_DIR$/websocket/websocket02/websocket02.iml" />
       <module fileurl="file://$PROJECT_DIR$/starter/yly-server-oss-sdk-app/yly-server-oss-sdk-app.iml" filepath="$PROJECT_DIR$/starter/yly-server-oss-sdk-app/yly-server-oss-sdk-app.iml" />
